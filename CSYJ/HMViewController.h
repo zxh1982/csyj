@@ -23,4 +23,6 @@
 @property NSInteger unit;
 @property NSInteger index;
 
+- (void)loadHtmlPage;
+
 @end

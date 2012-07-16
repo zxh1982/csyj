@@ -114,51 +114,55 @@
 //通过当前unit+index 返回下一个hmObject
 - (HerbalMedicine*)nextObjectAtUnit:(NSInteger)unit forIndex:(NSInteger)index
 {
+    HerbalMedicine* hmObject = nil;
     NSArray *array = [hmUnits objectAtIndex:unit];
     if (index + 1 < [array count])
     {
-        return [array objectAtIndex:index + 1];
+        hmObject = [array objectAtIndex:index + 1];
     }
     else if (unit + 1 < [hmUnits count])
     {
         NSArray *array = [hmUnits objectAtIndex:unit + 1];
-        return [array objectAtIndex:0];
+        hmObject = [array objectAtIndex:0];
     }
-    else
-    {
-        return nil;
-    }
+    NSLog(@"%@",hmObject.name);
+
+    return hmObject;
 }
 
 //通过当前unit+index 返回上一个hmObject
 - (HerbalMedicine*)lastObjectAtUnit:(NSInteger)unit forIndex:(NSInteger)index
 {
+    HerbalMedicine* hmObject = nil;
     NSArray *array = [hmUnits objectAtIndex:unit];
     if (index - 1 >= 0)
     {
-        return [array objectAtIndex:index - 1];
+        hmObject = [array objectAtIndex:index - 1];
     }
     else if (unit - 1 >= 0)
     {
         NSArray *array = [hmUnits objectAtIndex:unit - 1];
-        return [array objectAtIndex: lastObject];
+        hmObject = [array lastObject];
     }
-    else
-    {
-        return nil;
-    }
+    NSLog(@"%@",hmObject.name);
+    return hmObject;
 }
 
 //通过hmObject查询所在Unit+index
 - (NSIndexPath*)indexOfObject:(HerbalMedicine*)hmObject
 {
-    NSArray *array = [hmUnits objectAtIndex:hmObject.unit];
-    NSInteger index = [array indexOfObject:hmObject];
+    NSLog(@"%@, %d, %d, %d", hmObject.name, [hmObject retainCount], [hmUnits retainCount], hmObject.unit);
+    NSArray *array = [hmUnits objectAtIndex:hmObject.unit - 1];
+    NSLog(@"%d, %d", [array retainCount], [array count]);
+    
+    NSInteger index = [array indexOfObjectIdenticalTo:hmObject];
+    
     if (index == NSNotFound)
     {
         return nil;
     }
-    NSIndexPath *indexPath = [NSIndexPath indexPathForRow:index inSection:hmObject.unit];
+    NSIndexPath *indexPath = [NSIndexPath indexPathForRow:index inSection:hmObject.unit - 1];
+    NSLog(@"unit:%d, index:%d", [indexPath section], [indexPath row]);
     return indexPath;
 }
 

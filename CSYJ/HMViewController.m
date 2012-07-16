@@ -39,15 +39,8 @@
     
 	UIBarButtonItem *segmentBarItem = [[UIBarButtonItem alloc] initWithCustomView:segmentedControl];
     [segmentedControl release];
-    
 	self.navigationItem.rightBarButtonItem = segmentBarItem;
     
-    //加载HTML模版字符串
-    NSString *htmlFile =[[[NSBundle mainBundle] bundlePath] stringByAppendingPathComponent:@"template.html"];
-    NSString *html = [NSString stringWithContentsOfFile:htmlFile encoding:NSUTF8StringEncoding error:nil];
-    self.htmlTemplate = html;
-    
-    NSAssert(htmlFile, @"read htmlFile error");
     return self;
 }
 
@@ -56,13 +49,27 @@
 	// The segmented control was clicked, handle it here 
 	//UISegmentedControl *segmentedControl = (UISegmentedControl *)sender;
 	//NSLog(@"Segment clicked: %d", segmentedControl.selectedSegmentIndex);
-	NSInteger index = sender.selectedSegmentIndex;
-	if (index == 0)
+	NSInteger segIndex = sender.selectedSegmentIndex;
+    HerbalMedicine *hmObject;
+    
+	if (segIndex == 0)
 	{
+        hmObject = [[HMManager defaultManager] lastObjectAtUnit:unit forIndex:self.index];
 	}
 	else
 	{
+        hmObject = [[HMManager defaultManager] nextObjectAtUnit:unit forIndex:self.index];
 	}
+    
+    
+    if (hmObject)
+    {
+        NSLog(@"%@", hmObject.name);
+        NSIndexPath *indexPath = [[HMManager defaultManager] indexOfObject:hmObject];
+        self.unit = [indexPath section];
+        self.index = [indexPath row];
+        [self loadHtmlPage];
+    }
 
 }
 
@@ -70,23 +77,20 @@
 {
     // Releases the view if it doesn't have a superview.
     [super didReceiveMemoryWarning];
-    
     // Release any cached data, images, etc that aren't in use.
 }
 
 #pragma mark - View lifecycle
 
-- (void)viewDidLoad
+- (void)loadHtmlPage
 {
+    //加载HTML模版字符串
+    NSString *htmlFile =[[[NSBundle mainBundle] bundlePath] stringByAppendingPathComponent:@"template.html"];
+    NSString *html = [NSString stringWithContentsOfFile:htmlFile encoding:NSUTF8StringEncoding error:nil];
+    self.htmlTemplate = html;
     
-    //[webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.google.com.hk"]]];
-   
-    [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
-}
-
--(void) viewWillAppear:(BOOL)animated
-{
+    NSAssert(htmlFile, @"read htmlFile error");
+    
     NSString *path = [[NSBundle mainBundle] bundlePath];
     NSURL *baseURL = [NSURL fileURLWithPath:path];
     
@@ -98,6 +102,24 @@
     //格式化HTML完整内容,加载页面
     NSString *htmlString = [NSString stringWithFormat: self.htmlTemplate, hm.name, hm.name, @"本经", hm.shennong, hm.description, classicUse, summary];
     [webView loadHTMLString:htmlString baseURL:baseURL];
+    
+    NSString *title = [[NSString alloc] initWithFormat:@"第%d卷 %@", hm.unit, hm.name];
+    self.title = title;
+    [title release];
+}
+
+- (void)viewDidLoad
+{
+    
+    //[webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.google.com.hk"]]];
+    [self loadHtmlPage];
+    [super viewDidLoad];
+    // Do any additional setup after loading the view from its nib.
+}
+
+-(void) viewWillAppear:(BOOL)animated
+{
+    
     
 }
 
