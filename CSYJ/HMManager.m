@@ -111,6 +111,58 @@
     //return [[hmUnits objectAtIndex:unit] objectAtIndex: index];
 }
 
+//通过当前unit+index 返回下一个hmObject
+- (HerbalMedicine*)nextObjectAtUnit:(NSInteger)unit forIndex:(NSInteger)index
+{
+    NSArray *array = [hmUnits objectAtIndex:unit];
+    if (index + 1 < [array count])
+    {
+        return [array objectAtIndex:index + 1];
+    }
+    else if (unit + 1 < [hmUnits count])
+    {
+        NSArray *array = [hmUnits objectAtIndex:unit + 1];
+        return [array objectAtIndex:0];
+    }
+    else
+    {
+        return nil;
+    }
+}
+
+//通过当前unit+index 返回上一个hmObject
+- (HerbalMedicine*)lastObjectAtUnit:(NSInteger)unit forIndex:(NSInteger)index
+{
+    NSArray *array = [hmUnits objectAtIndex:unit];
+    if (index - 1 >= 0)
+    {
+        return [array objectAtIndex:index - 1];
+    }
+    else if (unit - 1 >= 0)
+    {
+        NSArray *array = [hmUnits objectAtIndex:unit - 1];
+        return [array objectAtIndex: lastObject];
+    }
+    else
+    {
+        return nil;
+    }
+}
+
+//通过hmObject查询所在Unit+index
+- (NSIndexPath*)indexOfObject:(HerbalMedicine*)hmObject
+{
+    NSArray *array = [hmUnits objectAtIndex:hmObject.unit];
+    NSInteger index = [array indexOfObject:hmObject];
+    if (index == NSNotFound)
+    {
+        return nil;
+    }
+    NSIndexPath *indexPath = [NSIndexPath indexPathForRow:index inSection:hmObject.unit];
+    return indexPath;
+}
+
+
 //重新加载数据
 - (void)Reset
 {
@@ -141,6 +193,7 @@
         }
     }
 }
+
 
 - (void)dealloc
 {

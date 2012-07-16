@@ -36,4 +36,7 @@ typedef enum
 - (NSInteger)UnitCount;
 - (NSInteger)ItemsCountAtUnit:(NSInteger)unit;
 - (HerbalMedicine*)objectAtUnit:(NSInteger)unit forIndex:(NSInteger)index;
+- (HerbalMedicine*)nextObjectAtUnit:(NSInteger)unit forIndex:(NSInteger)index;
+- (HerbalMedicine*)lastObjectAtUnit:(NSInteger)unit forIndex:(NSInteger)index;
+- (NSIndexPath*)indexOfObject:(HerbalMedicine*)hmObject;
 @end

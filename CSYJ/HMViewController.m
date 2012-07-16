@@ -51,11 +51,19 @@
     return self;
 }
 
-- (IBAction)segmentAction:(id)sender
+- (IBAction)segmentAction:(UISegmentedControl *)sender
 {
 	// The segmented control was clicked, handle it here 
 	//UISegmentedControl *segmentedControl = (UISegmentedControl *)sender;
 	//NSLog(@"Segment clicked: %d", segmentedControl.selectedSegmentIndex);
+	NSInteger index = sender.selectedSegmentIndex;
+	if (index == 0)
+	{
+	}
+	else
+	{
+	}
+
 }
 
 - (void)didReceiveMemoryWarning
