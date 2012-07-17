@@ -10,6 +10,8 @@
 #import "HMCell.h"
 #import "WebViewController.h"
 #import "HMManager.h"
+#import "ConvertJF.h"
+
 
 @implementation HMTableViewController
 
@@ -25,6 +27,8 @@
 {
     //取得数据库文件名
     self.title = @"长沙药解";
+    
+    [HMManager defaultManager].textType = ttTraditional;
     [super viewDidLoad];
 }
 
@@ -43,7 +47,8 @@
     NSInteger section = [indexPath section];
     NSInteger row = [indexPath row];
     HerbalMedicine* hm = [[HMManager defaultManager] objectAtUnit:section forIndex:row];
-    cell.name.text = hm.name;
+
+    cell.name.text = hm.caption;
     cell.description.text = hm.description;
     
     NSString* picName = [NSString stringWithFormat:@"%@.png", hm.name];

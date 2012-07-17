@@ -31,7 +31,7 @@
                                              nil]];
     
 	[segmentedControl addTarget:self action:@selector(segmentAction:) forControlEvents:UIControlEventValueChanged];
-	segmentedControl.frame = CGRectMake(0, 0, 90, 30);
+	segmentedControl.frame = CGRectMake(0, 0, 60, 30);
 	segmentedControl.segmentedControlStyle = UISegmentedControlStyleBar;
 	segmentedControl.momentary = YES;
 	
@@ -64,7 +64,7 @@
     
     if (hmObject)
     {
-        NSLog(@"%@", hmObject.name);
+        NSLog(@"%@", hmObject.caption);
         NSIndexPath *indexPath = [[HMManager defaultManager] indexOfObject:hmObject];
         self.unit = [indexPath section];
         self.index = [indexPath row];
@@ -100,7 +100,7 @@
     NSString *summary = [[NSString stringWithFormat:hm.summary] stringByReplacingOccurrencesOfString:@"\n" withString:@"<p>"];
     
     //格式化HTML完整内容,加载页面
-    NSString *htmlString = [NSString stringWithFormat: self.htmlTemplate, hm.name, hm.name, @"本经", hm.shennong, hm.description, classicUse, summary];
+    NSString *htmlString = [NSString stringWithFormat: self.htmlTemplate, hm.caption, hm.name, @"本经", hm.shennong, hm.description, classicUse, summary];
     [webView loadHTMLString:htmlString baseURL:baseURL];
     
     NSString *title = [[NSString alloc] initWithFormat:@"第%d卷 %@", hm.unit, hm.name];

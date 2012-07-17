@@ -21,20 +21,23 @@
     NSString* summary;
     NSString* classicUse;
     NSString* shennong;
-
-	NSMutableDictionary *dict;
 }
+
+
+- (NSString *)getCaption;
+- (NSString *)getDescription;
+- (NSString *)getSummary;
+- (NSString *)getClassicUse;
+- (NSString *)getShennong;
 
 @property NSInteger ID;
 @property NSInteger unit;
 @property(nonatomic, retain) NSString*  name;
-@property(nonatomic, retain) NSString*  description;
-@property(nonatomic, retain) NSString*  summary;
-@property(nonatomic, retain) NSString*  classicUse;
-@property(nonatomic, retain) NSString*  shennong;
-
--(NSString *)ConvertZh2Hant:(NSString*)text;
-
+@property(getter = getDescription , nonatomic, retain) NSString*  description;
+@property(getter = getSummary , nonatomic, retain) NSString*  summary;
+@property(getter = getClassicUse, nonatomic, retain) NSString*  classicUse;
+@property(getter = getShennong, nonatomic, retain) NSString*  shennong;
+@property(getter = getCaption, readonly) NSString* caption;
 @end
 
 @interface HMDataBase : NSObject

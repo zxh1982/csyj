@@ -7,6 +7,8 @@
 //
 
 #import "HMDataBase.h"
+#import "ConvertJF.h"
+#import "HMManager.h"
 
 @implementation HerbalMedicine
     
@@ -18,38 +20,48 @@
 @synthesize classicUse;
 @synthesize shennong;
 
-- (HerbalMedicine *)init
+
+- (NSString *)getCaption
 {
-	//加载字典文件
-    NSString *dictFile =[[[NSBundle mainBundle] bundlePath] stringByAppendingPathComponent:@"Dictionary.txt"];
-    NSString *dictString = [NSString stringWithContentsOfFile:htmlFile encoding:NSUTF8StringEncoding error:nil];
-    NSArray  *dictArray = [dictString componentsSeparatedByString:@"\n"];
-    
-    NSMutableDictionary *dict = [NSMutableDictionary alloc] init];
-	for (NSString *str in dictArray)
-	{
-        unichar key = [str characterAtIndex:0];
-        unichar value = [str characterAtIndex:1];
-        [dict setObject:value forKey: key]
-	}
+    if ([[HMManager defaultManager] textType] == ttSimplified) 
+        return name;
+    else
+        return [[ConvertJF getInstance]convert:name];
 }
 
--(NSString *)ConvertZh2Hant:(NSString*)text
+- (NSString *)getDescription
 {
-    NSInteger length = [text length];
-	for (NSInteger i = 0; i< length; i++)
-	{
-		NSString *string = [text substringWithRange:NSMakeRange(i, 1)];
-        NSString *hantString = [dict objectForKey:string];
+    if ([[HMManager defaultManager] textType] == ttSimplified) 
+        return description;
+    else
+        return [[ConvertJF getInstance]convert:description];
 
-		if(hantString != nil)
-		{
-			text = [text stringByReplacingCharactersInRange:NSMakeRange(i, 1)
-											   withString:hantString];
-		}
-	}
-	
-	return srcString;
+}
+
+- (NSString *)getSummary
+{
+    if ([[HMManager defaultManager] textType] == ttSimplified) 
+        return summary;
+    else
+        return [[ConvertJF getInstance]convert:summary];
+
+}
+
+- (NSString *)getClassicUse
+{
+    if ([[HMManager defaultManager] textType] == ttSimplified) 
+        return classicUse;
+    else
+        return [[ConvertJF getInstance]convert:classicUse];
+
+}
+
+- (NSString *)getShennong
+{
+    if ([[HMManager defaultManager] textType] == ttSimplified) 
+        return shennong;
+    else
+        return [[ConvertJF getInstance]convert:shennong];
 }
 @end
 

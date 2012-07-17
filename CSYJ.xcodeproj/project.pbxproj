@@ -204,6 +204,7 @@
 		B6A3E53115B30A7D00FC1A78 /* template.html in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E48115B30A7D00FC1A78 /* template.html */; };
 		B6C78C1F15A51384006D6FE7 /* HMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C78C1D15A51384006D6FE7 /* HMViewController.m */; };
 		B6C78C2015A51384006D6FE7 /* HMViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6C78C1E15A51384006D6FE7 /* HMViewController.xib */; };
+		B6D55FE515B586F4004C49A7 /* ConvertJF.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D55FE415B586F4004C49A7 /* ConvertJF.m */; };
 		B6DE474A15AB1410009D4C95 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B6DE474915AB1410009D4C95 /* Icon.png */; };
 		B6DE474C15AB1414009D4C95 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6DE474B15AB1414009D4C95 /* Icon@2x.png */; };
 		B6EB13CA15AC66380033B43E /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EB13C815AC66380033B43E /* WebViewController.m */; };
@@ -420,6 +421,8 @@
 		B6C78C1C15A51384006D6FE7 /* HMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMViewController.h; sourceTree = "<group>"; };
 		B6C78C1D15A51384006D6FE7 /* HMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMViewController.m; sourceTree = "<group>"; };
 		B6C78C1E15A51384006D6FE7 /* HMViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HMViewController.xib; sourceTree = "<group>"; };
+		B6D55FE315B586F4004C49A7 /* ConvertJF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConvertJF.h; sourceTree = "<group>"; };
+		B6D55FE415B586F4004C49A7 /* ConvertJF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConvertJF.m; sourceTree = "<group>"; };
 		B6DE474915AB1410009D4C95 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		B6DE474B15AB1414009D4C95 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		B6EB13C715AC66380033B43E /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
@@ -723,6 +726,8 @@
 				B6A3E3CD15B30A5200FC1A78 /* HMManager.m */,
 				B62F0D3A1487A2FB00FA38F8 /* HMDataBase.h */,
 				B62F0D3B1487A2FB00FA38F8 /* HMDataBase.m */,
+				B6D55FE315B586F4004C49A7 /* ConvertJF.h */,
+				B6D55FE415B586F4004C49A7 /* ConvertJF.m */,
 			);
 			name = dataBase;
 			sourceTree = "<group>";
@@ -983,6 +988,7 @@
 				B6C78C1F15A51384006D6FE7 /* HMViewController.m in Sources */,
 				B6EB13CA15AC66380033B43E /* WebViewController.m in Sources */,
 				B6A3E3CF15B30A5200FC1A78 /* HMManager.m in Sources */,
+				B6D55FE515B586F4004C49A7 /* ConvertJF.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
