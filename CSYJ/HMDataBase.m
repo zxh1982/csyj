@@ -17,6 +17,40 @@
 @synthesize summary;
 @synthesize classicUse;
 @synthesize shennong;
+
+- (HerbalMedicine *)init
+{
+	//加载字典文件
+    NSString *dictFile =[[[NSBundle mainBundle] bundlePath] stringByAppendingPathComponent:@"Dictionary.txt"];
+    NSString *dictString = [NSString stringWithContentsOfFile:htmlFile encoding:NSUTF8StringEncoding error:nil];
+    NSArray  *dictArray = [dictString componentsSeparatedByString:@"\n"];
+    
+    NSMutableDictionary *dict = [NSMutableDictionary alloc] init];
+	for (NSString *str in dictArray)
+	{
+        unichar key = [str characterAtIndex:0];
+        unichar value = [str characterAtIndex:1];
+        [dict setObject:value forKey: key]
+	}
+}
+
+-(NSString *)ConvertZh2Hant:(NSString*)text
+{
+    NSInteger length = [text length];
+	for (NSInteger i = 0; i< length; i++)
+	{
+		NSString *string = [text substringWithRange:NSMakeRange(i, 1)];
+        NSString *hantString = [dict objectForKey:string];
+
+		if(hantString != nil)
+		{
+			text = [text stringByReplacingCharactersInRange:NSMakeRange(i, 1)
+											   withString:hantString];
+		}
+	}
+	
+	return srcString;
+}
 @end
 
 

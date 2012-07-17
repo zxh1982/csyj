@@ -21,6 +21,8 @@
     NSString* summary;
     NSString* classicUse;
     NSString* shennong;
+
+	NSMutableDictionary *dict;
 }
 
 @property NSInteger ID;
@@ -31,6 +33,7 @@
 @property(nonatomic, retain) NSString*  classicUse;
 @property(nonatomic, retain) NSString*  shennong;
 
+-(NSString *)ConvertZh2Hant:(NSString*)text;
 
 @end
 
