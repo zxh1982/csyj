@@ -54,21 +54,45 @@
     
 	if (segIndex == 0)
 	{
-        hmObject = [[HMManager defaultManager] lastObjectAtUnit:unit forIndex:self.index];
+        if (unit == -1)
+        {
+            hmObject = [[HMManager defaultManager] objectAtIndex:self.index - 1];
+        }
+        else
+        {
+            hmObject = [[HMManager defaultManager] lastObjectAtUnit:unit forIndex:self.index];
+        }
 	}
 	else
 	{
-        hmObject = [[HMManager defaultManager] nextObjectAtUnit:unit forIndex:self.index];
+        if (unit == -1)
+        {
+            hmObject = [[HMManager defaultManager] objectAtIndex:self.index + 1];
+        }
+        else
+        {
+            hmObject = [[HMManager defaultManager] nextObjectAtUnit:unit forIndex:self.index];
+        }
 	}
     
     
     if (hmObject)
     {
         NSLog(@"%@", hmObject.caption);
-        NSIndexPath *indexPath = [[HMManager defaultManager] indexOfObject:hmObject];
-        self.unit = [indexPath section];
-        self.index = [indexPath row];
-        [self loadHtmlPage];
+        if (unit == -1)
+        {
+            int n = segIndex == 0 ? -1 : 1;
+            self.unit = -1;
+            self.index += n;
+            [self loadHtmlPage];
+        }
+        else
+        {
+            NSIndexPath *indexPath = [[HMManager defaultManager] indexOfObject:hmObject];
+            self.unit = [indexPath section];
+            self.index = [indexPath row];
+            [self loadHtmlPage];
+        }
     }
 
 }
@@ -95,7 +119,15 @@
     NSURL *baseURL = [NSURL fileURLWithPath:path];
     
     //格式化药物文本,替换'\'为<p>
-    HerbalMedicine* hm = [[HMManager defaultManager] objectAtUnit:unit forIndex:index];
+    HerbalMedicine* hm;
+    if (unit == -1)
+    {
+        hm = [[HMManager defaultManager] objectAtIndex:index];
+    }
+    else
+    {
+        hm = [[HMManager defaultManager] objectAtUnit:unit forIndex:index];
+    }
     NSString *classicUse = [[NSString stringWithFormat:hm.classicUse] stringByReplacingOccurrencesOfString: @"\n" withString:@"<p>"];
     NSString *summary = [[NSString stringWithFormat:hm.summary] stringByReplacingOccurrencesOfString:@"\n" withString:@"<p>"];
     

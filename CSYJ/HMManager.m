@@ -99,6 +99,8 @@
 //通过Index取得HM
 - (HerbalMedicine*)objectAtIndex:(int)index
 {
+    if (index < 0 || index >= hmArray.count)
+        return nil;
     return [hmArray objectAtIndex:index];
 }
 
