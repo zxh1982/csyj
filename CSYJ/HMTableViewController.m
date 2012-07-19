@@ -30,9 +30,7 @@
 - (void)viewDidLoad
 {
     //取得数据库文件名
-    self.title = @"长沙药解";
-    
-    [HMManager defaultManager].textType = ttTraditional;
+    self.title = _S(@"长沙药解");
     [super viewDidLoad];
 }
 
@@ -124,7 +122,7 @@
         hmViewController.unit = -1;
         hmViewController.index = [indexPath row];
     }
-  
+    
     [self.navigationController pushViewController:hmViewController animated:YES];
 }
 
@@ -257,6 +255,7 @@
 
 - (void)viewWillAppear:(BOOL)animated
 {
+    [table reloadData];
     [super viewWillAppear:animated];
 }
 

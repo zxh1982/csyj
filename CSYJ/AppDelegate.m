@@ -11,6 +11,9 @@
 
 #import "WebViewController.h"
 #import "HMTableViewController.h"
+#import "ConfigViewController.h"
+#import "HMManager.h"
+#import "ConvertJF.h"
 
 @implementation AppDelegate
 
@@ -31,7 +34,8 @@
 {
     //self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
-    
+    [HMManager defaultManager].textType = ttTraditional;
+
     HMTableViewController *hmTableViewController = [[[HMTableViewController alloc]initWithNibName:@"HMTableViewController" bundle:nil] autorelease];
     
     [self.navController pushViewController:hmTableViewController animated:TRUE];
@@ -39,11 +43,14 @@
     
     
     WebViewController *viewController1 = [[[WebViewController alloc]initWithNibName:@"WebViewController" bundle:nil] autorelease];
-    viewController1.title = @"长沙药解•序";
+    viewController1.title = _S(@"长沙药解•序");
     viewController1.index = 1;
     WebViewController *viewController2 = [[[WebViewController alloc]initWithNibName:@"WebViewController" bundle:nil]autorelease];
-    viewController2.title = @"黄元御传";
+    viewController2.title = _S(@"黄元御传");
     viewController2.index = 2;
+    
+    ConfigViewController *configViewController = [[[ConfigViewController alloc]initWithNibName:@"ConfigViewController" bundle:nil]autorelease];
+    configViewController.title = _S(@"设置");
     //[viewArray addObject:viewController1];
     //[viewArray addObject:viewController2];
     
@@ -51,6 +58,7 @@
                                     self.navController,
                                     viewController1,
                                     viewController2,
+                                    configViewController,
                                     nil];
     
     tabBarController.viewControllers = arrayViewController;
