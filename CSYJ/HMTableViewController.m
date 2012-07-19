@@ -15,6 +15,10 @@
 
 @implementation HMTableViewController
 
+@synthesize searchDisplayController;
+@synthesize search;
+@synthesize table;
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -35,35 +39,56 @@
 
 -(UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString* cellIdentifier = @"HMCell";
-    HMCell* cell = (HMCell*)[tableView dequeueReusableCellWithIdentifier:cellIdentifier];
-    if (cell == nil)
+    if ([tableView isEqual:self.searchDisplayController.searchResultsTableView]) 
     {
-        NSArray *nib = [[NSBundle mainBundle]loadNibNamed:@"HMCell" owner:self options:nil];
-        cell = [nib objectAtIndex:0];
+        static NSString *CellIdentifier = @"Cell";
+        
+        UITableViewCell *cell = [tableView 
+                                 dequeueReusableCellWithIdentifier:CellIdentifier];
+        if (cell == nil) {
+            cell = [[[UITableViewCell alloc] 
+                     initWithStyle:UITableViewCellStyleDefault 
+                     reuseIdentifier:CellIdentifier] autorelease];
+            
+            cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+        }
+        
+        HerbalMedicine* hm = [[HMManager defaultManager] objectAtIndex: [indexPath row]];
+        cell.textLabel.text = hm.caption;
+        return cell;
     }
-    
-    //创建HMCell对象,并设置药物名字\描述\图片
-    NSInteger section = [indexPath section];
-    NSInteger row = [indexPath row];
-    HerbalMedicine* hm = [[HMManager defaultManager] objectAtUnit:section forIndex:row];
-
-    cell.name.text = hm.caption;
-    cell.description.text = hm.description;
-    
-    NSString* picName = [NSString stringWithFormat:@"%@.png", hm.name];
-    
-    
-    //通过名字获取图片文件路径
-    NSString* fileName = [[[NSBundle mainBundle] bundlePath] stringByAppendingPathComponent:picName];
-    //检查文件是否存在
-    BOOL fileExist = [[NSFileManager defaultManager] fileExistsAtPath:fileName];
-    //存在才加载图片
-    if (fileExist)
+    else
     {
-        [cell.thumbImage setImage:[UIImage imageNamed:picName]]; 
+        static NSString* cellIdentifier = @"HMCell";
+        HMCell* cell = (HMCell*)[tableView dequeueReusableCellWithIdentifier:cellIdentifier];
+        if (cell == nil)
+        {
+            NSArray *nib = [[NSBundle mainBundle]loadNibNamed:@"HMCell" owner:self options:nil];
+            cell = [nib objectAtIndex:0];
+        }
+        
+        //创建HMCell对象,并设置药物名字\描述\图片
+        NSInteger section = [indexPath section];
+        NSInteger row = [indexPath row];
+        HerbalMedicine* hm = [[HMManager defaultManager] objectAtUnit:section forIndex:row];
+        
+        cell.name.text = hm.caption;
+        cell.description.text = hm.description;
+        
+        NSString* picName = [NSString stringWithFormat:@"%@.png", hm.name];
+        
+        //通过名字获取图片文件路径
+        NSString* fileName = [[[NSBundle mainBundle] bundlePath] stringByAppendingPathComponent:picName];
+        //检查文件是否存在
+        BOOL fileExist = [[NSFileManager defaultManager] fileExistsAtPath:fileName];
+        //存在才加载图片
+        if (fileExist)
+        {
+            [cell.thumbImage setImage:[UIImage imageNamed:picName]]; 
+        }
+        return cell;
     }
-    return cell;
+  
 }
 
 
@@ -76,63 +101,76 @@
 
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return 60;
-}
-
--(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    
-}
-
-/*
-- (NSArray*)sectionIndexTitlesForTableView:(UITableView *)tableView
-{
-    NSMutableArray *array = [[[NSMutableArray alloc]init]autorelease];
-
-    NSString *title;
-    for (int i = 0; i < [[HMManager defaultManager] UnitCount]; i++)
+    if ([tableView isEqual:self.searchDisplayController.searchResultsTableView])
     {
-        switch (i)
-        {
-            case 0: title = [NSString stringWithString:@"卷一"]; break;
-            case 1: title = [NSString stringWithString:@"卷二"]; break;
-            case 2: title = [NSString stringWithString:@"卷三"]; break;
-            case 3: title = [NSString stringWithString:@"卷四"]; break;
-            default: title = [NSString stringWithString:@""];
-        }
-        [array addObject: title];
+        return 40;
     }
-    return array;
+    else
+    {
+        return 60;
+    }
 }
- */
 
 //显示药物详细内容
--(void)tableView:(UITableView *)tableView accessoryButtonTappedForRowWithIndexPath:(NSIndexPath *)indexPath
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    //检查webView是否创建
     hmViewController = [[[HMViewController alloc]initWithNibName:@"HMViewController" bundle:nil] autorelease];
-    //取得选择的对象
     hmViewController.unit = [indexPath section];
     hmViewController.index = [indexPath row];
-    //使用presentModalViewController这个方法显示视图,在ipad上才能显示全
+
+    //检查webView是否创建
+    if ([tableView isEqual:self.searchDisplayController.searchResultsTableView])
+    {
+        hmViewController.unit = -1;
+        hmViewController.index = [indexPath row];
+    }
+  
     [self.navigationController pushViewController:hmViewController animated:YES];
 }
+
+
+
+//-(void)tableView:(UITableView *)tableView accessoryButtonTappedForRowWithIndexPath:(NSIndexPath *)indexPath
+//{
+   
+//}
 
 //分组相关
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-    NSInteger count = [[HMManager defaultManager] UnitCount];
-    return count;
+    if ([tableView isEqual:self.searchDisplayController.searchResultsTableView])
+    {
+        return  1;
+    }
+    else
+    {
+        NSInteger count = [[HMManager defaultManager] UnitCount];
+        return count;
+    }
+    
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    NSInteger count = [[HMManager defaultManager] ItemsCountAtUnit:section];
-    return count;
+    NSInteger rows = 0;
+    if ([tableView isEqual:self.searchDisplayController.searchResultsTableView])
+    {
+        rows = [[HMManager defaultManager] ItemsCount];
+    }
+    else
+    {
+        rows = [[HMManager defaultManager] ItemsCountAtUnit:section];
+    }
+    return rows;
 }
 
 - (NSString*)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
 {
+    if ([tableView isEqual:self.searchDisplayController.searchResultsTableView])
+    {
+        return nil;
+    }
+    
     NSString *title;
     switch (section)
     {
@@ -152,38 +190,68 @@
     [[HMManager defaultManager] Reset];
 }
 
--(void) searchBar:(UISearchBar *)searchBar textDidChange:(NSString *)searchText
+- (void)filterContentForSearchText:(NSString*)searchText 
+                             scope:(NSString*)scope
 {
+    //NSPredicate *resultPredicate = [NSPredicate 
+    //                                predicateWithFormat:@"SELF like %@",
+    //                                searchText];
+    
     [[HMManager defaultManager] Search:searchText];
-    [table reloadData];
+    //self.searchResults = [self.allItems filteredArrayUsingPredicate:resultPredicate];
 }
 
--(void) searchBarSearchButtonClicked:(UISearchBar *)searchBar
+
+-(BOOL)searchDisplayController:(UISearchDisplayController *)controller shouldReloadTableForSearchString:(NSString *)searchString
 {
-    [[HMManager defaultManager] Search:searchBar.text];
-    [searchBar resignFirstResponder];
+    [self filterContentForSearchText:searchString 
+                               scope:[[self.searchDisplayController.searchBar scopeButtonTitles]
+                       objectAtIndex:[self.searchDisplayController.searchBar selectedScopeButtonIndex]]];
+    
+    return YES;
 }
 
--(void) searchBarCancelButtonClicked:(UISearchBar *)searchBar
+- (BOOL)searchDisplayController:(UISearchDisplayController *)controller shouldReloadTableForSearchScope:(NSInteger)searchOption
 {
-    searchBar.text = @"";
-    [[HMManager defaultManager] Reset];
-    [table reloadData];
-    [searchBar resignFirstResponder];
+    [self filterContentForSearchText:[self.searchDisplayController.searchBar text] 
+                               scope:[[self.searchDisplayController.searchBar scopeButtonTitles]
+                       objectAtIndex:searchOption]];
+    
+    return YES;
 }
+
+//-(void) searchBarSearchButtonClicked:(UISearchBar *)searchBar
+//{
+//    [[HMManager defaultManager] Search:searchBar.text];
+//    [searchBar resignFirstResponder];
+//}
+
+//-(void) searchBarCancelButtonClicked:(UISearchBar *)searchBar
+//{
+//    searchBar.text = @"";
+//    [[HMManager defaultManager] Reset];
+//    [table reloadData];
+//    [searchBar resignFirstResponder];
+//}
 
 - (void)viewDidUnload
 {
-    [table release];
-    table = nil;
-   
+    [searchDisplayController release];
+    searchDisplayController = nil;
+    
     [search release];
     search = nil;
+    
+    [table release];
+    table = nil;
+    
     [super viewDidUnload];
 }
 
 -(void)dealloc
 {
+    [search release];
+    [search release];
     [super dealloc];
 }
 

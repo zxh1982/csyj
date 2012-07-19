@@ -15,7 +15,8 @@
 
 @property (strong, nonatomic) IBOutlet UIWindow *window;
 @property (retain, nonatomic) IBOutlet UINavigationController *navController;
-@property (retain, nonatomic) UITabBarController *tabBarController;
+
+@property (retain, nonatomic) IBOutlet UITabBarController *tabBarController;
 
 
 @end

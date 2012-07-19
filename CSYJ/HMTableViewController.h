@@ -11,14 +11,17 @@
 #import "HMViewController.h"
 
 
-@interface HMTableViewController : UIViewController <UINavigationBarDelegate, UITableViewDelegate, UITableViewDataSource, UISearchBarDelegate >
+@interface HMTableViewController : UIViewController <UINavigationBarDelegate, UITableViewDelegate, UITableViewDataSource, UISearchBarDelegate, UISearchDisplayDelegate>
 {
     
-    IBOutlet UISearchBar *search;
-    IBOutlet UITableView *table;
     HMViewController     *hmViewController;
 }
 
+@property (retain, nonatomic) IBOutlet UISearchDisplayController *searchDisplayController;
+
+@property (retain, nonatomic) IBOutlet UITableView *table;
+
+@property (retain, nonatomic) IBOutlet UISearchBar *search;
 
 -(void) handleSearchForTerm:(NSString*)searchTerm;
 

@@ -40,6 +40,11 @@
 
 - (NSString *)getSummary
 {
+    if (summary == nil)
+    {
+        summary = [NSString stringWithString:@""];
+    }
+    
     if ([[HMManager defaultManager] textType] == ttSimplified) 
         return summary;
     else

@@ -10,19 +10,20 @@
 #import "AppDelegate.h"
 
 #import "WebViewController.h"
+#import "HMTableViewController.h"
 
 @implementation AppDelegate
 
 @synthesize window;
 @synthesize navController;
-@synthesize tabBarController = _tabBarController;
+@synthesize tabBarController;
 
 
 - (void)dealloc
 {
     [navController release];
     [window release];
-    [_tabBarController release];
+    [tabBarController release];
     [super dealloc];
 }
 
@@ -31,11 +32,11 @@
     //self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     
-    _tabBarController = [[UITabBarController alloc]init];
+    HMTableViewController *hmTableViewController = [[[HMTableViewController alloc]initWithNibName:@"HMTableViewController" bundle:nil] autorelease];
     
-    NSMutableArray *viewArray = [[[NSMutableArray alloc]init] autorelease];
+    [self.navController pushViewController:hmTableViewController animated:TRUE];
+    //[viewArray addObject:self.navController];
     
-    [viewArray addObject:self.navController];
     
     WebViewController *viewController1 = [[[WebViewController alloc]initWithNibName:@"WebViewController" bundle:nil] autorelease];
     viewController1.title = @"长沙药解•序";
@@ -43,13 +44,18 @@
     WebViewController *viewController2 = [[[WebViewController alloc]initWithNibName:@"WebViewController" bundle:nil]autorelease];
     viewController2.title = @"黄元御传";
     viewController2.index = 2;
-    [viewArray addObject:viewController1];
-    [viewArray addObject:viewController2];
+    //[viewArray addObject:viewController1];
+    //[viewArray addObject:viewController2];
     
-    _tabBarController.viewControllers = viewArray;
+    NSArray *arrayViewController = [NSArray arrayWithObjects:
+                                    self.navController,
+                                    viewController1,
+                                    viewController2,
+                                    nil];
+    
+    tabBarController.viewControllers = arrayViewController;
 
-    
-    [self.window addSubview:_tabBarController.view];
+    [self.window addSubview:tabBarController.view];
     [self.window makeKeyAndVisible];
     return YES;
 }
