@@ -8,8 +8,11 @@
 
 #import "ConfigViewController.h"
 #import "HMManager.h"
+#import "ConvertJF.h"
+
 @implementation ConfigViewController
 @synthesize configTableView;
+
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -65,9 +68,9 @@
             segmentedControl.selectedSegmentIndex = 1;
             segmentedControl.segmentedControlStyle = UISegmentedControlStyleBordered;
             //segmentedControl.momentary = YES;
-            cell.textLabel.text = @"文字设置";
+            cell.textLabel.text = _S(@"文字设置");
             [cell addSubview:segmentedControl];
-            
+            [segmentedControl release];
         }
             break;
         default:
@@ -86,6 +89,21 @@
 - (IBAction)segmentAction:(UISegmentedControl *)sender
 {
     [HMManager defaultManager].textType = (TEXT_TYPE)[sender selectedSegmentIndex];
+ 
+    UIViewController *c1 = [[self.tabBarController viewControllers] objectAtIndex:0];
+    c1.title = _S(@"长沙药解");
+    
+    UIViewController *c2 = [[self.tabBarController viewControllers] objectAtIndex:1];
+    c2.title = _S(@"长沙药解•序");
+    
+    UIViewController *c3 = [[self.tabBarController viewControllers] objectAtIndex:2];
+    c3.title = _S(@"黄元御传");
+    
+    UIViewController *c4 = [[self.tabBarController viewControllers] objectAtIndex:3];
+    c4.title = _S(@"设置");
+    
+    //[configTableView reloadData];
+        
 }
 
 

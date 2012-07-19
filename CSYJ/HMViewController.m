@@ -144,14 +144,14 @@
 {
     
     //[webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.google.com.hk"]]];
-    [self loadHtmlPage];
+    
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
 }
 
 -(void) viewWillAppear:(BOOL)animated
 {
-    
+    [self loadHtmlPage];
 }
 
 -(void) viewWillDisappear:(BOOL)animated
