@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		320AF8492C47A4D819F7C451 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320AF8492C47A4D819F7C450 /* QuartzCore.framework */; };
+		A18B9FE315B8116400DCEC60 /* csyj-xu.png in Resources */ = {isa = PBXBuildFile; fileRef = A18B9FE215B8116400DCEC60 /* csyj-xu.png */; };
 		B62F0D101487A12200FA38F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B62F0D0F1487A12200FA38F8 /* UIKit.framework */; };
 		B62F0D121487A12200FA38F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B62F0D111487A12200FA38F8 /* Foundation.framework */; };
 		B62F0D141487A12200FA38F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B62F0D131487A12200FA38F8 /* CoreGraphics.framework */; };
@@ -214,6 +215,7 @@
 
 /* Begin PBXFileReference section */
 		320AF8492C47A4D819F7C450 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.frameworks; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A18B9FE215B8116400DCEC60 /* csyj-xu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "csyj-xu.png"; sourceTree = "<group>"; };
 		B62F0D0B1487A12200FA38F8 /* CSYJ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSYJ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B62F0D0F1487A12200FA38F8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B62F0D111487A12200FA38F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -519,6 +521,7 @@
 		B6A3E3D015B30A7D00FC1A78 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A18B9FE215B8116400DCEC60 /* csyj-xu.png */,
 				B692183D15B4560E00CA6CC9 /* down.png */,
 				B692183E15B4560E00CA6CC9 /* up.png */,
 				B6A3E3D115B30A7D00FC1A78 /* csyj.db */,
@@ -971,6 +974,7 @@
 				B692183F15B4560E00CA6CC9 /* down.png in Resources */,
 				B692184015B4560E00CA6CC9 /* up.png in Resources */,
 				B68355F315B6EE1300D19324 /* HMTableViewController.xib in Resources */,
+				A18B9FE315B8116400DCEC60 /* csyj-xu.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
