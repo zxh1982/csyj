@@ -170,8 +170,28 @@
 //重新加载数据
 - (void)Reset
 {
-    [hmArray removeAllObjects];
-    hmArray = [[NSMutableArray alloc] initWithArray:hmdb.hmArray];
+    //[hmArray removeAllObjects];
+    //hmArray = [[NSMutableArray alloc] initWithArray:hmdb.hmArray];
+	for (NSArray *array in hmUnits)
+	{
+		[array removeAllObjects];
+	}
+	
+	for (HerbalMedicine *hmObject in hmArray.count)
+	{
+		switch (hmObject.unit) 
+		{
+			case 1:
+				[[hmUnits objectAtIndex: 0] addObject:hmObject];break;
+			case 2:
+				[[hmUnits objectAtIndex: 1] addObject:hmObject];break;
+			case 3:
+				[[hmUnits objectAtIndex: 2] addObject:hmObject];break;
+			case 4:
+				[[hmUnits objectAtIndex: 3] addObject:hmObject];break;
+		}
+	}
+
 }
 
 //搜索
@@ -183,7 +203,7 @@
         return;
     }
     
-    [hmArray removeAllObjects];
+    [hmUnits removeAllObjects];
     for (HerbalMedicine* hmObject in hmdb.hmArray)
     {
         if ([hmObject.name rangeOfString:text].location == NSNotFound &&
