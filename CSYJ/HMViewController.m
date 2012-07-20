@@ -152,12 +152,11 @@
 -(void) viewWillAppear:(BOOL)animated
 {
     
-    
 }
 
 -(void) viewWillDisappear:(BOOL)animated
 {
-    [webView clearsContextBeforeDrawing];
+    //[webView clearsContextBeforeDrawing];
 }
 
 - (void)viewDidUnload

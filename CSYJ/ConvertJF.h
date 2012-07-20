@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+#define _S(str) [[ConvertJF getInstance] convert:(str)]
+
 @interface ConvertJF : NSObject
 {
     NSMutableDictionary *dict;

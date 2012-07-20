@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		320AF8492C47A4D819F7C451 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320AF8492C47A4D819F7C450 /* QuartzCore.framework */; };
+		B608272615B854840032F602 /* csyj-xu.png in Resources */ = {isa = PBXBuildFile; fileRef = B608272515B854840032F602 /* csyj-xu.png */; };
 		B62F0D101487A12200FA38F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B62F0D0F1487A12200FA38F8 /* UIKit.framework */; };
 		B62F0D121487A12200FA38F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B62F0D111487A12200FA38F8 /* Foundation.framework */; };
 		B62F0D141487A12200FA38F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B62F0D131487A12200FA38F8 /* CoreGraphics.framework */; };
@@ -205,6 +206,8 @@
 		B6A3E53115B30A7D00FC1A78 /* template.html in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E48115B30A7D00FC1A78 /* template.html */; };
 		B6C78C1F15A51384006D6FE7 /* HMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C78C1D15A51384006D6FE7 /* HMViewController.m */; };
 		B6C78C2015A51384006D6FE7 /* HMViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6C78C1E15A51384006D6FE7 /* HMViewController.xib */; };
+		B6CF65D715B8450A0057B58F /* ConfigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6CF65D515B8450A0057B58F /* ConfigViewController.m */; };
+		B6CF65D815B8450A0057B58F /* ConfigViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6CF65D615B8450A0057B58F /* ConfigViewController.xib */; };
 		B6D55FE515B586F4004C49A7 /* ConvertJF.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D55FE415B586F4004C49A7 /* ConvertJF.m */; };
 		B6DE474A15AB1410009D4C95 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B6DE474915AB1410009D4C95 /* Icon.png */; };
 		B6DE474C15AB1414009D4C95 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6DE474B15AB1414009D4C95 /* Icon@2x.png */; };
@@ -214,6 +217,7 @@
 
 /* Begin PBXFileReference section */
 		320AF8492C47A4D819F7C450 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.frameworks; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B608272515B854840032F602 /* csyj-xu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "csyj-xu.png"; sourceTree = "<group>"; };
 		B62F0D0B1487A12200FA38F8 /* CSYJ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSYJ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B62F0D0F1487A12200FA38F8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B62F0D111487A12200FA38F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -423,6 +427,9 @@
 		B6C78C1C15A51384006D6FE7 /* HMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMViewController.h; sourceTree = "<group>"; };
 		B6C78C1D15A51384006D6FE7 /* HMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMViewController.m; sourceTree = "<group>"; };
 		B6C78C1E15A51384006D6FE7 /* HMViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HMViewController.xib; sourceTree = "<group>"; };
+		B6CF65D415B8450A0057B58F /* ConfigViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigViewController.h; sourceTree = "<group>"; };
+		B6CF65D515B8450A0057B58F /* ConfigViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigViewController.m; sourceTree = "<group>"; };
+		B6CF65D615B8450A0057B58F /* ConfigViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConfigViewController.xib; sourceTree = "<group>"; };
 		B6D55FE315B586F4004C49A7 /* ConvertJF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConvertJF.h; sourceTree = "<group>"; };
 		B6D55FE415B586F4004C49A7 /* ConvertJF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConvertJF.m; sourceTree = "<group>"; };
 		B6DE474915AB1410009D4C95 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
@@ -489,9 +496,9 @@
 				B62F0D1E1487A12200FA38F8 /* AppDelegate.h */,
 				B62F0D1F1487A12200FA38F8 /* AppDelegate.m */,
 				B62F0D241487A12200FA38F8 /* MainWindow.xib */,
-				B62F0D3E1487B7C900FA38F8 /* HMCell.xib */,
 				B62F0D401487BB6C00FA38F8 /* HMCell.h */,
 				B62F0D411487BB6C00FA38F8 /* HMCell.m */,
+				B62F0D3E1487B7C900FA38F8 /* HMCell.xib */,
 				B6C78C1C15A51384006D6FE7 /* HMViewController.h */,
 				B6C78C1D15A51384006D6FE7 /* HMViewController.m */,
 				B6C78C1E15A51384006D6FE7 /* HMViewController.xib */,
@@ -501,6 +508,9 @@
 				B68355EF15B6EE1300D19324 /* HMTableViewController.h */,
 				B68355F015B6EE1300D19324 /* HMTableViewController.m */,
 				B68355F115B6EE1300D19324 /* HMTableViewController.xib */,
+				B6CF65D415B8450A0057B58F /* ConfigViewController.h */,
+				B6CF65D515B8450A0057B58F /* ConfigViewController.m */,
+				B6CF65D615B8450A0057B58F /* ConfigViewController.xib */,
 			);
 			path = CSYJ;
 			sourceTree = "<group>";
@@ -519,6 +529,7 @@
 		B6A3E3D015B30A7D00FC1A78 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B608272515B854840032F602 /* csyj-xu.png */,
 				B692183D15B4560E00CA6CC9 /* down.png */,
 				B692183E15B4560E00CA6CC9 /* up.png */,
 				B6A3E3D115B30A7D00FC1A78 /* csyj.db */,
@@ -971,6 +982,8 @@
 				B692183F15B4560E00CA6CC9 /* down.png in Resources */,
 				B692184015B4560E00CA6CC9 /* up.png in Resources */,
 				B68355F315B6EE1300D19324 /* HMTableViewController.xib in Resources */,
+				B6CF65D815B8450A0057B58F /* ConfigViewController.xib in Resources */,
+				B608272615B854840032F602 /* csyj-xu.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -993,6 +1006,7 @@
 				B6A3E3CF15B30A5200FC1A78 /* HMManager.m in Sources */,
 				B6D55FE515B586F4004C49A7 /* ConvertJF.m in Sources */,
 				B68355F215B6EE1300D19324 /* HMTableViewController.m in Sources */,
+				B6CF65D715B8450A0057B58F /* ConfigViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
