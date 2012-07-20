@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import "HMDataBase.h"
+#import "GADBannerView.h"
+
+#define MY_BANNER_UNIT_ID @"a150095b00b5645" 
 
 @interface HMViewController : UIViewController
 {
@@ -15,6 +18,8 @@
     NSString  *htmlTemplate;
     NSInteger unit;
     NSInteger index;
+    
+    GADBannerView *bannerView_;
 }
 
 
