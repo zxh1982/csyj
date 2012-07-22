@@ -13,7 +13,7 @@
 
 @interface AppDelegate : NSObject <UIApplicationDelegate>
 
-@property (strong, nonatomic) IBOutlet UIWindow *window;
+@property (retain, nonatomic) IBOutlet UIWindow *window;
 @property (retain, nonatomic) IBOutlet UINavigationController *navController;
 
 @property (retain, nonatomic) IBOutlet UITabBarController *tabBarController;
