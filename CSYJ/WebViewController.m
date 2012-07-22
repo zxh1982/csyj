@@ -60,6 +60,10 @@
     {
         self.bannerOrigin = CGPointMake(0, 44);
     }
+    else
+    {
+        [navigationBar setHidden:TRUE];
+    }
     [super viewDidLoad];
 
 }
@@ -67,22 +71,22 @@
 - (void)viewDidAppear:(BOOL)animated
 {
     //加载HTML模版字符串
-    NSString *htmlFileName = nil;
     switch (index)
     {
-        case 1:htmlFileName = @"csyj_zx.html";
+            case 1:
             [segMentControll setTitle:_S(@"自叙") forSegmentAtIndex:0];
             [segMentControll setTitle:_S(@"后序") forSegmentAtIndex:1];
             [self segmentValueChanged:segMentControll];
             break;
         case 2:
-            htmlFileName = @"csyj_hyy.html";
-            [navigationBar setHidden:TRUE];
+        {
+            NSString *htmlFileName = @"csyj_hyy.html";
             CGRect rect = [webView frame];
             rect.size.height += navigationBar.frame.size.height;
             rect.origin.y = 0;
             webView.frame = rect;
             [self LoadHtmlFile: htmlFileName];
+        }
             break;
     }    
 }
