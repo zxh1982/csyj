@@ -7,15 +7,21 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AdmobViewController.h"
 
 
-
-@interface WebViewController : UIViewController
+@interface WebViewController : AdmobViewController
 {
     int index;
+    IBOutlet UIWebView *webView;
+    IBOutlet UINavigationBar *navigationBar;
+    IBOutlet UISegmentedControl *segMentControll;
 }
 
-@property (retain, nonatomic) IBOutlet UIWebView *webView;
-@property int index;
+
+- (IBAction)segmentValueChanged:(UISegmentedControl *)sender;
+@property (assign, nonatomic) int index;
+@property (retain, nonatomic) UIWebView *webView;
+
 
 @end

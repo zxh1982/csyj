@@ -8,18 +8,18 @@
 
 #import <UIKit/UIKit.h>
 #import "HMDataBase.h"
-#import "GADBannerView.h"
+#import "AdmobViewController.h"
 
-#define MY_BANNER_UNIT_ID @"a150095b00b5645" 
 
-@interface HMViewController : UIViewController
+
+@interface HMViewController : AdmobViewController
 {
     UIWebView *webView;
     NSString  *htmlTemplate;
     NSInteger unit;
     NSInteger index;
     
-    GADBannerView *bannerView_;
+    
 }
 
 

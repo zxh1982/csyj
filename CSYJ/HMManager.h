@@ -15,11 +15,18 @@ typedef enum
     ttTraditional,
 } TEXT_TYPE;
 
+typedef enum
+{
+    tsSmall,
+    tsMiddle,
+    tsBig,
+} TEXT_SIZE;
 
 
 @interface HMManager : NSObject
 {
     TEXT_TYPE       textType;
+    TEXT_SIZE       textSize;
     HMDataBase      *hmdb;
     NSMutableArray  *hmArray;
     NSArray         *hmUnits; //药物分组
@@ -27,6 +34,8 @@ typedef enum
 }
 
 @property (assign, nonatomic) TEXT_TYPE textType;
+@property (assign, nonatomic) TEXT_SIZE textSize;
+
 
 + (HMManager*)defaultManager;
 - (void)Reset;
@@ -39,4 +48,5 @@ typedef enum
 - (HerbalMedicine*)nextObjectAtUnit:(NSInteger)unit forIndex:(NSInteger)index;
 - (HerbalMedicine*)lastObjectAtUnit:(NSInteger)unit forIndex:(NSInteger)index;
 - (NSIndexPath*)indexOfObject:(HerbalMedicine*)hmObject;
+- (NSInteger)getTextFontSize;
 @end

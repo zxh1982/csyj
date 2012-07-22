@@ -9,6 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface ConfigViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
+{
+    UISegmentedControl *segText;
+    UISegmentedControl *segFontSize;
+}
+
+
 
 
 @property (retain, nonatomic) IBOutlet UITableView *configTableView;

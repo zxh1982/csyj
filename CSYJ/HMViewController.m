@@ -21,25 +21,25 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
+        // "Segmented" control to the right
+        UISegmentedControl *segmentedControl = [[UISegmentedControl alloc] initWithItems:
+                                                [NSArray arrayWithObjects:
+                                                 [UIImage imageNamed:@"up.png"],
+                                                 [UIImage imageNamed:@"down.png"],
+                                                 nil]];
+        
+        [segmentedControl addTarget:self action:@selector(segmentAction:) forControlEvents:UIControlEventValueChanged];
+        segmentedControl.frame = CGRectMake(0, 0, 60, 30);
+        segmentedControl.segmentedControlStyle = UISegmentedControlStyleBar;
+        segmentedControl.momentary = YES;
+        
+        //defaultTintColor = [segmentedControl.tintColor retain];	// keep track of this for later
+        
+        UIBarButtonItem *segmentBarItem = [[UIBarButtonItem alloc] initWithCustomView:segmentedControl];
+        [segmentedControl release];
+        self.navigationItem.rightBarButtonItem = segmentBarItem;
+        [segmentBarItem release];
     }
-    
-   	// "Segmented" control to the right
-	UISegmentedControl *segmentedControl = [[UISegmentedControl alloc] initWithItems:
-                                            [NSArray arrayWithObjects:
-                                             [UIImage imageNamed:@"up.png"],
-                                             [UIImage imageNamed:@"down.png"],
-                                             nil]];
-    
-	[segmentedControl addTarget:self action:@selector(segmentAction:) forControlEvents:UIControlEventValueChanged];
-	segmentedControl.frame = CGRectMake(0, 0, 60, 30);
-	segmentedControl.segmentedControlStyle = UISegmentedControlStyleBar;
-	segmentedControl.momentary = YES;
-	
-	//defaultTintColor = [segmentedControl.tintColor retain];	// keep track of this for later
-    
-	UIBarButtonItem *segmentBarItem = [[UIBarButtonItem alloc] initWithCustomView:segmentedControl];
-    [segmentedControl release];
-	self.navigationItem.rightBarButtonItem = segmentBarItem;
     
     return self;
 }
@@ -146,31 +146,14 @@
     //[webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.google.com.hk"]]];
     
     [super viewDidLoad];
+    
     // Do any additional setup after loading the view from its nib.
     
-    // 在屏幕底部创建标准尺寸的视图。
-    bannerView_ = [[GADBannerView alloc]
-                   initWithFrame:CGRectMake(0.0,
-                                            self.view.frame.size.height - 100 -
-                                            GAD_SIZE_320x50.height,
-                                            GAD_SIZE_320x50.width,
-                                            GAD_SIZE_320x50.height)];
     
-    // 指定广告的“单元标识符”，也就是您的 AdMob 发布商 ID。
-    bannerView_.adUnitID = MY_BANNER_UNIT_ID;
-    
-    // 告知运行时文件，在将用户转至广告的展示位置之后恢复哪个 UIViewController 
-    // 并将其添加至视图层级结构。
-    bannerView_.rootViewController = self;
-    [self.view addSubview:bannerView_];
-    
-    // 启动一般性请求并在其中加载广告。
-    [bannerView_ loadRequest:[GADRequest request]];
 }
 
 -(void) viewWillAppear:(BOOL)animated
 {
-    
     [self loadHtmlPage];
 }
 
@@ -181,7 +164,7 @@
 
 - (void)viewDidUnload
 {
-    [bannerView_ release];
+
     [self setWebView:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.

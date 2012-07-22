@@ -123,6 +123,7 @@
         hmViewController.index = [indexPath row];
     }
     
+    
     [self.navigationController pushViewController:hmViewController animated:YES];
 }
 

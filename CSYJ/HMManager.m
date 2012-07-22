@@ -11,6 +11,7 @@
 @implementation HMManager
 
 @synthesize textType;
+@synthesize textSize;
 
 
 //静态创建HMManager
@@ -32,6 +33,8 @@
     self = [super init];
     if (self)
     {
+        textSize = tsMiddle;
+        
         NSString* dataFileName =[[[NSBundle mainBundle] bundlePath] stringByAppendingPathComponent:DATA_BASE_NAME];
         //加载数据库对象
         hmdb = [[HMDataBase alloc]initWithFile:dataFileName];
@@ -75,6 +78,24 @@
     }
     
     return self;
+}
+
+- (NSInteger)getTextFontSize
+{
+    switch (textSize) {
+        case tsSmall:
+            return 60;
+            break;
+        case tsMiddle:
+            return 100;
+            break;
+        case tsBig:
+            return 120;
+            break;
+        default:
+            return 100;
+            break;
+    }
 }
 
 //取得当前Item总个数
