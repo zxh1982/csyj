@@ -7,6 +7,7 @@
 //
 
 #import "ConvertJF.h"
+#import "HMManager.h"
 
 @implementation ConvertJF
 
@@ -47,6 +48,16 @@
 
 - (NSString *)convert:(NSString*)text
 {
+    if (text == nil)
+    {
+        return  @"";
+    }
+    
+    if ([HMManager defaultManager].textType == ttSimplified)
+    {
+        return text;
+    }
+    
     NSInteger length = [text length];
 	for (NSInteger i = 0; i< length; i++)
 	{

@@ -8,13 +8,18 @@
 
 #import <UIKit/UIKit.h>
 #import "HMDataBase.h"
+#import "AdmobViewController.h"
 
-@interface HMViewController : UIViewController
+
+
+@interface HMViewController : AdmobViewController
 {
     UIWebView *webView;
     NSString  *htmlTemplate;
     NSInteger unit;
     NSInteger index;
+    
+    
 }
 
 
