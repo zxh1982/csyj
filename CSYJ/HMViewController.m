@@ -22,6 +22,7 @@
     if (self) {
         // Custom initialization
         // "Segmented" control to the right
+        //上下翻页
         UISegmentedControl *segmentedControl = [[UISegmentedControl alloc] initWithItems:
                                                 [NSArray arrayWithObjects:
                                                  [UIImage imageNamed:@"up.png"],
@@ -29,19 +30,37 @@
                                                  nil]];
         
         [segmentedControl addTarget:self action:@selector(segmentAction:) forControlEvents:UIControlEventValueChanged];
-        segmentedControl.frame = CGRectMake(0, 0, 60, 30);
+        segmentedControl.frame = CGRectMake(0, 0, 70, 30);
         segmentedControl.segmentedControlStyle = UISegmentedControlStyleBar;
         segmentedControl.momentary = YES;
         
         //defaultTintColor = [segmentedControl.tintColor retain];	// keep track of this for later
         
         UIBarButtonItem *segmentBarItem = [[UIBarButtonItem alloc] initWithCustomView:segmentedControl];
+        
+        UISegmentedControl *segmentedControl2 = [[UISegmentedControl alloc] initWithItems:
+                                                [NSArray arrayWithObjects:
+                                                [NSString stringWithString:@"+"],
+                                                nil]];
+        
+        [segmentedControl2 addTarget:self action:@selector(addBookMark:) forControlEvents:UIControlEventValueChanged];
+        segmentedControl2.frame = CGRectMake(0, 0, 35, 30);
+        segmentedControl2.segmentedControlStyle = UISegmentedControlStyleBar;
+        segmentedControl2.momentary = YES;
+        UIBarButtonItem *segmentBarItem2 = [[UIBarButtonItem alloc] initWithCustomView:segmentedControl2];
+        
+        self.navigationItem.rightBarButtonItems = [NSArray arrayWithObjects:segmentBarItem2, segmentBarItem, nil];
         [segmentedControl release];
-        self.navigationItem.rightBarButtonItem = segmentBarItem;
         [segmentBarItem release];
     }
     
     return self;
+}
+
+- (IBAction)addBookMark:(UISegmentedControl *)sender
+{
+    HerbalMedicine *hmObject = [[HMManager defaultManager] objectAtUnit:unit forIndex:index];
+    [[HMManager defaultManager] addBookMark:hmObject.ID name: hmObject.name];
 }
 
 - (IBAction)segmentAction:(UISegmentedControl *)sender
@@ -135,16 +154,18 @@
     NSString *htmlString = [NSString stringWithFormat: self.htmlTemplate, hm.caption, hm.name, @"本经", hm.shennong, hm.description, classicUse, summary];
     [webView loadHTMLString:htmlString baseURL:baseURL];
     
-    NSString *title = [[NSString alloc] initWithFormat:@"第%d卷 %@", hm.unit, hm.name];
-    self.title = title;
-    [title release];
+    //NSString *title = [[NSString alloc] initWithFormat:@"第%d卷 %@", hm.unit, hm.name];
+    self.title = hm.caption;
+    //[title release];
 }
 
 - (void)viewDidLoad
 {
     
-    //[webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.google.com.hk"]]];
-    
+    self.bannerOrigin = CGPointMake(0, self.view.frame.size.height - GAD_SIZE_320x50.height - 44);
+    CGRect rect = webView.frame;
+    rect.size.height -= GAD_SIZE_320x50.height;
+    webView.frame = rect;
     [super viewDidLoad];
     
     // Do any additional setup after loading the view from its nib.

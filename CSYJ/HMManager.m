@@ -12,6 +12,45 @@
 
 @synthesize textType;
 @synthesize textSize;
+@synthesize bookMark;
+
+- (void)SaveBookMark
+{
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,NSUserDomainMask, YES);
+    NSString *documentsDirectory = [paths objectAtIndex:0];
+    NSString *path = [documentsDirectory stringByAppendingPathComponent:FILE_BOOK_MARK];
+    
+    [self.bookMark writeToFile:path atomically:TRUE];
+}
+
+- (void)LoadBookMark
+{
+    //[NSFileManager defaultManager] d
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,NSUserDomainMask, YES);
+    NSString *documentsDirectory = [paths objectAtIndex:0];
+    NSString *path = [documentsDirectory stringByAppendingPathComponent:FILE_BOOK_MARK];
+
+    
+    NSMutableDictionary* dict;
+    if (![[NSFileManager defaultManager] fileExistsAtPath:path]) 
+    {
+       dict = [[NSMutableDictionary alloc] init];
+    }
+    else
+    {
+        dict = [[NSMutableDictionary alloc] initWithContentsOfFile:path];
+    }
+    
+    self.bookMark = dict;
+    [dict release];
+}
+
+- (void)addBookMark:(NSInteger)hmID name:(NSString*)name
+{
+    [bookMark setObject:name forKey:name];
+    [self SaveBookMark];
+}
+
 
 
 //静态创建HMManager
@@ -75,6 +114,8 @@
                    nil];
         [hmUnits retain];
         searchText = [NSString stringWithString:@""];
+        
+        [self LoadBookMark];
     }
     
     return self;
@@ -195,12 +236,12 @@
 {
     //[hmArray removeAllObjects];
     //hmArray = [[NSMutableArray alloc] initWithArray:hmdb.hmArray];
-	for (NSArray *array in hmUnits)
+	for (NSMutableArray *array in hmUnits)
 	{
 		[array removeAllObjects];
 	}
 	
-	for (HerbalMedicine *hmObject in hmArray.count)
+	for (HerbalMedicine *hmObject in hmArray)
 	{
 		switch (hmObject.unit) 
 		{

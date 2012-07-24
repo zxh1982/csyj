@@ -59,7 +59,12 @@
     [self.view addSubview:bannerView_];
     
     // 启动一般性请求并在其中加载广告。
-    [bannerView_ loadRequest:[GADRequest request]];
+    GADRequest *request = [GADRequest request];
+    request.testDevices = [NSArray arrayWithObjects:
+                           GAD_SIMULATOR_ID,                               // 模拟器
+                           @"3d662d3c6d5cbd7e32b622c30a4f8c88f83ca7a9",    // 测试 iOS 设备
+                           nil];
+    [bannerView_ loadRequest: request];
 }
 
 

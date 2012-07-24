@@ -123,7 +123,7 @@
         hmViewController.index = [indexPath row];
     }
     
-    
+    hmViewController.hidesBottomBarWhenPushed = YES;
     [self.navigationController pushViewController:hmViewController animated:YES];
 }
 

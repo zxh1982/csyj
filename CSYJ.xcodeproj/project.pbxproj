@@ -32,178 +32,349 @@
 		B6A3E48215B30A7D00FC1A78 /* csyj.db in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E3D115B30A7D00FC1A78 /* csyj.db */; };
 		B6A3E48415B30A7D00FC1A78 /* default.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E3D315B30A7D00FC1A78 /* default.jpg */; };
 		B6A3E48515B30A7D00FC1A78 /* Dictionary.txt in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E3D415B30A7D00FC1A78 /* Dictionary.txt */; };
-		B6A3E48615B30A7D00FC1A78 /* 乌头.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E3D615B30A7D00FC1A78 /* 乌头.png */; };
-		B6A3E48715B30A7D00FC1A78 /* 乌梅.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E3D715B30A7D00FC1A78 /* 乌梅.png */; };
-		B6A3E48815B30A7D00FC1A78 /* 乱发.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E3D815B30A7D00FC1A78 /* 乱发.png */; };
-		B6A3E48915B30A7D00FC1A78 /* 云母.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E3D915B30A7D00FC1A78 /* 云母.png */; };
-		B6A3E48A15B30A7D00FC1A78 /* 五味子.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E3DA15B30A7D00FC1A78 /* 五味子.png */; };
-		B6A3E48B15B30A7D00FC1A78 /* 人参.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E3DB15B30A7D00FC1A78 /* 人参.png */; };
-		B6A3E48C15B30A7D00FC1A78 /* 人尿.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E3DC15B30A7D00FC1A78 /* 人尿.png */; };
-		B6A3E48D15B30A7D00FC1A78 /* 代赭石.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E3DD15B30A7D00FC1A78 /* 代赭石.png */; };
-		B6A3E48E15B30A7D00FC1A78 /* 制白附子.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E3DE15B30A7D00FC1A78 /* 制白附子.png */; };
-		B6A3E48F15B30A7D00FC1A78 /* 升麻.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E3DF15B30A7D00FC1A78 /* 升麻.png */; };
-		B6A3E49015B30A7D00FC1A78 /* 半夏.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E3E015B30A7D00FC1A78 /* 半夏.png */; };
-		B6A3E49115B30A7D00FC1A78 /* 厚朴.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E3E115B30A7D00FC1A78 /* 厚朴.png */; };
-		B6A3E49215B30A7D00FC1A78 /* 吴茱萸.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E3E215B30A7D00FC1A78 /* 吴茱萸.png */; };
-		B6A3E49315B30A7D00FC1A78 /* 商陆根.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E3E315B30A7D00FC1A78 /* 商陆根.png */; };
-		B6A3E49415B30A7D00FC1A78 /* 土瓜根.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E3E415B30A7D00FC1A78 /* 土瓜根.png */; };
-		B6A3E49515B30A7D00FC1A78 /* 地黄.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E3E515B30A7D00FC1A78 /* 地黄.png */; };
-		B6A3E49615B30A7D00FC1A78 /* 大戟.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E3E615B30A7D00FC1A78 /* 大戟.png */; };
-		B6A3E49715B30A7D00FC1A78 /* 大枣.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E3E715B30A7D00FC1A78 /* 大枣.png */; };
-		B6A3E49815B30A7D00FC1A78 /* 大麦.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E3E815B30A7D00FC1A78 /* 大麦.png */; };
-		B6A3E49915B30A7D00FC1A78 /* 大黄.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E3E915B30A7D00FC1A78 /* 大黄.png */; };
-		B6A3E49A15B30A7D00FC1A78 /* 天冬.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E3EA15B30A7D00FC1A78 /* 天冬.png */; };
-		B6A3E49B15B30A7D00FC1A78 /* 射干.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E3EB15B30A7D00FC1A78 /* 射干.png */; };
-		B6A3E49C15B30A7D00FC1A78 /* 小麦.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E3EC15B30A7D00FC1A78 /* 小麦.png */; };
-		B6A3E49D15B30A7D00FC1A78 /* 山茱萸.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E3ED15B30A7D00FC1A78 /* 山茱萸.png */; };
-		B6A3E49E15B30A7D00FC1A78 /* 巴豆.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E3EE15B30A7D00FC1A78 /* 巴豆.png */; };
-		B6A3E49F15B30A7D00FC1A78 /* 干姜.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E3EF15B30A7D00FC1A78 /* 干姜.png */; };
-		B6A3E4A015B30A7D00FC1A78 /* 干漆.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E3F015B30A7D00FC1A78 /* 干漆.png */; };
-		B6A3E4A115B30A7D00FC1A78 /* 当归.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E3F115B30A7D00FC1A78 /* 当归.png */; };
-		B6A3E4A215B30A7D00FC1A78 /* 当归2.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E3F215B30A7D00FC1A78 /* 当归2.png */; };
-		B6A3E4A315B30A7D00FC1A78 /* 戎盐.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E3F315B30A7D00FC1A78 /* 戎盐.png */; };
-		B6A3E4A415B30A7D00FC1A78 /* 文蛤.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E3F415B30A7D00FC1A78 /* 文蛤.png */; };
-		B6A3E4A515B30A7D00FC1A78 /* 新绛.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E3F515B30A7D00FC1A78 /* 新绛.png */; };
-		B6A3E4A615B30A7D00FC1A78 /* 旋覆花.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E3F615B30A7D00FC1A78 /* 旋覆花.png */; };
-		B6A3E4A715B30A7D00FC1A78 /* 未命名.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E3F715B30A7D00FC1A78 /* 未命名.png */; };
-		B6A3E4A815B30A7D00FC1A78 /* 朱砂.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E3F815B30A7D00FC1A78 /* 朱砂.png */; };
-		B6A3E4A915B30A7D00FC1A78 /* 杏仁.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E3F915B30A7D00FC1A78 /* 杏仁.png */; };
-		B6A3E4AA15B30A7D00FC1A78 /* 枣仁.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E3FA15B30A7D00FC1A78 /* 枣仁.png */; };
-		B6A3E4AB15B30A7D00FC1A78 /* 枳实.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E3FB15B30A7D00FC1A78 /* 枳实.png */; };
-		B6A3E4AC15B30A7D00FC1A78 /* 柏叶.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E3FC15B30A7D00FC1A78 /* 柏叶.png */; };
-		B6A3E4AD15B30A7D00FC1A78 /* 柏子仁.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E3FD15B30A7D00FC1A78 /* 柏子仁.png */; };
-		B6A3E4AE15B30A7D00FC1A78 /* 柏实.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E3FE15B30A7D00FC1A78 /* 柏实.png */; };
-		B6A3E4AF15B30A7D00FC1A78 /* 柴胡.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E3FF15B30A7D00FC1A78 /* 柴胡.png */; };
-		B6A3E4B015B30A7D00FC1A78 /* 栀子.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E40015B30A7D00FC1A78 /* 栀子.png */; };
-		B6A3E4B115B30A7D00FC1A78 /* 栝蒌实.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E40115B30A7D00FC1A78 /* 栝蒌实.png */; };
-		B6A3E4B215B30A7D00FC1A78 /* 栝蒌根.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E40215B30A7D00FC1A78 /* 栝蒌根.png */; };
-		B6A3E4B315B30A7D00FC1A78 /* 桂枝.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E40315B30A7D00FC1A78 /* 桂枝.png */; };
-		B6A3E4B415B30A7D00FC1A78 /* 桃仁.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E40415B30A7D00FC1A78 /* 桃仁.png */; };
-		B6A3E4B515B30A7D00FC1A78 /* 桑根白皮.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E40515B30A7D00FC1A78 /* 桑根白皮.png */; };
-		B6A3E4B615B30A7D00FC1A78 /* 桔梗.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E40615B30A7D00FC1A78 /* 桔梗.png */; };
-		B6A3E4B715B30A7D00FC1A78 /* 橘皮.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E40715B30A7D00FC1A78 /* 橘皮.png */; };
-		B6A3E4B815B30A7D00FC1A78 /* 款冬花.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E40815B30A7D00FC1A78 /* 款冬花.png */; };
-		B6A3E4B915B30A7D00FC1A78 /* 水蛭.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E40915B30A7D00FC1A78 /* 水蛭.png */; };
-		B6A3E4BA15B30A7D00FC1A78 /* 泽泻.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E40A15B30A7D00FC1A78 /* 泽泻.png */; };
-		B6A3E4BB15B30A7D00FC1A78 /* 泽漆.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E40B15B30A7D00FC1A78 /* 泽漆.png */; };
-		B6A3E4BC15B30A7D00FC1A78 /* 海藻.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E40C15B30A7D00FC1A78 /* 海藻.png */; };
-		B6A3E4BD15B30A7D00FC1A78 /* 清半夏.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E40D15B30A7D00FC1A78 /* 清半夏.png */; };
-		B6A3E4BE15B30A7D00FC1A78 /* 滑石.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E40E15B30A7D00FC1A78 /* 滑石.png */; };
-		B6A3E4BF15B30A7D00FC1A78 /* 灶中黄土.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E40F15B30A7D00FC1A78 /* 灶中黄土.png */; };
-		B6A3E4C015B30A7D00FC1A78 /* 焦神曲.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E41015B30A7D00FC1A78 /* 焦神曲.png */; };
-		B6A3E4C115B30A7D00FC1A78 /* 熟地黄.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E41115B30A7D00FC1A78 /* 熟地黄.png */; };
-		B6A3E4C215B30A7D00FC1A78 /* 牡丹皮.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E41215B30A7D00FC1A78 /* 牡丹皮.png */; };
-		B6A3E4C315B30A7D00FC1A78 /* 牡丹皮2.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E41315B30A7D00FC1A78 /* 牡丹皮2.png */; };
-		B6A3E4C415B30A7D00FC1A78 /* 牡蛎.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E41415B30A7D00FC1A78 /* 牡蛎.png */; };
-		B6A3E4C515B30A7D00FC1A78 /* 狼牙.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E41515B30A7D00FC1A78 /* 狼牙.png */; };
-		B6A3E4C615B30A7D00FC1A78 /* 猪肤.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E41615B30A7D00FC1A78 /* 猪肤.png */; };
-		B6A3E4C715B30A7D00FC1A78 /* 猪胆汁.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E41715B30A7D00FC1A78 /* 猪胆汁.png */; };
-		B6A3E4C815B30A7D00FC1A78 /* 猪膏.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E41815B30A7D00FC1A78 /* 猪膏.png */; };
-		B6A3E4C915B30A7D00FC1A78 /* 猪苓.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E41915B30A7D00FC1A78 /* 猪苓.png */; };
-		B6A3E4CA15B30A7D00FC1A78 /* 王不留行.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E41A15B30A7D00FC1A78 /* 王不留行.png */; };
-		B6A3E4CB15B30A7D00FC1A78 /* 瓜子.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E41B15B30A7D00FC1A78 /* 瓜子.png */; };
-		B6A3E4CC15B30A7D00FC1A78 /* 瓜蒂.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E41C15B30A7D00FC1A78 /* 瓜蒂.png */; };
-		B6A3E4CD15B30A7D00FC1A78 /* 甘李根白皮.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E41D15B30A7D00FC1A78 /* 甘李根白皮.png */; };
-		B6A3E4CE15B30A7D00FC1A78 /* 甘草.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E41E15B30A7D00FC1A78 /* 甘草.png */; };
-		B6A3E4CF15B30A7D00FC1A78 /* 甘草片.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E41F15B30A7D00FC1A78 /* 甘草片.png */; };
-		B6A3E4D015B30A7D00FC1A78 /* 甘遂.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E42015B30A7D00FC1A78 /* 甘遂.png */; };
-		B6A3E4D115B30A7D00FC1A78 /* 生姜.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E42115B30A7D00FC1A78 /* 生姜.png */; };
-		B6A3E4D215B30A7D00FC1A78 /* 生梓白皮.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E42215B30A7D00FC1A78 /* 生梓白皮.png */; };
-		B6A3E4D315B30A7D00FC1A78 /* 白前.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E42315B30A7D00FC1A78 /* 白前.png */; };
-		B6A3E4D415B30A7D00FC1A78 /* 白前2.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E42415B30A7D00FC1A78 /* 白前2.png */; };
-		B6A3E4D515B30A7D00FC1A78 /* 白头翁.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E42515B30A7D00FC1A78 /* 白头翁.png */; };
-		B6A3E4D615B30A7D00FC1A78 /* 白术.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E42615B30A7D00FC1A78 /* 白术.png */; };
-		B6A3E4D715B30A7D00FC1A78 /* 白蔹.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E42715B30A7D00FC1A78 /* 白蔹.png */; };
-		B6A3E4D815B30A7D00FC1A78 /* 白薇.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E42815B30A7D00FC1A78 /* 白薇.png */; };
-		B6A3E4D915B30A7D00FC1A78 /* 白蜜.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E42915B30A7D00FC1A78 /* 白蜜.png */; };
-		B6A3E4DA15B30A7D00FC1A78 /* 白附子.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E42A15B30A7D00FC1A78 /* 白附子.png */; };
-		B6A3E4DB15B30A7D00FC1A78 /* 百合.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E42B15B30A7D00FC1A78 /* 百合.png */; };
-		B6A3E4DC15B30A7D00FC1A78 /* 皂荚.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E42C15B30A7D00FC1A78 /* 皂荚.png */; };
-		B6A3E4DD15B30A7D00FC1A78 /* 瞿麦.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E42D15B30A7D00FC1A78 /* 瞿麦.png */; };
-		B6A3E4DE15B30A7D00FC1A78 /* 知母.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E42E15B30A7D00FC1A78 /* 知母.png */; };
-		B6A3E4DF15B30A7D00FC1A78 /* 石膏.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E42F15B30A7D00FC1A78 /* 石膏.png */; };
-		B6A3E4E015B30A7D00FC1A78 /* 石膏粉.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E43015B30A7D00FC1A78 /* 石膏粉.png */; };
-		B6A3E4E115B30A7D00FC1A78 /* 石韦.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E43115B30A7D00FC1A78 /* 石韦.png */; };
-		B6A3E4E215B30A7D00FC1A78 /* 矾石.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E43215B30A7D00FC1A78 /* 矾石.png */; };
-		B6A3E4E315B30A7D00FC1A78 /* 硝石.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E43315B30A7D00FC1A78 /* 硝石.png */; };
-		B6A3E4E415B30A7D00FC1A78 /* 神曲.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E43415B30A7D00FC1A78 /* 神曲.png */; };
-		B6A3E4E515B30A7D00FC1A78 /* 禹余粮.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E43515B30A7D00FC1A78 /* 禹余粮.png */; };
-		B6A3E4E615B30A7D00FC1A78 /* 秦皮.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E43615B30A7D00FC1A78 /* 秦皮.png */; };
-		B6A3E4E715B30A7D00FC1A78 /* 竹叶.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E43715B30A7D00FC1A78 /* 竹叶.png */; };
-		B6A3E4E815B30A7D00FC1A78 /* 竹茹.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E43815B30A7D00FC1A78 /* 竹茹.png */; };
-		B6A3E4E915B30A7D00FC1A78 /* 粳米.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E43915B30A7D00FC1A78 /* 粳米.png */; };
-		B6A3E4EA15B30A7D00FC1A78 /* 紫参.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E43A15B30A7D00FC1A78 /* 紫参.png */; };
-		B6A3E4EB15B30A7D00FC1A78 /* 紫菀.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E43B15B30A7D00FC1A78 /* 紫菀.png */; };
-		B6A3E4EC15B30A7D00FC1A78 /* 紫葳.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E43C15B30A7D00FC1A78 /* 紫葳.png */; };
-		B6A3E4ED15B30A7D00FC1A78 /* 红蓝花.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E43D15B30A7D00FC1A78 /* 红蓝花.png */; };
-		B6A3E4EE15B30A7D00FC1A78 /* 细辛.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E43E15B30A7D00FC1A78 /* 细辛.png */; };
-		B6A3E4EF15B30A7D00FC1A78 /* 羊肉.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E43F15B30A7D00FC1A78 /* 羊肉.png */; };
-		B6A3E4F015B30A7D00FC1A78 /* 胶饴.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E44015B30A7D00FC1A78 /* 胶饴.png */; };
-		B6A3E4F115B30A7D00FC1A78 /* 艾叶.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E44115B30A7D00FC1A78 /* 艾叶.png */; };
-		B6A3E4F215B30A7D00FC1A78 /* 芍药.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E44215B30A7D00FC1A78 /* 芍药.png */; };
-		B6A3E4F315B30A7D00FC1A78 /* 芎藭.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E44315B30A7D00FC1A78 /* 芎藭.png */; };
-		B6A3E4F415B30A7D00FC1A78 /* 芒硝.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E44415B30A7D00FC1A78 /* 芒硝.png */; };
-		B6A3E4F515B30A7D00FC1A78 /* 芫花.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E44515B30A7D00FC1A78 /* 芫花.png */; };
-		B6A3E4F615B30A7D00FC1A78 /* 苏叶.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E44615B30A7D00FC1A78 /* 苏叶.png */; };
-		B6A3E4F715B30A7D00FC1A78 /* 苦参.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E44715B30A7D00FC1A78 /* 苦参.png */; };
-		B6A3E4F815B30A7D00FC1A78 /* 苦杏仁.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E44815B30A7D00FC1A78 /* 苦杏仁.png */; };
-		B6A3E4F915B30A7D00FC1A78 /* 苦酒.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E44915B30A7D00FC1A78 /* 苦酒.png */; };
-		B6A3E4FA15B30A7D00FC1A78 /* 茯苓.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E44A15B30A7D00FC1A78 /* 茯苓.png */; };
-		B6A3E4FB15B30A7D00FC1A78 /* 茯苓2.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E44B15B30A7D00FC1A78 /* 茯苓2.png */; };
-		B6A3E4FC15B30A7D00FC1A78 /* 茵陈蒿.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E44C15B30A7D00FC1A78 /* 茵陈蒿.png */; };
-		B6A3E4FD15B30A7D00FC1A78 /* 萎蕤.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E44D15B30A7D00FC1A78 /* 萎蕤.png */; };
-		B6A3E4FE15B30A7D00FC1A78 /* 葛根.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E44E15B30A7D00FC1A78 /* 葛根.png */; };
-		B6A3E4FF15B30A7D00FC1A78 /* 葱白.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E44F15B30A7D00FC1A78 /* 葱白.png */; };
-		B6A3E50015B30A7D00FC1A78 /* 葵子.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E45015B30A7D00FC1A78 /* 葵子.png */; };
-		B6A3E50115B30A7D00FC1A78 /* 葶苈.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E45115B30A7D00FC1A78 /* 葶苈.png */; };
-		B6A3E50215B30A7D00FC1A78 /* 蒴藋.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E45215B30A7D00FC1A78 /* 蒴藋.png */; };
-		B6A3E50315B30A7D00FC1A78 /* 薏苡.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E45315B30A7D00FC1A78 /* 薏苡.png */; };
-		B6A3E50415B30A7D00FC1A78 /* 薤白.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E45415B30A7D00FC1A78 /* 薤白.png */; };
-		B6A3E50515B30A7D00FC1A78 /* 薯蓣.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E45515B30A7D00FC1A78 /* 薯蓣.png */; };
-		B6A3E50615B30A7D00FC1A78 /* 藜芦.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E45615B30A7D00FC1A78 /* 藜芦.png */; };
-		B6A3E50715B30A7D00FC1A78 /* 虻虫.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E45715B30A7D00FC1A78 /* 虻虫.png */; };
-		B6A3E50815B30A7D00FC1A78 /* 蛇床子.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E45815B30A7D00FC1A78 /* 蛇床子.png */; };
-		B6A3E50915B30A7D00FC1A78 /* 蛴螬.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E45915B30A7D00FC1A78 /* 蛴螬.png */; };
-		B6A3E50A15B30A7D00FC1A78 /* 蜀椒.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E45A15B30A7D00FC1A78 /* 蜀椒.png */; };
-		B6A3E50B15B30A7D00FC1A78 /* 蜀漆.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E45B15B30A7D00FC1A78 /* 蜀漆.png */; };
-		B6A3E50C15B30A7D00FC1A78 /* 蜂窠.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E45C15B30A7D00FC1A78 /* 蜂窠.png */; };
-		B6A3E50D15B30A7D00FC1A78 /* 蜣螂.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E45D15B30A7D00FC1A78 /* 蜣螂.png */; };
-		B6A3E50E15B30A7D00FC1A78 /* 蟅虫.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E45E15B30A7D00FC1A78 /* 蟅虫.png */; };
-		B6A3E50F15B30A7D00FC1A78 /* 诃黎勒.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E45F15B30A7D00FC1A78 /* 诃黎勒.png */; };
-		B6A3E51015B30A7D00FC1A78 /* 豆黄卷.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E46015B30A7D00FC1A78 /* 豆黄卷.png */; };
-		B6A3E51115B30A7D00FC1A78 /* 贝母.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E46115B30A7D00FC1A78 /* 贝母.png */; };
-		B6A3E51215B30A7D00FC1A78 /* 败酱.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E46215B30A7D00FC1A78 /* 败酱.png */; };
-		B6A3E51315B30A7D00FC1A78 /* 赤小豆.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E46315B30A7D00FC1A78 /* 赤小豆.png */; };
-		B6A3E51415B30A7D00FC1A78 /* 赤石脂.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E46415B30A7D00FC1A78 /* 赤石脂.png */; };
-		B6A3E51515B30A7D00FC1A78 /* 赤硝.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E46515B30A7D00FC1A78 /* 赤硝.png */; };
-		B6A3E51615B30A7D00FC1A78 /* 连翘.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E46615B30A7D00FC1A78 /* 连翘.png */; };
-		B6A3E51715B30A7D00FC1A78 /* 通草.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E46715B30A7D00FC1A78 /* 通草.png */; };
-		B6A3E51815B30A7D00FC1A78 /* 铅丹.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E46815B30A7D00FC1A78 /* 铅丹.png */; };
-		B6A3E51915B30A7D00FC1A78 /* 铅粉.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E46915B30A7D00FC1A78 /* 铅粉.png */; };
-		B6A3E51A15B30A7D00FC1A78 /* 防己.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E46A15B30A7D00FC1A78 /* 防己.png */; };
-		B6A3E51B15B30A7D00FC1A78 /* 防风.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E46B15B30A7D00FC1A78 /* 防风.png */; };
-		B6A3E51C15B30A7D00FC1A78 /* 阿胶.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E46C15B30A7D00FC1A78 /* 阿胶.png */; };
-		B6A3E51D15B30A7D00FC1A78 /* 附子.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E46D15B30A7D00FC1A78 /* 附子.png */; };
-		B6A3E51E15B30A7D00FC1A78 /* 雄黄.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E46E15B30A7D00FC1A78 /* 雄黄.png */; };
-		B6A3E51F15B30A7D00FC1A78 /* 雄黄矿石.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E46F15B30A7D00FC1A78 /* 雄黄矿石.png */; };
-		B6A3E52015B30A7D00FC1A78 /* 香豉.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E47015B30A7D00FC1A78 /* 香豉.png */; };
-		B6A3E52115B30A7D00FC1A78 /* 马通.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E47115B30A7D00FC1A78 /* 马通.png */; };
-		B6A3E52215B30A7D00FC1A78 /* 鳖甲.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E47215B30A7D00FC1A78 /* 鳖甲.png */; };
-		B6A3E52315B30A7D00FC1A78 /* 鸡子白.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E47315B30A7D00FC1A78 /* 鸡子白.png */; };
-		B6A3E52415B30A7D00FC1A78 /* 鸡子黄.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E47415B30A7D00FC1A78 /* 鸡子黄.png */; };
-		B6A3E52515B30A7D00FC1A78 /* 鸡屎白.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E47515B30A7D00FC1A78 /* 鸡屎白.png */; };
-		B6A3E52615B30A7D00FC1A78 /* 麦冬.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E47615B30A7D00FC1A78 /* 麦冬.png */; };
-		B6A3E52715B30A7D00FC1A78 /* 麻仁.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E47715B30A7D00FC1A78 /* 麻仁.png */; };
-		B6A3E52815B30A7D00FC1A78 /* 麻黄.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E47815B30A7D00FC1A78 /* 麻黄.png */; };
-		B6A3E52915B30A7D00FC1A78 /* 黄柏.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E47915B30A7D00FC1A78 /* 黄柏.png */; };
-		B6A3E52A15B30A7D00FC1A78 /* 黄芩.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E47A15B30A7D00FC1A78 /* 黄芩.png */; };
-		B6A3E52B15B30A7D00FC1A78 /* 黄芩片.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E47B15B30A7D00FC1A78 /* 黄芩片.png */; };
-		B6A3E52C15B30A7D00FC1A78 /* 黄芪.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E47C15B30A7D00FC1A78 /* 黄芪.png */; };
-		B6A3E52D15B30A7D00FC1A78 /* 黄连.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E47D15B30A7D00FC1A78 /* 黄连.png */; };
-		B6A3E52E15B30A7D00FC1A78 /* 黄酒.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E47E15B30A7D00FC1A78 /* 黄酒.png */; };
-		B6A3E52F15B30A7D00FC1A78 /* 鼠妇.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E47F15B30A7D00FC1A78 /* 鼠妇.png */; };
-		B6A3E53015B30A7D00FC1A78 /* 龙骨.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E48015B30A7D00FC1A78 /* 龙骨.png */; };
 		B6A3E53115B30A7D00FC1A78 /* template.html in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E48115B30A7D00FC1A78 /* template.html */; };
+		B6A62A6315BD7CD400E13D5B /* 乌头.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629B815BD7CD300E13D5B /* 乌头.png */; };
+		B6A62A6415BD7CD400E13D5B /* 乌梅.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629B915BD7CD300E13D5B /* 乌梅.png */; };
+		B6A62A6515BD7CD400E13D5B /* 乱发.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629BA15BD7CD300E13D5B /* 乱发.png */; };
+		B6A62A6615BD7CD400E13D5B /* 云母.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629BB15BD7CD300E13D5B /* 云母.png */; };
+		B6A62A6715BD7CD400E13D5B /* 五味子.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629BC15BD7CD300E13D5B /* 五味子.png */; };
+		B6A62A6815BD7CD400E13D5B /* 人参.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629BD15BD7CD300E13D5B /* 人参.png */; };
+		B6A62A6915BD7CD400E13D5B /* 人尿.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629BE15BD7CD300E13D5B /* 人尿.png */; };
+		B6A62A6A15BD7CD400E13D5B /* 代赭石.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629BF15BD7CD300E13D5B /* 代赭石.png */; };
+		B6A62A6B15BD7CD400E13D5B /* 制白附子.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629C015BD7CD300E13D5B /* 制白附子.png */; };
+		B6A62A6C15BD7CD400E13D5B /* 升麻.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629C115BD7CD300E13D5B /* 升麻.png */; };
+		B6A62A6D15BD7CD400E13D5B /* 半夏.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629C215BD7CD300E13D5B /* 半夏.png */; };
+		B6A62A6E15BD7CD400E13D5B /* 厚朴.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629C315BD7CD300E13D5B /* 厚朴.png */; };
+		B6A62A6F15BD7CD400E13D5B /* 吴茱萸.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629C415BD7CD300E13D5B /* 吴茱萸.png */; };
+		B6A62A7015BD7CD400E13D5B /* 商陆根.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629C515BD7CD300E13D5B /* 商陆根.png */; };
+		B6A62A7115BD7CD400E13D5B /* 土瓜根.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629C615BD7CD300E13D5B /* 土瓜根.png */; };
+		B6A62A7215BD7CD400E13D5B /* 地黄.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629C715BD7CD300E13D5B /* 地黄.png */; };
+		B6A62A7315BD7CD400E13D5B /* 大戟.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629C815BD7CD300E13D5B /* 大戟.png */; };
+		B6A62A7415BD7CD400E13D5B /* 大枣.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629C915BD7CD300E13D5B /* 大枣.png */; };
+		B6A62A7515BD7CD400E13D5B /* 大麦.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629CA15BD7CD300E13D5B /* 大麦.png */; };
+		B6A62A7615BD7CD400E13D5B /* 大黄.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629CB15BD7CD300E13D5B /* 大黄.png */; };
+		B6A62A7715BD7CD400E13D5B /* 天冬.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629CC15BD7CD300E13D5B /* 天冬.png */; };
+		B6A62A7815BD7CD400E13D5B /* 射干.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629CD15BD7CD300E13D5B /* 射干.png */; };
+		B6A62A7915BD7CD400E13D5B /* 小麦.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629CE15BD7CD300E13D5B /* 小麦.png */; };
+		B6A62A7A15BD7CD400E13D5B /* 山茱萸.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629CF15BD7CD300E13D5B /* 山茱萸.png */; };
+		B6A62A7B15BD7CD400E13D5B /* 巴豆.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629D015BD7CD300E13D5B /* 巴豆.png */; };
+		B6A62A7C15BD7CD400E13D5B /* 干姜.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629D115BD7CD300E13D5B /* 干姜.png */; };
+		B6A62A7D15BD7CD400E13D5B /* 干漆.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629D215BD7CD300E13D5B /* 干漆.png */; };
+		B6A62A7E15BD7CD400E13D5B /* 当归.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629D315BD7CD300E13D5B /* 当归.png */; };
+		B6A62A7F15BD7CD400E13D5B /* 当归2.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629D415BD7CD300E13D5B /* 当归2.png */; };
+		B6A62A8015BD7CD400E13D5B /* 戎盐.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629D515BD7CD300E13D5B /* 戎盐.png */; };
+		B6A62A8115BD7CD400E13D5B /* 文蛤.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629D615BD7CD300E13D5B /* 文蛤.png */; };
+		B6A62A8215BD7CD400E13D5B /* 新绛.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629D715BD7CD300E13D5B /* 新绛.png */; };
+		B6A62A8315BD7CD400E13D5B /* 旋覆花.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629D815BD7CD300E13D5B /* 旋覆花.png */; };
+		B6A62A8415BD7CD400E13D5B /* 未命名.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629D915BD7CD300E13D5B /* 未命名.png */; };
+		B6A62A8515BD7CD400E13D5B /* 朱砂.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629DA15BD7CD300E13D5B /* 朱砂.png */; };
+		B6A62A8615BD7CD400E13D5B /* 杏仁.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629DB15BD7CD300E13D5B /* 杏仁.png */; };
+		B6A62A8715BD7CD400E13D5B /* 枣仁.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629DC15BD7CD300E13D5B /* 枣仁.png */; };
+		B6A62A8815BD7CD400E13D5B /* 枳实.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629DD15BD7CD300E13D5B /* 枳实.png */; };
+		B6A62A8915BD7CD400E13D5B /* 柏叶.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629DE15BD7CD300E13D5B /* 柏叶.png */; };
+		B6A62A8A15BD7CD400E13D5B /* 柏子仁.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629DF15BD7CD300E13D5B /* 柏子仁.png */; };
+		B6A62A8B15BD7CD400E13D5B /* 柏实.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629E015BD7CD300E13D5B /* 柏实.png */; };
+		B6A62A8C15BD7CD400E13D5B /* 柴胡.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629E115BD7CD300E13D5B /* 柴胡.png */; };
+		B6A62A8D15BD7CD400E13D5B /* 栀子.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629E215BD7CD300E13D5B /* 栀子.png */; };
+		B6A62A8E15BD7CD400E13D5B /* 栝蒌实.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629E315BD7CD300E13D5B /* 栝蒌实.png */; };
+		B6A62A8F15BD7CD400E13D5B /* 栝蒌根.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629E415BD7CD300E13D5B /* 栝蒌根.png */; };
+		B6A62A9015BD7CD400E13D5B /* 桂枝.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629E515BD7CD300E13D5B /* 桂枝.png */; };
+		B6A62A9115BD7CD400E13D5B /* 桃仁.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629E615BD7CD300E13D5B /* 桃仁.png */; };
+		B6A62A9215BD7CD400E13D5B /* 桑根白皮.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629E715BD7CD300E13D5B /* 桑根白皮.png */; };
+		B6A62A9315BD7CD400E13D5B /* 桔梗.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629E815BD7CD300E13D5B /* 桔梗.png */; };
+		B6A62A9415BD7CD400E13D5B /* 橘皮.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629E915BD7CD300E13D5B /* 橘皮.png */; };
+		B6A62A9515BD7CD400E13D5B /* 款冬花.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629EA15BD7CD300E13D5B /* 款冬花.png */; };
+		B6A62A9615BD7CD400E13D5B /* 水蛭.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629EB15BD7CD300E13D5B /* 水蛭.png */; };
+		B6A62A9715BD7CD400E13D5B /* 泽泻.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629EC15BD7CD300E13D5B /* 泽泻.png */; };
+		B6A62A9815BD7CD400E13D5B /* 泽漆.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629ED15BD7CD300E13D5B /* 泽漆.png */; };
+		B6A62A9915BD7CD400E13D5B /* 海藻.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629EE15BD7CD300E13D5B /* 海藻.png */; };
+		B6A62A9A15BD7CD400E13D5B /* 清半夏.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629EF15BD7CD300E13D5B /* 清半夏.png */; };
+		B6A62A9B15BD7CD400E13D5B /* 滑石.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629F015BD7CD300E13D5B /* 滑石.png */; };
+		B6A62A9C15BD7CD400E13D5B /* 灶中黄土.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629F115BD7CD300E13D5B /* 灶中黄土.png */; };
+		B6A62A9D15BD7CD400E13D5B /* 焦神曲.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629F215BD7CD300E13D5B /* 焦神曲.png */; };
+		B6A62A9E15BD7CD400E13D5B /* 熟地黄.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629F315BD7CD300E13D5B /* 熟地黄.png */; };
+		B6A62A9F15BD7CD400E13D5B /* 牡丹皮.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629F415BD7CD300E13D5B /* 牡丹皮.png */; };
+		B6A62AA015BD7CD400E13D5B /* 牡丹皮2.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629F515BD7CD300E13D5B /* 牡丹皮2.png */; };
+		B6A62AA115BD7CD400E13D5B /* 牡蛎.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629F615BD7CD300E13D5B /* 牡蛎.png */; };
+		B6A62AA215BD7CD400E13D5B /* 狼牙.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629F715BD7CD300E13D5B /* 狼牙.png */; };
+		B6A62AA315BD7CD400E13D5B /* 猪肤.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629F815BD7CD300E13D5B /* 猪肤.png */; };
+		B6A62AA415BD7CD400E13D5B /* 猪胆汁.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629F915BD7CD300E13D5B /* 猪胆汁.png */; };
+		B6A62AA515BD7CD400E13D5B /* 猪膏.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629FA15BD7CD300E13D5B /* 猪膏.png */; };
+		B6A62AA615BD7CD400E13D5B /* 猪苓.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629FB15BD7CD300E13D5B /* 猪苓.png */; };
+		B6A62AA715BD7CD400E13D5B /* 王不留行.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629FC15BD7CD300E13D5B /* 王不留行.png */; };
+		B6A62AA815BD7CD400E13D5B /* 瓜子.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629FD15BD7CD300E13D5B /* 瓜子.png */; };
+		B6A62AA915BD7CD400E13D5B /* 瓜蒂.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629FE15BD7CD300E13D5B /* 瓜蒂.png */; };
+		B6A62AAA15BD7CD400E13D5B /* 甘李根白皮.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A629FF15BD7CD300E13D5B /* 甘李根白皮.png */; };
+		B6A62AAB15BD7CD400E13D5B /* 甘草.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A0015BD7CD300E13D5B /* 甘草.png */; };
+		B6A62AAC15BD7CD400E13D5B /* 甘草片.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A0115BD7CD300E13D5B /* 甘草片.png */; };
+		B6A62AAD15BD7CD400E13D5B /* 甘遂.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A0215BD7CD300E13D5B /* 甘遂.png */; };
+		B6A62AAE15BD7CD400E13D5B /* 生姜.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A0315BD7CD300E13D5B /* 生姜.png */; };
+		B6A62AAF15BD7CD400E13D5B /* 生梓白皮.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A0415BD7CD300E13D5B /* 生梓白皮.png */; };
+		B6A62AB015BD7CD400E13D5B /* 白前.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A0515BD7CD300E13D5B /* 白前.png */; };
+		B6A62AB115BD7CD400E13D5B /* 白前2.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A0615BD7CD300E13D5B /* 白前2.png */; };
+		B6A62AB215BD7CD400E13D5B /* 白头翁.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A0715BD7CD300E13D5B /* 白头翁.png */; };
+		B6A62AB315BD7CD400E13D5B /* 白术.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A0815BD7CD300E13D5B /* 白术.png */; };
+		B6A62AB415BD7CD400E13D5B /* 白蔹.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A0915BD7CD300E13D5B /* 白蔹.png */; };
+		B6A62AB515BD7CD400E13D5B /* 白薇.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A0A15BD7CD300E13D5B /* 白薇.png */; };
+		B6A62AB615BD7CD400E13D5B /* 白蜜.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A0B15BD7CD300E13D5B /* 白蜜.png */; };
+		B6A62AB715BD7CD400E13D5B /* 白附子.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A0C15BD7CD300E13D5B /* 白附子.png */; };
+		B6A62AB815BD7CD400E13D5B /* 百合.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A0D15BD7CD300E13D5B /* 百合.png */; };
+		B6A62AB915BD7CD400E13D5B /* 皂荚.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A0E15BD7CD300E13D5B /* 皂荚.png */; };
+		B6A62ABA15BD7CD400E13D5B /* 瞿麦.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A0F15BD7CD300E13D5B /* 瞿麦.png */; };
+		B6A62ABB15BD7CD400E13D5B /* 知母.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A1015BD7CD300E13D5B /* 知母.png */; };
+		B6A62ABC15BD7CD400E13D5B /* 石膏.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A1115BD7CD300E13D5B /* 石膏.png */; };
+		B6A62ABD15BD7CD400E13D5B /* 石膏粉.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A1215BD7CD300E13D5B /* 石膏粉.png */; };
+		B6A62ABE15BD7CD400E13D5B /* 石韦.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A1315BD7CD300E13D5B /* 石韦.png */; };
+		B6A62ABF15BD7CD400E13D5B /* 矾石.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A1415BD7CD300E13D5B /* 矾石.png */; };
+		B6A62AC015BD7CD400E13D5B /* 硝石.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A1515BD7CD300E13D5B /* 硝石.png */; };
+		B6A62AC115BD7CD400E13D5B /* 神曲.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A1615BD7CD300E13D5B /* 神曲.png */; };
+		B6A62AC215BD7CD400E13D5B /* 禹余粮.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A1715BD7CD300E13D5B /* 禹余粮.png */; };
+		B6A62AC315BD7CD400E13D5B /* 秦皮.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A1815BD7CD300E13D5B /* 秦皮.png */; };
+		B6A62AC415BD7CD400E13D5B /* 竹叶.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A1915BD7CD300E13D5B /* 竹叶.png */; };
+		B6A62AC515BD7CD400E13D5B /* 竹茹.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A1A15BD7CD300E13D5B /* 竹茹.png */; };
+		B6A62AC615BD7CD400E13D5B /* 粳米.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A1B15BD7CD300E13D5B /* 粳米.png */; };
+		B6A62AC715BD7CD400E13D5B /* 紫参.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A1C15BD7CD300E13D5B /* 紫参.png */; };
+		B6A62AC815BD7CD400E13D5B /* 紫菀.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A1D15BD7CD300E13D5B /* 紫菀.png */; };
+		B6A62AC915BD7CD400E13D5B /* 紫葳.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A1E15BD7CD300E13D5B /* 紫葳.png */; };
+		B6A62ACA15BD7CD400E13D5B /* 红蓝花.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A1F15BD7CD300E13D5B /* 红蓝花.png */; };
+		B6A62ACB15BD7CD400E13D5B /* 细辛.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A2015BD7CD300E13D5B /* 细辛.png */; };
+		B6A62ACC15BD7CD400E13D5B /* 羊肉.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A2115BD7CD300E13D5B /* 羊肉.png */; };
+		B6A62ACD15BD7CD400E13D5B /* 胶饴.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A2215BD7CD300E13D5B /* 胶饴.png */; };
+		B6A62ACE15BD7CD400E13D5B /* 艾叶.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A2315BD7CD300E13D5B /* 艾叶.png */; };
+		B6A62ACF15BD7CD400E13D5B /* 芍药.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A2415BD7CD300E13D5B /* 芍药.png */; };
+		B6A62AD015BD7CD400E13D5B /* 芎藭.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A2515BD7CD300E13D5B /* 芎藭.png */; };
+		B6A62AD115BD7CD400E13D5B /* 芒硝.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A2615BD7CD300E13D5B /* 芒硝.png */; };
+		B6A62AD215BD7CD400E13D5B /* 芫花.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A2715BD7CD300E13D5B /* 芫花.png */; };
+		B6A62AD315BD7CD400E13D5B /* 苏叶.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A2815BD7CD300E13D5B /* 苏叶.png */; };
+		B6A62AD415BD7CD400E13D5B /* 苦参.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A2915BD7CD300E13D5B /* 苦参.png */; };
+		B6A62AD515BD7CD400E13D5B /* 苦杏仁.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A2A15BD7CD300E13D5B /* 苦杏仁.png */; };
+		B6A62AD615BD7CD400E13D5B /* 苦酒.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A2B15BD7CD300E13D5B /* 苦酒.png */; };
+		B6A62AD715BD7CD400E13D5B /* 茯苓.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A2C15BD7CD300E13D5B /* 茯苓.png */; };
+		B6A62AD815BD7CD400E13D5B /* 茯苓2.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A2D15BD7CD300E13D5B /* 茯苓2.png */; };
+		B6A62AD915BD7CD400E13D5B /* 茵陈蒿.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A2E15BD7CD300E13D5B /* 茵陈蒿.png */; };
+		B6A62ADA15BD7CD400E13D5B /* 萎蕤.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A2F15BD7CD300E13D5B /* 萎蕤.png */; };
+		B6A62ADB15BD7CD400E13D5B /* 葛根.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A3015BD7CD300E13D5B /* 葛根.png */; };
+		B6A62ADC15BD7CD400E13D5B /* 葱白.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A3115BD7CD300E13D5B /* 葱白.png */; };
+		B6A62ADD15BD7CD400E13D5B /* 葵子.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A3215BD7CD400E13D5B /* 葵子.png */; };
+		B6A62ADE15BD7CD400E13D5B /* 葶苈.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A3315BD7CD400E13D5B /* 葶苈.png */; };
+		B6A62ADF15BD7CD400E13D5B /* 蒴藋.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A3415BD7CD400E13D5B /* 蒴藋.png */; };
+		B6A62AE015BD7CD400E13D5B /* 薏苡.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A3515BD7CD400E13D5B /* 薏苡.png */; };
+		B6A62AE115BD7CD400E13D5B /* 薤白.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A3615BD7CD400E13D5B /* 薤白.png */; };
+		B6A62AE215BD7CD400E13D5B /* 薯蓣.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A3715BD7CD400E13D5B /* 薯蓣.png */; };
+		B6A62AE315BD7CD400E13D5B /* 藜芦.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A3815BD7CD400E13D5B /* 藜芦.png */; };
+		B6A62AE415BD7CD400E13D5B /* 虻虫.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A3915BD7CD400E13D5B /* 虻虫.png */; };
+		B6A62AE515BD7CD400E13D5B /* 蛇床子.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A3A15BD7CD400E13D5B /* 蛇床子.png */; };
+		B6A62AE615BD7CD400E13D5B /* 蛴螬.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A3B15BD7CD400E13D5B /* 蛴螬.png */; };
+		B6A62AE715BD7CD400E13D5B /* 蜀椒.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A3C15BD7CD400E13D5B /* 蜀椒.png */; };
+		B6A62AE815BD7CD400E13D5B /* 蜀漆.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A3D15BD7CD400E13D5B /* 蜀漆.png */; };
+		B6A62AE915BD7CD400E13D5B /* 蜂窠.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A3E15BD7CD400E13D5B /* 蜂窠.png */; };
+		B6A62AEA15BD7CD400E13D5B /* 蜣螂.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A3F15BD7CD400E13D5B /* 蜣螂.png */; };
+		B6A62AEB15BD7CD400E13D5B /* 蟅虫.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A4015BD7CD400E13D5B /* 蟅虫.png */; };
+		B6A62AEC15BD7CD400E13D5B /* 诃黎勒.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A4115BD7CD400E13D5B /* 诃黎勒.png */; };
+		B6A62AED15BD7CD400E13D5B /* 豆黄卷.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A4215BD7CD400E13D5B /* 豆黄卷.png */; };
+		B6A62AEE15BD7CD400E13D5B /* 贝母.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A4315BD7CD400E13D5B /* 贝母.png */; };
+		B6A62AEF15BD7CD400E13D5B /* 败酱.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A4415BD7CD400E13D5B /* 败酱.png */; };
+		B6A62AF015BD7CD400E13D5B /* 赤小豆.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A4515BD7CD400E13D5B /* 赤小豆.png */; };
+		B6A62AF115BD7CD400E13D5B /* 赤石脂.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A4615BD7CD400E13D5B /* 赤石脂.png */; };
+		B6A62AF215BD7CD400E13D5B /* 赤硝.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A4715BD7CD400E13D5B /* 赤硝.png */; };
+		B6A62AF315BD7CD400E13D5B /* 连翘.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A4815BD7CD400E13D5B /* 连翘.png */; };
+		B6A62AF415BD7CD400E13D5B /* 通草.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A4915BD7CD400E13D5B /* 通草.png */; };
+		B6A62AF515BD7CD400E13D5B /* 铅丹.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A4A15BD7CD400E13D5B /* 铅丹.png */; };
+		B6A62AF615BD7CD400E13D5B /* 铅粉.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A4B15BD7CD400E13D5B /* 铅粉.png */; };
+		B6A62AF715BD7CD400E13D5B /* 防己.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A4C15BD7CD400E13D5B /* 防己.png */; };
+		B6A62AF815BD7CD400E13D5B /* 防风.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A4D15BD7CD400E13D5B /* 防风.png */; };
+		B6A62AF915BD7CD400E13D5B /* 阿胶.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A4E15BD7CD400E13D5B /* 阿胶.png */; };
+		B6A62AFA15BD7CD400E13D5B /* 附子.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A4F15BD7CD400E13D5B /* 附子.png */; };
+		B6A62AFB15BD7CD400E13D5B /* 雄黄.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A5015BD7CD400E13D5B /* 雄黄.png */; };
+		B6A62AFC15BD7CD400E13D5B /* 雄黄矿石.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A5115BD7CD400E13D5B /* 雄黄矿石.png */; };
+		B6A62AFD15BD7CD400E13D5B /* 香豉.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A5215BD7CD400E13D5B /* 香豉.png */; };
+		B6A62AFE15BD7CD400E13D5B /* 马通.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A5315BD7CD400E13D5B /* 马通.png */; };
+		B6A62AFF15BD7CD400E13D5B /* 鳖甲.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A5415BD7CD400E13D5B /* 鳖甲.png */; };
+		B6A62B0015BD7CD400E13D5B /* 鸡子白.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A5515BD7CD400E13D5B /* 鸡子白.png */; };
+		B6A62B0115BD7CD400E13D5B /* 鸡子黄.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A5615BD7CD400E13D5B /* 鸡子黄.png */; };
+		B6A62B0215BD7CD400E13D5B /* 鸡屎白.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A5715BD7CD400E13D5B /* 鸡屎白.png */; };
+		B6A62B0315BD7CD400E13D5B /* 麦冬.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A5815BD7CD400E13D5B /* 麦冬.png */; };
+		B6A62B0415BD7CD400E13D5B /* 麻仁.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A5915BD7CD400E13D5B /* 麻仁.png */; };
+		B6A62B0515BD7CD400E13D5B /* 麻黄.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A5A15BD7CD400E13D5B /* 麻黄.png */; };
+		B6A62B0615BD7CD400E13D5B /* 黄柏.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A5B15BD7CD400E13D5B /* 黄柏.png */; };
+		B6A62B0715BD7CD400E13D5B /* 黄芩.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A5C15BD7CD400E13D5B /* 黄芩.png */; };
+		B6A62B0815BD7CD400E13D5B /* 黄芩片.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A5D15BD7CD400E13D5B /* 黄芩片.png */; };
+		B6A62B0915BD7CD400E13D5B /* 黄芪.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A5E15BD7CD400E13D5B /* 黄芪.png */; };
+		B6A62B0A15BD7CD400E13D5B /* 黄连.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A5F15BD7CD400E13D5B /* 黄连.png */; };
+		B6A62B0B15BD7CD400E13D5B /* 黄酒.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A6015BD7CD400E13D5B /* 黄酒.png */; };
+		B6A62B0C15BD7CD400E13D5B /* 鼠妇.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A6115BD7CD400E13D5B /* 鼠妇.png */; };
+		B6A62B0D15BD7CD400E13D5B /* 龙骨.png in Resources */ = {isa = PBXBuildFile; fileRef = B6A62A6215BD7CD400E13D5B /* 龙骨.png */; };
+		B6A62BBA15BD7CE300E13D5B /* 乌头.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B1015BD7CE300E13D5B /* 乌头.jpg */; };
+		B6A62BBB15BD7CE300E13D5B /* 乌梅.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B1115BD7CE300E13D5B /* 乌梅.jpg */; };
+		B6A62BBC15BD7CE300E13D5B /* 乱发.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B1215BD7CE300E13D5B /* 乱发.jpg */; };
+		B6A62BBD15BD7CE300E13D5B /* 云母.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B1315BD7CE300E13D5B /* 云母.jpg */; };
+		B6A62BBE15BD7CE300E13D5B /* 五味子.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B1415BD7CE300E13D5B /* 五味子.jpg */; };
+		B6A62BBF15BD7CE300E13D5B /* 人参.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B1515BD7CE300E13D5B /* 人参.jpg */; };
+		B6A62BC015BD7CE300E13D5B /* 人尿.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B1615BD7CE300E13D5B /* 人尿.jpg */; };
+		B6A62BC115BD7CE300E13D5B /* 代赭石.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B1715BD7CE300E13D5B /* 代赭石.jpg */; };
+		B6A62BC215BD7CE300E13D5B /* 制白附子.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B1815BD7CE300E13D5B /* 制白附子.jpg */; };
+		B6A62BC315BD7CE300E13D5B /* 升麻.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B1915BD7CE300E13D5B /* 升麻.jpg */; };
+		B6A62BC415BD7CE300E13D5B /* 半夏.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B1A15BD7CE300E13D5B /* 半夏.jpg */; };
+		B6A62BC515BD7CE300E13D5B /* 厚朴.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B1B15BD7CE300E13D5B /* 厚朴.jpg */; };
+		B6A62BC615BD7CE300E13D5B /* 吴茱萸.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B1C15BD7CE300E13D5B /* 吴茱萸.jpg */; };
+		B6A62BC715BD7CE300E13D5B /* 商陆根.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B1D15BD7CE300E13D5B /* 商陆根.jpg */; };
+		B6A62BC815BD7CE300E13D5B /* 土瓜根.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B1E15BD7CE300E13D5B /* 土瓜根.jpg */; };
+		B6A62BC915BD7CE300E13D5B /* 地黄.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B1F15BD7CE300E13D5B /* 地黄.jpg */; };
+		B6A62BCA15BD7CE300E13D5B /* 大戟.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B2015BD7CE300E13D5B /* 大戟.jpg */; };
+		B6A62BCB15BD7CE300E13D5B /* 大枣.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B2115BD7CE300E13D5B /* 大枣.jpg */; };
+		B6A62BCC15BD7CE300E13D5B /* 大麦.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B2215BD7CE300E13D5B /* 大麦.jpg */; };
+		B6A62BCD15BD7CE300E13D5B /* 大黄.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B2315BD7CE300E13D5B /* 大黄.jpg */; };
+		B6A62BCE15BD7CE300E13D5B /* 天冬.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B2415BD7CE300E13D5B /* 天冬.jpg */; };
+		B6A62BCF15BD7CE300E13D5B /* 射干.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B2515BD7CE300E13D5B /* 射干.jpg */; };
+		B6A62BD015BD7CE300E13D5B /* 小麦.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B2615BD7CE300E13D5B /* 小麦.jpg */; };
+		B6A62BD115BD7CE300E13D5B /* 山茱萸.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B2715BD7CE300E13D5B /* 山茱萸.jpg */; };
+		B6A62BD215BD7CE300E13D5B /* 巴豆.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B2815BD7CE300E13D5B /* 巴豆.jpg */; };
+		B6A62BD315BD7CE300E13D5B /* 干姜.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B2915BD7CE300E13D5B /* 干姜.jpg */; };
+		B6A62BD415BD7CE300E13D5B /* 干漆.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B2A15BD7CE300E13D5B /* 干漆.jpg */; };
+		B6A62BD515BD7CE300E13D5B /* 当归.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B2B15BD7CE300E13D5B /* 当归.jpg */; };
+		B6A62BD615BD7CE300E13D5B /* 当归2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B2C15BD7CE300E13D5B /* 当归2.jpg */; };
+		B6A62BD715BD7CE300E13D5B /* 戎盐.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B2D15BD7CE300E13D5B /* 戎盐.jpg */; };
+		B6A62BD815BD7CE300E13D5B /* 文蛤.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B2E15BD7CE300E13D5B /* 文蛤.jpg */; };
+		B6A62BD915BD7CE300E13D5B /* 新绛.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B2F15BD7CE300E13D5B /* 新绛.jpg */; };
+		B6A62BDA15BD7CE300E13D5B /* 旋覆花.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B3015BD7CE300E13D5B /* 旋覆花.jpg */; };
+		B6A62BDB15BD7CE300E13D5B /* 朱砂.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B3115BD7CE300E13D5B /* 朱砂.jpg */; };
+		B6A62BDC15BD7CE300E13D5B /* 杏仁.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B3215BD7CE300E13D5B /* 杏仁.jpg */; };
+		B6A62BDD15BD7CE300E13D5B /* 枣仁.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B3315BD7CE300E13D5B /* 枣仁.jpg */; };
+		B6A62BDE15BD7CE300E13D5B /* 枳实.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B3415BD7CE300E13D5B /* 枳实.jpg */; };
+		B6A62BDF15BD7CE300E13D5B /* 柏叶.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B3515BD7CE300E13D5B /* 柏叶.jpg */; };
+		B6A62BE015BD7CE300E13D5B /* 柏子仁.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B3615BD7CE300E13D5B /* 柏子仁.jpg */; };
+		B6A62BE115BD7CE300E13D5B /* 柏实.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B3715BD7CE300E13D5B /* 柏实.jpg */; };
+		B6A62BE215BD7CE300E13D5B /* 柴胡.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B3815BD7CE300E13D5B /* 柴胡.jpg */; };
+		B6A62BE315BD7CE300E13D5B /* 栀子.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B3915BD7CE300E13D5B /* 栀子.jpg */; };
+		B6A62BE415BD7CE300E13D5B /* 栝蒌实.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B3A15BD7CE300E13D5B /* 栝蒌实.jpg */; };
+		B6A62BE515BD7CE300E13D5B /* 栝蒌根.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B3B15BD7CE300E13D5B /* 栝蒌根.jpg */; };
+		B6A62BE615BD7CE300E13D5B /* 桂枝.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B3C15BD7CE300E13D5B /* 桂枝.jpg */; };
+		B6A62BE715BD7CE300E13D5B /* 桃仁.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B3D15BD7CE300E13D5B /* 桃仁.jpg */; };
+		B6A62BE815BD7CE300E13D5B /* 桑根白皮.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B3E15BD7CE300E13D5B /* 桑根白皮.jpg */; };
+		B6A62BE915BD7CE300E13D5B /* 桔梗.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B3F15BD7CE300E13D5B /* 桔梗.jpg */; };
+		B6A62BEA15BD7CE300E13D5B /* 橘皮.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B4015BD7CE300E13D5B /* 橘皮.jpg */; };
+		B6A62BEB15BD7CE300E13D5B /* 款冬花.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B4115BD7CE300E13D5B /* 款冬花.jpg */; };
+		B6A62BEC15BD7CE300E13D5B /* 水蛭.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B4215BD7CE300E13D5B /* 水蛭.jpg */; };
+		B6A62BED15BD7CE300E13D5B /* 泽泻.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B4315BD7CE300E13D5B /* 泽泻.jpg */; };
+		B6A62BEE15BD7CE300E13D5B /* 泽漆.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B4415BD7CE300E13D5B /* 泽漆.jpg */; };
+		B6A62BEF15BD7CE300E13D5B /* 海藻.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B4515BD7CE300E13D5B /* 海藻.jpg */; };
+		B6A62BF015BD7CE300E13D5B /* 清半夏.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B4615BD7CE300E13D5B /* 清半夏.jpg */; };
+		B6A62BF115BD7CE300E13D5B /* 滑石.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B4715BD7CE300E13D5B /* 滑石.jpg */; };
+		B6A62BF215BD7CE300E13D5B /* 灶中黄土.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B4815BD7CE300E13D5B /* 灶中黄土.jpg */; };
+		B6A62BF315BD7CE300E13D5B /* 焦神曲.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B4915BD7CE300E13D5B /* 焦神曲.jpg */; };
+		B6A62BF415BD7CE300E13D5B /* 熟地黄.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B4A15BD7CE300E13D5B /* 熟地黄.jpg */; };
+		B6A62BF515BD7CE300E13D5B /* 牡丹皮.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B4B15BD7CE300E13D5B /* 牡丹皮.jpg */; };
+		B6A62BF615BD7CE300E13D5B /* 牡丹皮2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B4C15BD7CE300E13D5B /* 牡丹皮2.jpg */; };
+		B6A62BF715BD7CE300E13D5B /* 牡蛎.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B4D15BD7CE300E13D5B /* 牡蛎.jpg */; };
+		B6A62BF815BD7CE300E13D5B /* 狼牙.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B4E15BD7CE300E13D5B /* 狼牙.jpg */; };
+		B6A62BF915BD7CE300E13D5B /* 猪肤.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B4F15BD7CE300E13D5B /* 猪肤.jpg */; };
+		B6A62BFA15BD7CE300E13D5B /* 猪胆汁.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B5015BD7CE300E13D5B /* 猪胆汁.jpg */; };
+		B6A62BFB15BD7CE300E13D5B /* 猪膏.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B5115BD7CE300E13D5B /* 猪膏.jpg */; };
+		B6A62BFC15BD7CE300E13D5B /* 猪苓.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B5215BD7CE300E13D5B /* 猪苓.jpg */; };
+		B6A62BFD15BD7CE300E13D5B /* 王不留行.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B5315BD7CE300E13D5B /* 王不留行.jpg */; };
+		B6A62BFE15BD7CE300E13D5B /* 瓜子.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B5415BD7CE300E13D5B /* 瓜子.jpg */; };
+		B6A62BFF15BD7CE300E13D5B /* 瓜蒂.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B5515BD7CE300E13D5B /* 瓜蒂.jpg */; };
+		B6A62C0015BD7CE300E13D5B /* 甘李根白皮.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B5615BD7CE300E13D5B /* 甘李根白皮.jpg */; };
+		B6A62C0115BD7CE300E13D5B /* 甘草.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B5715BD7CE300E13D5B /* 甘草.jpg */; };
+		B6A62C0215BD7CE300E13D5B /* 甘草片.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B5815BD7CE300E13D5B /* 甘草片.jpg */; };
+		B6A62C0315BD7CE300E13D5B /* 甘遂.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B5915BD7CE300E13D5B /* 甘遂.jpg */; };
+		B6A62C0415BD7CE300E13D5B /* 生姜.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B5A15BD7CE300E13D5B /* 生姜.jpg */; };
+		B6A62C0515BD7CE300E13D5B /* 生梓白皮.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B5B15BD7CE300E13D5B /* 生梓白皮.jpg */; };
+		B6A62C0615BD7CE300E13D5B /* 白前.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B5C15BD7CE300E13D5B /* 白前.jpg */; };
+		B6A62C0715BD7CE300E13D5B /* 白前2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B5D15BD7CE300E13D5B /* 白前2.jpg */; };
+		B6A62C0815BD7CE300E13D5B /* 白头翁.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B5E15BD7CE300E13D5B /* 白头翁.jpg */; };
+		B6A62C0915BD7CE300E13D5B /* 白术.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B5F15BD7CE300E13D5B /* 白术.jpg */; };
+		B6A62C0A15BD7CE300E13D5B /* 白蔹.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B6015BD7CE300E13D5B /* 白蔹.jpg */; };
+		B6A62C0B15BD7CE300E13D5B /* 白薇.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B6115BD7CE300E13D5B /* 白薇.jpg */; };
+		B6A62C0C15BD7CE300E13D5B /* 白蜜.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B6215BD7CE300E13D5B /* 白蜜.jpg */; };
+		B6A62C0D15BD7CE300E13D5B /* 白附子.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B6315BD7CE300E13D5B /* 白附子.jpg */; };
+		B6A62C0E15BD7CE300E13D5B /* 百合.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B6415BD7CE300E13D5B /* 百合.jpg */; };
+		B6A62C0F15BD7CE300E13D5B /* 皂荚.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B6515BD7CE300E13D5B /* 皂荚.jpg */; };
+		B6A62C1015BD7CE300E13D5B /* 瞿麦.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B6615BD7CE300E13D5B /* 瞿麦.jpg */; };
+		B6A62C1115BD7CE300E13D5B /* 知母.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B6715BD7CE300E13D5B /* 知母.jpg */; };
+		B6A62C1215BD7CE300E13D5B /* 石膏.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B6815BD7CE300E13D5B /* 石膏.jpg */; };
+		B6A62C1315BD7CE300E13D5B /* 石膏粉.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B6915BD7CE300E13D5B /* 石膏粉.jpg */; };
+		B6A62C1415BD7CE300E13D5B /* 石韦.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B6A15BD7CE300E13D5B /* 石韦.jpg */; };
+		B6A62C1515BD7CE300E13D5B /* 矾石.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B6B15BD7CE300E13D5B /* 矾石.jpg */; };
+		B6A62C1615BD7CE300E13D5B /* 硝石.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B6C15BD7CE300E13D5B /* 硝石.jpg */; };
+		B6A62C1715BD7CE300E13D5B /* 神曲.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B6D15BD7CE300E13D5B /* 神曲.jpg */; };
+		B6A62C1815BD7CE300E13D5B /* 禹余粮.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B6E15BD7CE300E13D5B /* 禹余粮.jpg */; };
+		B6A62C1915BD7CE300E13D5B /* 秦皮.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B6F15BD7CE300E13D5B /* 秦皮.jpg */; };
+		B6A62C1A15BD7CE300E13D5B /* 竹叶.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B7015BD7CE300E13D5B /* 竹叶.jpg */; };
+		B6A62C1B15BD7CE300E13D5B /* 竹茹.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B7115BD7CE300E13D5B /* 竹茹.jpg */; };
+		B6A62C1C15BD7CE300E13D5B /* 粳米.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B7215BD7CE300E13D5B /* 粳米.jpg */; };
+		B6A62C1D15BD7CE300E13D5B /* 紫参.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B7315BD7CE300E13D5B /* 紫参.jpg */; };
+		B6A62C1E15BD7CE300E13D5B /* 紫菀.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B7415BD7CE300E13D5B /* 紫菀.jpg */; };
+		B6A62C1F15BD7CE300E13D5B /* 紫葳.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B7515BD7CE300E13D5B /* 紫葳.jpg */; };
+		B6A62C2015BD7CE300E13D5B /* 红蓝花.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B7615BD7CE300E13D5B /* 红蓝花.jpg */; };
+		B6A62C2115BD7CE300E13D5B /* 细辛.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B7715BD7CE300E13D5B /* 细辛.jpg */; };
+		B6A62C2215BD7CE300E13D5B /* 羊肉.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B7815BD7CE300E13D5B /* 羊肉.jpg */; };
+		B6A62C2315BD7CE300E13D5B /* 胶饴.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B7915BD7CE300E13D5B /* 胶饴.jpg */; };
+		B6A62C2415BD7CE300E13D5B /* 艾叶.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B7A15BD7CE300E13D5B /* 艾叶.jpg */; };
+		B6A62C2515BD7CE300E13D5B /* 芍药.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B7B15BD7CE300E13D5B /* 芍药.jpg */; };
+		B6A62C2615BD7CE300E13D5B /* 芎藭.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B7C15BD7CE300E13D5B /* 芎藭.jpg */; };
+		B6A62C2715BD7CE300E13D5B /* 芒硝.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B7D15BD7CE300E13D5B /* 芒硝.jpg */; };
+		B6A62C2815BD7CE300E13D5B /* 芫花.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B7E15BD7CE300E13D5B /* 芫花.jpg */; };
+		B6A62C2915BD7CE300E13D5B /* 苏叶.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B7F15BD7CE300E13D5B /* 苏叶.jpg */; };
+		B6A62C2A15BD7CE300E13D5B /* 苦参.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B8015BD7CE300E13D5B /* 苦参.jpg */; };
+		B6A62C2B15BD7CE300E13D5B /* 苦杏仁.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B8115BD7CE300E13D5B /* 苦杏仁.jpg */; };
+		B6A62C2C15BD7CE300E13D5B /* 苦酒.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B8215BD7CE300E13D5B /* 苦酒.jpg */; };
+		B6A62C2D15BD7CE300E13D5B /* 茯苓.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B8315BD7CE300E13D5B /* 茯苓.jpg */; };
+		B6A62C2E15BD7CE300E13D5B /* 茯苓2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B8415BD7CE300E13D5B /* 茯苓2.jpg */; };
+		B6A62C2F15BD7CE300E13D5B /* 茵陈蒿.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B8515BD7CE300E13D5B /* 茵陈蒿.jpg */; };
+		B6A62C3015BD7CE300E13D5B /* 萎蕤.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B8615BD7CE300E13D5B /* 萎蕤.jpg */; };
+		B6A62C3115BD7CE300E13D5B /* 葛根.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B8715BD7CE300E13D5B /* 葛根.jpg */; };
+		B6A62C3215BD7CE300E13D5B /* 葱白.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B8815BD7CE300E13D5B /* 葱白.jpg */; };
+		B6A62C3315BD7CE300E13D5B /* 葵子.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B8915BD7CE300E13D5B /* 葵子.jpg */; };
+		B6A62C3415BD7CE300E13D5B /* 葶苈.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B8A15BD7CE300E13D5B /* 葶苈.jpg */; };
+		B6A62C3515BD7CE300E13D5B /* 蒴藋.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B8B15BD7CE300E13D5B /* 蒴藋.jpg */; };
+		B6A62C3615BD7CE300E13D5B /* 薏苡.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B8C15BD7CE300E13D5B /* 薏苡.jpg */; };
+		B6A62C3715BD7CE300E13D5B /* 薤白.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B8D15BD7CE300E13D5B /* 薤白.jpg */; };
+		B6A62C3815BD7CE300E13D5B /* 薯蓣.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B8E15BD7CE300E13D5B /* 薯蓣.jpg */; };
+		B6A62C3915BD7CE300E13D5B /* 藜芦.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B8F15BD7CE300E13D5B /* 藜芦.jpg */; };
+		B6A62C3A15BD7CE300E13D5B /* 虻虫.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B9015BD7CE300E13D5B /* 虻虫.jpg */; };
+		B6A62C3B15BD7CE300E13D5B /* 蛇床子.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B9115BD7CE300E13D5B /* 蛇床子.jpg */; };
+		B6A62C3C15BD7CE300E13D5B /* 蛴螬.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B9215BD7CE300E13D5B /* 蛴螬.jpg */; };
+		B6A62C3D15BD7CE300E13D5B /* 蜀椒.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B9315BD7CE300E13D5B /* 蜀椒.jpg */; };
+		B6A62C3E15BD7CE300E13D5B /* 蜀漆.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B9415BD7CE300E13D5B /* 蜀漆.jpg */; };
+		B6A62C3F15BD7CE300E13D5B /* 蜂窠.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B9515BD7CE300E13D5B /* 蜂窠.jpg */; };
+		B6A62C4015BD7CE300E13D5B /* 蜣螂.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B9615BD7CE300E13D5B /* 蜣螂.jpg */; };
+		B6A62C4115BD7CE300E13D5B /* 蟅虫.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B9715BD7CE300E13D5B /* 蟅虫.jpg */; };
+		B6A62C4215BD7CE300E13D5B /* 诃黎勒.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B9815BD7CE300E13D5B /* 诃黎勒.jpg */; };
+		B6A62C4315BD7CE300E13D5B /* 豆黄卷.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B9915BD7CE300E13D5B /* 豆黄卷.jpg */; };
+		B6A62C4415BD7CE300E13D5B /* 贝母.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B9A15BD7CE300E13D5B /* 贝母.jpg */; };
+		B6A62C4515BD7CE300E13D5B /* 败酱.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B9B15BD7CE300E13D5B /* 败酱.jpg */; };
+		B6A62C4615BD7CE300E13D5B /* 赤小豆.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B9C15BD7CE300E13D5B /* 赤小豆.jpg */; };
+		B6A62C4715BD7CE300E13D5B /* 赤石脂.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B9D15BD7CE300E13D5B /* 赤石脂.jpg */; };
+		B6A62C4815BD7CE300E13D5B /* 赤硝.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B9E15BD7CE300E13D5B /* 赤硝.jpg */; };
+		B6A62C4915BD7CE300E13D5B /* 连翘.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62B9F15BD7CE300E13D5B /* 连翘.jpg */; };
+		B6A62C4A15BD7CE300E13D5B /* 通草.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62BA015BD7CE300E13D5B /* 通草.jpg */; };
+		B6A62C4B15BD7CE300E13D5B /* 铅丹.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62BA115BD7CE300E13D5B /* 铅丹.jpg */; };
+		B6A62C4C15BD7CE300E13D5B /* 铅粉.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62BA215BD7CE300E13D5B /* 铅粉.jpg */; };
+		B6A62C4D15BD7CE300E13D5B /* 防己.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62BA315BD7CE300E13D5B /* 防己.jpg */; };
+		B6A62C4E15BD7CE300E13D5B /* 防风.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62BA415BD7CE300E13D5B /* 防风.jpg */; };
+		B6A62C4F15BD7CE300E13D5B /* 阿胶.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62BA515BD7CE300E13D5B /* 阿胶.jpg */; };
+		B6A62C5015BD7CE300E13D5B /* 附子.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62BA615BD7CE300E13D5B /* 附子.jpg */; };
+		B6A62C5115BD7CE300E13D5B /* 雄黄.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62BA715BD7CE300E13D5B /* 雄黄.jpg */; };
+		B6A62C5215BD7CE300E13D5B /* 雄黄矿石.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62BA815BD7CE300E13D5B /* 雄黄矿石.jpg */; };
+		B6A62C5315BD7CE300E13D5B /* 香豉.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62BA915BD7CE300E13D5B /* 香豉.jpg */; };
+		B6A62C5415BD7CE300E13D5B /* 马通.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62BAA15BD7CE300E13D5B /* 马通.jpg */; };
+		B6A62C5515BD7CE300E13D5B /* 鳖甲.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62BAB15BD7CE300E13D5B /* 鳖甲.jpg */; };
+		B6A62C5615BD7CE300E13D5B /* 鸡子白.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62BAC15BD7CE300E13D5B /* 鸡子白.jpg */; };
+		B6A62C5715BD7CE300E13D5B /* 鸡子黄.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62BAD15BD7CE300E13D5B /* 鸡子黄.jpg */; };
+		B6A62C5815BD7CE300E13D5B /* 鸡屎白.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62BAE15BD7CE300E13D5B /* 鸡屎白.jpg */; };
+		B6A62C5915BD7CE300E13D5B /* 麦冬.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62BAF15BD7CE300E13D5B /* 麦冬.jpg */; };
+		B6A62C5A15BD7CE300E13D5B /* 麻仁.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62BB015BD7CE300E13D5B /* 麻仁.jpg */; };
+		B6A62C5B15BD7CE300E13D5B /* 麻黄.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62BB115BD7CE300E13D5B /* 麻黄.jpg */; };
+		B6A62C5C15BD7CE300E13D5B /* 黄柏.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62BB215BD7CE300E13D5B /* 黄柏.jpg */; };
+		B6A62C5D15BD7CE300E13D5B /* 黄芩.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62BB315BD7CE300E13D5B /* 黄芩.jpg */; };
+		B6A62C5E15BD7CE300E13D5B /* 黄芩片.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62BB415BD7CE300E13D5B /* 黄芩片.jpg */; };
+		B6A62C5F15BD7CE300E13D5B /* 黄芪.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62BB515BD7CE300E13D5B /* 黄芪.jpg */; };
+		B6A62C6015BD7CE300E13D5B /* 黄连.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62BB615BD7CE300E13D5B /* 黄连.jpg */; };
+		B6A62C6115BD7CE300E13D5B /* 黄酒.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62BB715BD7CE300E13D5B /* 黄酒.jpg */; };
+		B6A62C6215BD7CE300E13D5B /* 鼠妇.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62BB815BD7CE300E13D5B /* 鼠妇.jpg */; };
+		B6A62C6315BD7CE300E13D5B /* 龙骨.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6A62BB915BD7CE300E13D5B /* 龙骨.jpg */; };
+		B6A62C6615BD987000E13D5B /* BookMark.dat.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6A62C6515BD987000E13D5B /* BookMark.dat.strings */; };
 		B6C78C1F15A51384006D6FE7 /* HMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C78C1D15A51384006D6FE7 /* HMViewController.m */; };
 		B6C78C2015A51384006D6FE7 /* HMViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6C78C1E15A51384006D6FE7 /* HMViewController.xib */; };
 		B6CF65D715B8450A0057B58F /* ConfigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6CF65D515B8450A0057B58F /* ConfigViewController.m */; };
@@ -260,178 +431,349 @@
 		B6A3E3D115B30A7D00FC1A78 /* csyj.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = csyj.db; sourceTree = "<group>"; };
 		B6A3E3D315B30A7D00FC1A78 /* default.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = default.jpg; sourceTree = "<group>"; };
 		B6A3E3D415B30A7D00FC1A78 /* Dictionary.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Dictionary.txt; sourceTree = "<group>"; };
-		B6A3E3D615B30A7D00FC1A78 /* 乌头.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "乌头.png"; sourceTree = "<group>"; };
-		B6A3E3D715B30A7D00FC1A78 /* 乌梅.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "乌梅.png"; sourceTree = "<group>"; };
-		B6A3E3D815B30A7D00FC1A78 /* 乱发.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "乱发.png"; sourceTree = "<group>"; };
-		B6A3E3D915B30A7D00FC1A78 /* 云母.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "云母.png"; sourceTree = "<group>"; };
-		B6A3E3DA15B30A7D00FC1A78 /* 五味子.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "五味子.png"; sourceTree = "<group>"; };
-		B6A3E3DB15B30A7D00FC1A78 /* 人参.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "人参.png"; sourceTree = "<group>"; };
-		B6A3E3DC15B30A7D00FC1A78 /* 人尿.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "人尿.png"; sourceTree = "<group>"; };
-		B6A3E3DD15B30A7D00FC1A78 /* 代赭石.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "代赭石.png"; sourceTree = "<group>"; };
-		B6A3E3DE15B30A7D00FC1A78 /* 制白附子.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "制白附子.png"; sourceTree = "<group>"; };
-		B6A3E3DF15B30A7D00FC1A78 /* 升麻.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "升麻.png"; sourceTree = "<group>"; };
-		B6A3E3E015B30A7D00FC1A78 /* 半夏.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "半夏.png"; sourceTree = "<group>"; };
-		B6A3E3E115B30A7D00FC1A78 /* 厚朴.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "厚朴.png"; sourceTree = "<group>"; };
-		B6A3E3E215B30A7D00FC1A78 /* 吴茱萸.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "吴茱萸.png"; sourceTree = "<group>"; };
-		B6A3E3E315B30A7D00FC1A78 /* 商陆根.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "商陆根.png"; sourceTree = "<group>"; };
-		B6A3E3E415B30A7D00FC1A78 /* 土瓜根.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "土瓜根.png"; sourceTree = "<group>"; };
-		B6A3E3E515B30A7D00FC1A78 /* 地黄.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "地黄.png"; sourceTree = "<group>"; };
-		B6A3E3E615B30A7D00FC1A78 /* 大戟.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "大戟.png"; sourceTree = "<group>"; };
-		B6A3E3E715B30A7D00FC1A78 /* 大枣.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "大枣.png"; sourceTree = "<group>"; };
-		B6A3E3E815B30A7D00FC1A78 /* 大麦.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "大麦.png"; sourceTree = "<group>"; };
-		B6A3E3E915B30A7D00FC1A78 /* 大黄.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "大黄.png"; sourceTree = "<group>"; };
-		B6A3E3EA15B30A7D00FC1A78 /* 天冬.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "天冬.png"; sourceTree = "<group>"; };
-		B6A3E3EB15B30A7D00FC1A78 /* 射干.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "射干.png"; sourceTree = "<group>"; };
-		B6A3E3EC15B30A7D00FC1A78 /* 小麦.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "小麦.png"; sourceTree = "<group>"; };
-		B6A3E3ED15B30A7D00FC1A78 /* 山茱萸.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "山茱萸.png"; sourceTree = "<group>"; };
-		B6A3E3EE15B30A7D00FC1A78 /* 巴豆.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "巴豆.png"; sourceTree = "<group>"; };
-		B6A3E3EF15B30A7D00FC1A78 /* 干姜.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "干姜.png"; sourceTree = "<group>"; };
-		B6A3E3F015B30A7D00FC1A78 /* 干漆.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "干漆.png"; sourceTree = "<group>"; };
-		B6A3E3F115B30A7D00FC1A78 /* 当归.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "当归.png"; sourceTree = "<group>"; };
-		B6A3E3F215B30A7D00FC1A78 /* 当归2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "当归2.png"; sourceTree = "<group>"; };
-		B6A3E3F315B30A7D00FC1A78 /* 戎盐.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "戎盐.png"; sourceTree = "<group>"; };
-		B6A3E3F415B30A7D00FC1A78 /* 文蛤.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "文蛤.png"; sourceTree = "<group>"; };
-		B6A3E3F515B30A7D00FC1A78 /* 新绛.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新绛.png"; sourceTree = "<group>"; };
-		B6A3E3F615B30A7D00FC1A78 /* 旋覆花.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "旋覆花.png"; sourceTree = "<group>"; };
-		B6A3E3F715B30A7D00FC1A78 /* 未命名.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "未命名.png"; sourceTree = "<group>"; };
-		B6A3E3F815B30A7D00FC1A78 /* 朱砂.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "朱砂.png"; sourceTree = "<group>"; };
-		B6A3E3F915B30A7D00FC1A78 /* 杏仁.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "杏仁.png"; sourceTree = "<group>"; };
-		B6A3E3FA15B30A7D00FC1A78 /* 枣仁.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "枣仁.png"; sourceTree = "<group>"; };
-		B6A3E3FB15B30A7D00FC1A78 /* 枳实.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "枳实.png"; sourceTree = "<group>"; };
-		B6A3E3FC15B30A7D00FC1A78 /* 柏叶.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "柏叶.png"; sourceTree = "<group>"; };
-		B6A3E3FD15B30A7D00FC1A78 /* 柏子仁.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "柏子仁.png"; sourceTree = "<group>"; };
-		B6A3E3FE15B30A7D00FC1A78 /* 柏实.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "柏实.png"; sourceTree = "<group>"; };
-		B6A3E3FF15B30A7D00FC1A78 /* 柴胡.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "柴胡.png"; sourceTree = "<group>"; };
-		B6A3E40015B30A7D00FC1A78 /* 栀子.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "栀子.png"; sourceTree = "<group>"; };
-		B6A3E40115B30A7D00FC1A78 /* 栝蒌实.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "栝蒌实.png"; sourceTree = "<group>"; };
-		B6A3E40215B30A7D00FC1A78 /* 栝蒌根.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "栝蒌根.png"; sourceTree = "<group>"; };
-		B6A3E40315B30A7D00FC1A78 /* 桂枝.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "桂枝.png"; sourceTree = "<group>"; };
-		B6A3E40415B30A7D00FC1A78 /* 桃仁.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "桃仁.png"; sourceTree = "<group>"; };
-		B6A3E40515B30A7D00FC1A78 /* 桑根白皮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "桑根白皮.png"; sourceTree = "<group>"; };
-		B6A3E40615B30A7D00FC1A78 /* 桔梗.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "桔梗.png"; sourceTree = "<group>"; };
-		B6A3E40715B30A7D00FC1A78 /* 橘皮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "橘皮.png"; sourceTree = "<group>"; };
-		B6A3E40815B30A7D00FC1A78 /* 款冬花.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "款冬花.png"; sourceTree = "<group>"; };
-		B6A3E40915B30A7D00FC1A78 /* 水蛭.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "水蛭.png"; sourceTree = "<group>"; };
-		B6A3E40A15B30A7D00FC1A78 /* 泽泻.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "泽泻.png"; sourceTree = "<group>"; };
-		B6A3E40B15B30A7D00FC1A78 /* 泽漆.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "泽漆.png"; sourceTree = "<group>"; };
-		B6A3E40C15B30A7D00FC1A78 /* 海藻.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "海藻.png"; sourceTree = "<group>"; };
-		B6A3E40D15B30A7D00FC1A78 /* 清半夏.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "清半夏.png"; sourceTree = "<group>"; };
-		B6A3E40E15B30A7D00FC1A78 /* 滑石.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "滑石.png"; sourceTree = "<group>"; };
-		B6A3E40F15B30A7D00FC1A78 /* 灶中黄土.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "灶中黄土.png"; sourceTree = "<group>"; };
-		B6A3E41015B30A7D00FC1A78 /* 焦神曲.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "焦神曲.png"; sourceTree = "<group>"; };
-		B6A3E41115B30A7D00FC1A78 /* 熟地黄.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "熟地黄.png"; sourceTree = "<group>"; };
-		B6A3E41215B30A7D00FC1A78 /* 牡丹皮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "牡丹皮.png"; sourceTree = "<group>"; };
-		B6A3E41315B30A7D00FC1A78 /* 牡丹皮2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "牡丹皮2.png"; sourceTree = "<group>"; };
-		B6A3E41415B30A7D00FC1A78 /* 牡蛎.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "牡蛎.png"; sourceTree = "<group>"; };
-		B6A3E41515B30A7D00FC1A78 /* 狼牙.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "狼牙.png"; sourceTree = "<group>"; };
-		B6A3E41615B30A7D00FC1A78 /* 猪肤.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "猪肤.png"; sourceTree = "<group>"; };
-		B6A3E41715B30A7D00FC1A78 /* 猪胆汁.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "猪胆汁.png"; sourceTree = "<group>"; };
-		B6A3E41815B30A7D00FC1A78 /* 猪膏.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "猪膏.png"; sourceTree = "<group>"; };
-		B6A3E41915B30A7D00FC1A78 /* 猪苓.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "猪苓.png"; sourceTree = "<group>"; };
-		B6A3E41A15B30A7D00FC1A78 /* 王不留行.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "王不留行.png"; sourceTree = "<group>"; };
-		B6A3E41B15B30A7D00FC1A78 /* 瓜子.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "瓜子.png"; sourceTree = "<group>"; };
-		B6A3E41C15B30A7D00FC1A78 /* 瓜蒂.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "瓜蒂.png"; sourceTree = "<group>"; };
-		B6A3E41D15B30A7D00FC1A78 /* 甘李根白皮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "甘李根白皮.png"; sourceTree = "<group>"; };
-		B6A3E41E15B30A7D00FC1A78 /* 甘草.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "甘草.png"; sourceTree = "<group>"; };
-		B6A3E41F15B30A7D00FC1A78 /* 甘草片.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "甘草片.png"; sourceTree = "<group>"; };
-		B6A3E42015B30A7D00FC1A78 /* 甘遂.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "甘遂.png"; sourceTree = "<group>"; };
-		B6A3E42115B30A7D00FC1A78 /* 生姜.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "生姜.png"; sourceTree = "<group>"; };
-		B6A3E42215B30A7D00FC1A78 /* 生梓白皮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "生梓白皮.png"; sourceTree = "<group>"; };
-		B6A3E42315B30A7D00FC1A78 /* 白前.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "白前.png"; sourceTree = "<group>"; };
-		B6A3E42415B30A7D00FC1A78 /* 白前2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "白前2.png"; sourceTree = "<group>"; };
-		B6A3E42515B30A7D00FC1A78 /* 白头翁.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "白头翁.png"; sourceTree = "<group>"; };
-		B6A3E42615B30A7D00FC1A78 /* 白术.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "白术.png"; sourceTree = "<group>"; };
-		B6A3E42715B30A7D00FC1A78 /* 白蔹.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "白蔹.png"; sourceTree = "<group>"; };
-		B6A3E42815B30A7D00FC1A78 /* 白薇.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "白薇.png"; sourceTree = "<group>"; };
-		B6A3E42915B30A7D00FC1A78 /* 白蜜.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "白蜜.png"; sourceTree = "<group>"; };
-		B6A3E42A15B30A7D00FC1A78 /* 白附子.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "白附子.png"; sourceTree = "<group>"; };
-		B6A3E42B15B30A7D00FC1A78 /* 百合.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "百合.png"; sourceTree = "<group>"; };
-		B6A3E42C15B30A7D00FC1A78 /* 皂荚.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "皂荚.png"; sourceTree = "<group>"; };
-		B6A3E42D15B30A7D00FC1A78 /* 瞿麦.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "瞿麦.png"; sourceTree = "<group>"; };
-		B6A3E42E15B30A7D00FC1A78 /* 知母.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "知母.png"; sourceTree = "<group>"; };
-		B6A3E42F15B30A7D00FC1A78 /* 石膏.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "石膏.png"; sourceTree = "<group>"; };
-		B6A3E43015B30A7D00FC1A78 /* 石膏粉.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "石膏粉.png"; sourceTree = "<group>"; };
-		B6A3E43115B30A7D00FC1A78 /* 石韦.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "石韦.png"; sourceTree = "<group>"; };
-		B6A3E43215B30A7D00FC1A78 /* 矾石.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "矾石.png"; sourceTree = "<group>"; };
-		B6A3E43315B30A7D00FC1A78 /* 硝石.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "硝石.png"; sourceTree = "<group>"; };
-		B6A3E43415B30A7D00FC1A78 /* 神曲.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "神曲.png"; sourceTree = "<group>"; };
-		B6A3E43515B30A7D00FC1A78 /* 禹余粮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "禹余粮.png"; sourceTree = "<group>"; };
-		B6A3E43615B30A7D00FC1A78 /* 秦皮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "秦皮.png"; sourceTree = "<group>"; };
-		B6A3E43715B30A7D00FC1A78 /* 竹叶.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "竹叶.png"; sourceTree = "<group>"; };
-		B6A3E43815B30A7D00FC1A78 /* 竹茹.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "竹茹.png"; sourceTree = "<group>"; };
-		B6A3E43915B30A7D00FC1A78 /* 粳米.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "粳米.png"; sourceTree = "<group>"; };
-		B6A3E43A15B30A7D00FC1A78 /* 紫参.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "紫参.png"; sourceTree = "<group>"; };
-		B6A3E43B15B30A7D00FC1A78 /* 紫菀.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "紫菀.png"; sourceTree = "<group>"; };
-		B6A3E43C15B30A7D00FC1A78 /* 紫葳.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "紫葳.png"; sourceTree = "<group>"; };
-		B6A3E43D15B30A7D00FC1A78 /* 红蓝花.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "红蓝花.png"; sourceTree = "<group>"; };
-		B6A3E43E15B30A7D00FC1A78 /* 细辛.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "细辛.png"; sourceTree = "<group>"; };
-		B6A3E43F15B30A7D00FC1A78 /* 羊肉.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "羊肉.png"; sourceTree = "<group>"; };
-		B6A3E44015B30A7D00FC1A78 /* 胶饴.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "胶饴.png"; sourceTree = "<group>"; };
-		B6A3E44115B30A7D00FC1A78 /* 艾叶.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "艾叶.png"; sourceTree = "<group>"; };
-		B6A3E44215B30A7D00FC1A78 /* 芍药.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "芍药.png"; sourceTree = "<group>"; };
-		B6A3E44315B30A7D00FC1A78 /* 芎藭.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "芎藭.png"; sourceTree = "<group>"; };
-		B6A3E44415B30A7D00FC1A78 /* 芒硝.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "芒硝.png"; sourceTree = "<group>"; };
-		B6A3E44515B30A7D00FC1A78 /* 芫花.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "芫花.png"; sourceTree = "<group>"; };
-		B6A3E44615B30A7D00FC1A78 /* 苏叶.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "苏叶.png"; sourceTree = "<group>"; };
-		B6A3E44715B30A7D00FC1A78 /* 苦参.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "苦参.png"; sourceTree = "<group>"; };
-		B6A3E44815B30A7D00FC1A78 /* 苦杏仁.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "苦杏仁.png"; sourceTree = "<group>"; };
-		B6A3E44915B30A7D00FC1A78 /* 苦酒.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "苦酒.png"; sourceTree = "<group>"; };
-		B6A3E44A15B30A7D00FC1A78 /* 茯苓.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "茯苓.png"; sourceTree = "<group>"; };
-		B6A3E44B15B30A7D00FC1A78 /* 茯苓2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "茯苓2.png"; sourceTree = "<group>"; };
-		B6A3E44C15B30A7D00FC1A78 /* 茵陈蒿.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "茵陈蒿.png"; sourceTree = "<group>"; };
-		B6A3E44D15B30A7D00FC1A78 /* 萎蕤.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "萎蕤.png"; sourceTree = "<group>"; };
-		B6A3E44E15B30A7D00FC1A78 /* 葛根.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "葛根.png"; sourceTree = "<group>"; };
-		B6A3E44F15B30A7D00FC1A78 /* 葱白.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "葱白.png"; sourceTree = "<group>"; };
-		B6A3E45015B30A7D00FC1A78 /* 葵子.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "葵子.png"; sourceTree = "<group>"; };
-		B6A3E45115B30A7D00FC1A78 /* 葶苈.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "葶苈.png"; sourceTree = "<group>"; };
-		B6A3E45215B30A7D00FC1A78 /* 蒴藋.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "蒴藋.png"; sourceTree = "<group>"; };
-		B6A3E45315B30A7D00FC1A78 /* 薏苡.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "薏苡.png"; sourceTree = "<group>"; };
-		B6A3E45415B30A7D00FC1A78 /* 薤白.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "薤白.png"; sourceTree = "<group>"; };
-		B6A3E45515B30A7D00FC1A78 /* 薯蓣.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "薯蓣.png"; sourceTree = "<group>"; };
-		B6A3E45615B30A7D00FC1A78 /* 藜芦.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "藜芦.png"; sourceTree = "<group>"; };
-		B6A3E45715B30A7D00FC1A78 /* 虻虫.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "虻虫.png"; sourceTree = "<group>"; };
-		B6A3E45815B30A7D00FC1A78 /* 蛇床子.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "蛇床子.png"; sourceTree = "<group>"; };
-		B6A3E45915B30A7D00FC1A78 /* 蛴螬.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "蛴螬.png"; sourceTree = "<group>"; };
-		B6A3E45A15B30A7D00FC1A78 /* 蜀椒.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "蜀椒.png"; sourceTree = "<group>"; };
-		B6A3E45B15B30A7D00FC1A78 /* 蜀漆.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "蜀漆.png"; sourceTree = "<group>"; };
-		B6A3E45C15B30A7D00FC1A78 /* 蜂窠.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "蜂窠.png"; sourceTree = "<group>"; };
-		B6A3E45D15B30A7D00FC1A78 /* 蜣螂.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "蜣螂.png"; sourceTree = "<group>"; };
-		B6A3E45E15B30A7D00FC1A78 /* 蟅虫.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "蟅虫.png"; sourceTree = "<group>"; };
-		B6A3E45F15B30A7D00FC1A78 /* 诃黎勒.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "诃黎勒.png"; sourceTree = "<group>"; };
-		B6A3E46015B30A7D00FC1A78 /* 豆黄卷.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "豆黄卷.png"; sourceTree = "<group>"; };
-		B6A3E46115B30A7D00FC1A78 /* 贝母.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "贝母.png"; sourceTree = "<group>"; };
-		B6A3E46215B30A7D00FC1A78 /* 败酱.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "败酱.png"; sourceTree = "<group>"; };
-		B6A3E46315B30A7D00FC1A78 /* 赤小豆.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "赤小豆.png"; sourceTree = "<group>"; };
-		B6A3E46415B30A7D00FC1A78 /* 赤石脂.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "赤石脂.png"; sourceTree = "<group>"; };
-		B6A3E46515B30A7D00FC1A78 /* 赤硝.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "赤硝.png"; sourceTree = "<group>"; };
-		B6A3E46615B30A7D00FC1A78 /* 连翘.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "连翘.png"; sourceTree = "<group>"; };
-		B6A3E46715B30A7D00FC1A78 /* 通草.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "通草.png"; sourceTree = "<group>"; };
-		B6A3E46815B30A7D00FC1A78 /* 铅丹.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "铅丹.png"; sourceTree = "<group>"; };
-		B6A3E46915B30A7D00FC1A78 /* 铅粉.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "铅粉.png"; sourceTree = "<group>"; };
-		B6A3E46A15B30A7D00FC1A78 /* 防己.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "防己.png"; sourceTree = "<group>"; };
-		B6A3E46B15B30A7D00FC1A78 /* 防风.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "防风.png"; sourceTree = "<group>"; };
-		B6A3E46C15B30A7D00FC1A78 /* 阿胶.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "阿胶.png"; sourceTree = "<group>"; };
-		B6A3E46D15B30A7D00FC1A78 /* 附子.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "附子.png"; sourceTree = "<group>"; };
-		B6A3E46E15B30A7D00FC1A78 /* 雄黄.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "雄黄.png"; sourceTree = "<group>"; };
-		B6A3E46F15B30A7D00FC1A78 /* 雄黄矿石.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "雄黄矿石.png"; sourceTree = "<group>"; };
-		B6A3E47015B30A7D00FC1A78 /* 香豉.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "香豉.png"; sourceTree = "<group>"; };
-		B6A3E47115B30A7D00FC1A78 /* 马通.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "马通.png"; sourceTree = "<group>"; };
-		B6A3E47215B30A7D00FC1A78 /* 鳖甲.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "鳖甲.png"; sourceTree = "<group>"; };
-		B6A3E47315B30A7D00FC1A78 /* 鸡子白.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "鸡子白.png"; sourceTree = "<group>"; };
-		B6A3E47415B30A7D00FC1A78 /* 鸡子黄.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "鸡子黄.png"; sourceTree = "<group>"; };
-		B6A3E47515B30A7D00FC1A78 /* 鸡屎白.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "鸡屎白.png"; sourceTree = "<group>"; };
-		B6A3E47615B30A7D00FC1A78 /* 麦冬.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "麦冬.png"; sourceTree = "<group>"; };
-		B6A3E47715B30A7D00FC1A78 /* 麻仁.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "麻仁.png"; sourceTree = "<group>"; };
-		B6A3E47815B30A7D00FC1A78 /* 麻黄.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "麻黄.png"; sourceTree = "<group>"; };
-		B6A3E47915B30A7D00FC1A78 /* 黄柏.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "黄柏.png"; sourceTree = "<group>"; };
-		B6A3E47A15B30A7D00FC1A78 /* 黄芩.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "黄芩.png"; sourceTree = "<group>"; };
-		B6A3E47B15B30A7D00FC1A78 /* 黄芩片.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "黄芩片.png"; sourceTree = "<group>"; };
-		B6A3E47C15B30A7D00FC1A78 /* 黄芪.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "黄芪.png"; sourceTree = "<group>"; };
-		B6A3E47D15B30A7D00FC1A78 /* 黄连.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "黄连.png"; sourceTree = "<group>"; };
-		B6A3E47E15B30A7D00FC1A78 /* 黄酒.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "黄酒.png"; sourceTree = "<group>"; };
-		B6A3E47F15B30A7D00FC1A78 /* 鼠妇.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "鼠妇.png"; sourceTree = "<group>"; };
-		B6A3E48015B30A7D00FC1A78 /* 龙骨.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "龙骨.png"; sourceTree = "<group>"; };
 		B6A3E48115B30A7D00FC1A78 /* template.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = template.html; sourceTree = "<group>"; };
+		B6A629B815BD7CD300E13D5B /* 乌头.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "乌头.png"; sourceTree = "<group>"; };
+		B6A629B915BD7CD300E13D5B /* 乌梅.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "乌梅.png"; sourceTree = "<group>"; };
+		B6A629BA15BD7CD300E13D5B /* 乱发.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "乱发.png"; sourceTree = "<group>"; };
+		B6A629BB15BD7CD300E13D5B /* 云母.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "云母.png"; sourceTree = "<group>"; };
+		B6A629BC15BD7CD300E13D5B /* 五味子.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "五味子.png"; sourceTree = "<group>"; };
+		B6A629BD15BD7CD300E13D5B /* 人参.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "人参.png"; sourceTree = "<group>"; };
+		B6A629BE15BD7CD300E13D5B /* 人尿.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "人尿.png"; sourceTree = "<group>"; };
+		B6A629BF15BD7CD300E13D5B /* 代赭石.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "代赭石.png"; sourceTree = "<group>"; };
+		B6A629C015BD7CD300E13D5B /* 制白附子.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "制白附子.png"; sourceTree = "<group>"; };
+		B6A629C115BD7CD300E13D5B /* 升麻.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "升麻.png"; sourceTree = "<group>"; };
+		B6A629C215BD7CD300E13D5B /* 半夏.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "半夏.png"; sourceTree = "<group>"; };
+		B6A629C315BD7CD300E13D5B /* 厚朴.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "厚朴.png"; sourceTree = "<group>"; };
+		B6A629C415BD7CD300E13D5B /* 吴茱萸.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "吴茱萸.png"; sourceTree = "<group>"; };
+		B6A629C515BD7CD300E13D5B /* 商陆根.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "商陆根.png"; sourceTree = "<group>"; };
+		B6A629C615BD7CD300E13D5B /* 土瓜根.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "土瓜根.png"; sourceTree = "<group>"; };
+		B6A629C715BD7CD300E13D5B /* 地黄.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "地黄.png"; sourceTree = "<group>"; };
+		B6A629C815BD7CD300E13D5B /* 大戟.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "大戟.png"; sourceTree = "<group>"; };
+		B6A629C915BD7CD300E13D5B /* 大枣.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "大枣.png"; sourceTree = "<group>"; };
+		B6A629CA15BD7CD300E13D5B /* 大麦.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "大麦.png"; sourceTree = "<group>"; };
+		B6A629CB15BD7CD300E13D5B /* 大黄.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "大黄.png"; sourceTree = "<group>"; };
+		B6A629CC15BD7CD300E13D5B /* 天冬.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "天冬.png"; sourceTree = "<group>"; };
+		B6A629CD15BD7CD300E13D5B /* 射干.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "射干.png"; sourceTree = "<group>"; };
+		B6A629CE15BD7CD300E13D5B /* 小麦.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "小麦.png"; sourceTree = "<group>"; };
+		B6A629CF15BD7CD300E13D5B /* 山茱萸.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "山茱萸.png"; sourceTree = "<group>"; };
+		B6A629D015BD7CD300E13D5B /* 巴豆.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "巴豆.png"; sourceTree = "<group>"; };
+		B6A629D115BD7CD300E13D5B /* 干姜.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "干姜.png"; sourceTree = "<group>"; };
+		B6A629D215BD7CD300E13D5B /* 干漆.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "干漆.png"; sourceTree = "<group>"; };
+		B6A629D315BD7CD300E13D5B /* 当归.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "当归.png"; sourceTree = "<group>"; };
+		B6A629D415BD7CD300E13D5B /* 当归2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "当归2.png"; sourceTree = "<group>"; };
+		B6A629D515BD7CD300E13D5B /* 戎盐.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "戎盐.png"; sourceTree = "<group>"; };
+		B6A629D615BD7CD300E13D5B /* 文蛤.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "文蛤.png"; sourceTree = "<group>"; };
+		B6A629D715BD7CD300E13D5B /* 新绛.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新绛.png"; sourceTree = "<group>"; };
+		B6A629D815BD7CD300E13D5B /* 旋覆花.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "旋覆花.png"; sourceTree = "<group>"; };
+		B6A629D915BD7CD300E13D5B /* 未命名.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "未命名.png"; sourceTree = "<group>"; };
+		B6A629DA15BD7CD300E13D5B /* 朱砂.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "朱砂.png"; sourceTree = "<group>"; };
+		B6A629DB15BD7CD300E13D5B /* 杏仁.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "杏仁.png"; sourceTree = "<group>"; };
+		B6A629DC15BD7CD300E13D5B /* 枣仁.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "枣仁.png"; sourceTree = "<group>"; };
+		B6A629DD15BD7CD300E13D5B /* 枳实.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "枳实.png"; sourceTree = "<group>"; };
+		B6A629DE15BD7CD300E13D5B /* 柏叶.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "柏叶.png"; sourceTree = "<group>"; };
+		B6A629DF15BD7CD300E13D5B /* 柏子仁.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "柏子仁.png"; sourceTree = "<group>"; };
+		B6A629E015BD7CD300E13D5B /* 柏实.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "柏实.png"; sourceTree = "<group>"; };
+		B6A629E115BD7CD300E13D5B /* 柴胡.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "柴胡.png"; sourceTree = "<group>"; };
+		B6A629E215BD7CD300E13D5B /* 栀子.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "栀子.png"; sourceTree = "<group>"; };
+		B6A629E315BD7CD300E13D5B /* 栝蒌实.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "栝蒌实.png"; sourceTree = "<group>"; };
+		B6A629E415BD7CD300E13D5B /* 栝蒌根.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "栝蒌根.png"; sourceTree = "<group>"; };
+		B6A629E515BD7CD300E13D5B /* 桂枝.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "桂枝.png"; sourceTree = "<group>"; };
+		B6A629E615BD7CD300E13D5B /* 桃仁.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "桃仁.png"; sourceTree = "<group>"; };
+		B6A629E715BD7CD300E13D5B /* 桑根白皮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "桑根白皮.png"; sourceTree = "<group>"; };
+		B6A629E815BD7CD300E13D5B /* 桔梗.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "桔梗.png"; sourceTree = "<group>"; };
+		B6A629E915BD7CD300E13D5B /* 橘皮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "橘皮.png"; sourceTree = "<group>"; };
+		B6A629EA15BD7CD300E13D5B /* 款冬花.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "款冬花.png"; sourceTree = "<group>"; };
+		B6A629EB15BD7CD300E13D5B /* 水蛭.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "水蛭.png"; sourceTree = "<group>"; };
+		B6A629EC15BD7CD300E13D5B /* 泽泻.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "泽泻.png"; sourceTree = "<group>"; };
+		B6A629ED15BD7CD300E13D5B /* 泽漆.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "泽漆.png"; sourceTree = "<group>"; };
+		B6A629EE15BD7CD300E13D5B /* 海藻.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "海藻.png"; sourceTree = "<group>"; };
+		B6A629EF15BD7CD300E13D5B /* 清半夏.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "清半夏.png"; sourceTree = "<group>"; };
+		B6A629F015BD7CD300E13D5B /* 滑石.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "滑石.png"; sourceTree = "<group>"; };
+		B6A629F115BD7CD300E13D5B /* 灶中黄土.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "灶中黄土.png"; sourceTree = "<group>"; };
+		B6A629F215BD7CD300E13D5B /* 焦神曲.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "焦神曲.png"; sourceTree = "<group>"; };
+		B6A629F315BD7CD300E13D5B /* 熟地黄.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "熟地黄.png"; sourceTree = "<group>"; };
+		B6A629F415BD7CD300E13D5B /* 牡丹皮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "牡丹皮.png"; sourceTree = "<group>"; };
+		B6A629F515BD7CD300E13D5B /* 牡丹皮2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "牡丹皮2.png"; sourceTree = "<group>"; };
+		B6A629F615BD7CD300E13D5B /* 牡蛎.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "牡蛎.png"; sourceTree = "<group>"; };
+		B6A629F715BD7CD300E13D5B /* 狼牙.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "狼牙.png"; sourceTree = "<group>"; };
+		B6A629F815BD7CD300E13D5B /* 猪肤.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "猪肤.png"; sourceTree = "<group>"; };
+		B6A629F915BD7CD300E13D5B /* 猪胆汁.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "猪胆汁.png"; sourceTree = "<group>"; };
+		B6A629FA15BD7CD300E13D5B /* 猪膏.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "猪膏.png"; sourceTree = "<group>"; };
+		B6A629FB15BD7CD300E13D5B /* 猪苓.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "猪苓.png"; sourceTree = "<group>"; };
+		B6A629FC15BD7CD300E13D5B /* 王不留行.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "王不留行.png"; sourceTree = "<group>"; };
+		B6A629FD15BD7CD300E13D5B /* 瓜子.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "瓜子.png"; sourceTree = "<group>"; };
+		B6A629FE15BD7CD300E13D5B /* 瓜蒂.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "瓜蒂.png"; sourceTree = "<group>"; };
+		B6A629FF15BD7CD300E13D5B /* 甘李根白皮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "甘李根白皮.png"; sourceTree = "<group>"; };
+		B6A62A0015BD7CD300E13D5B /* 甘草.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "甘草.png"; sourceTree = "<group>"; };
+		B6A62A0115BD7CD300E13D5B /* 甘草片.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "甘草片.png"; sourceTree = "<group>"; };
+		B6A62A0215BD7CD300E13D5B /* 甘遂.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "甘遂.png"; sourceTree = "<group>"; };
+		B6A62A0315BD7CD300E13D5B /* 生姜.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "生姜.png"; sourceTree = "<group>"; };
+		B6A62A0415BD7CD300E13D5B /* 生梓白皮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "生梓白皮.png"; sourceTree = "<group>"; };
+		B6A62A0515BD7CD300E13D5B /* 白前.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "白前.png"; sourceTree = "<group>"; };
+		B6A62A0615BD7CD300E13D5B /* 白前2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "白前2.png"; sourceTree = "<group>"; };
+		B6A62A0715BD7CD300E13D5B /* 白头翁.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "白头翁.png"; sourceTree = "<group>"; };
+		B6A62A0815BD7CD300E13D5B /* 白术.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "白术.png"; sourceTree = "<group>"; };
+		B6A62A0915BD7CD300E13D5B /* 白蔹.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "白蔹.png"; sourceTree = "<group>"; };
+		B6A62A0A15BD7CD300E13D5B /* 白薇.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "白薇.png"; sourceTree = "<group>"; };
+		B6A62A0B15BD7CD300E13D5B /* 白蜜.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "白蜜.png"; sourceTree = "<group>"; };
+		B6A62A0C15BD7CD300E13D5B /* 白附子.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "白附子.png"; sourceTree = "<group>"; };
+		B6A62A0D15BD7CD300E13D5B /* 百合.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "百合.png"; sourceTree = "<group>"; };
+		B6A62A0E15BD7CD300E13D5B /* 皂荚.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "皂荚.png"; sourceTree = "<group>"; };
+		B6A62A0F15BD7CD300E13D5B /* 瞿麦.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "瞿麦.png"; sourceTree = "<group>"; };
+		B6A62A1015BD7CD300E13D5B /* 知母.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "知母.png"; sourceTree = "<group>"; };
+		B6A62A1115BD7CD300E13D5B /* 石膏.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "石膏.png"; sourceTree = "<group>"; };
+		B6A62A1215BD7CD300E13D5B /* 石膏粉.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "石膏粉.png"; sourceTree = "<group>"; };
+		B6A62A1315BD7CD300E13D5B /* 石韦.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "石韦.png"; sourceTree = "<group>"; };
+		B6A62A1415BD7CD300E13D5B /* 矾石.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "矾石.png"; sourceTree = "<group>"; };
+		B6A62A1515BD7CD300E13D5B /* 硝石.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "硝石.png"; sourceTree = "<group>"; };
+		B6A62A1615BD7CD300E13D5B /* 神曲.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "神曲.png"; sourceTree = "<group>"; };
+		B6A62A1715BD7CD300E13D5B /* 禹余粮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "禹余粮.png"; sourceTree = "<group>"; };
+		B6A62A1815BD7CD300E13D5B /* 秦皮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "秦皮.png"; sourceTree = "<group>"; };
+		B6A62A1915BD7CD300E13D5B /* 竹叶.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "竹叶.png"; sourceTree = "<group>"; };
+		B6A62A1A15BD7CD300E13D5B /* 竹茹.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "竹茹.png"; sourceTree = "<group>"; };
+		B6A62A1B15BD7CD300E13D5B /* 粳米.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "粳米.png"; sourceTree = "<group>"; };
+		B6A62A1C15BD7CD300E13D5B /* 紫参.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "紫参.png"; sourceTree = "<group>"; };
+		B6A62A1D15BD7CD300E13D5B /* 紫菀.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "紫菀.png"; sourceTree = "<group>"; };
+		B6A62A1E15BD7CD300E13D5B /* 紫葳.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "紫葳.png"; sourceTree = "<group>"; };
+		B6A62A1F15BD7CD300E13D5B /* 红蓝花.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "红蓝花.png"; sourceTree = "<group>"; };
+		B6A62A2015BD7CD300E13D5B /* 细辛.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "细辛.png"; sourceTree = "<group>"; };
+		B6A62A2115BD7CD300E13D5B /* 羊肉.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "羊肉.png"; sourceTree = "<group>"; };
+		B6A62A2215BD7CD300E13D5B /* 胶饴.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "胶饴.png"; sourceTree = "<group>"; };
+		B6A62A2315BD7CD300E13D5B /* 艾叶.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "艾叶.png"; sourceTree = "<group>"; };
+		B6A62A2415BD7CD300E13D5B /* 芍药.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "芍药.png"; sourceTree = "<group>"; };
+		B6A62A2515BD7CD300E13D5B /* 芎藭.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "芎藭.png"; sourceTree = "<group>"; };
+		B6A62A2615BD7CD300E13D5B /* 芒硝.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "芒硝.png"; sourceTree = "<group>"; };
+		B6A62A2715BD7CD300E13D5B /* 芫花.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "芫花.png"; sourceTree = "<group>"; };
+		B6A62A2815BD7CD300E13D5B /* 苏叶.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "苏叶.png"; sourceTree = "<group>"; };
+		B6A62A2915BD7CD300E13D5B /* 苦参.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "苦参.png"; sourceTree = "<group>"; };
+		B6A62A2A15BD7CD300E13D5B /* 苦杏仁.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "苦杏仁.png"; sourceTree = "<group>"; };
+		B6A62A2B15BD7CD300E13D5B /* 苦酒.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "苦酒.png"; sourceTree = "<group>"; };
+		B6A62A2C15BD7CD300E13D5B /* 茯苓.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "茯苓.png"; sourceTree = "<group>"; };
+		B6A62A2D15BD7CD300E13D5B /* 茯苓2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "茯苓2.png"; sourceTree = "<group>"; };
+		B6A62A2E15BD7CD300E13D5B /* 茵陈蒿.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "茵陈蒿.png"; sourceTree = "<group>"; };
+		B6A62A2F15BD7CD300E13D5B /* 萎蕤.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "萎蕤.png"; sourceTree = "<group>"; };
+		B6A62A3015BD7CD300E13D5B /* 葛根.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "葛根.png"; sourceTree = "<group>"; };
+		B6A62A3115BD7CD300E13D5B /* 葱白.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "葱白.png"; sourceTree = "<group>"; };
+		B6A62A3215BD7CD400E13D5B /* 葵子.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "葵子.png"; sourceTree = "<group>"; };
+		B6A62A3315BD7CD400E13D5B /* 葶苈.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "葶苈.png"; sourceTree = "<group>"; };
+		B6A62A3415BD7CD400E13D5B /* 蒴藋.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "蒴藋.png"; sourceTree = "<group>"; };
+		B6A62A3515BD7CD400E13D5B /* 薏苡.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "薏苡.png"; sourceTree = "<group>"; };
+		B6A62A3615BD7CD400E13D5B /* 薤白.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "薤白.png"; sourceTree = "<group>"; };
+		B6A62A3715BD7CD400E13D5B /* 薯蓣.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "薯蓣.png"; sourceTree = "<group>"; };
+		B6A62A3815BD7CD400E13D5B /* 藜芦.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "藜芦.png"; sourceTree = "<group>"; };
+		B6A62A3915BD7CD400E13D5B /* 虻虫.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "虻虫.png"; sourceTree = "<group>"; };
+		B6A62A3A15BD7CD400E13D5B /* 蛇床子.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "蛇床子.png"; sourceTree = "<group>"; };
+		B6A62A3B15BD7CD400E13D5B /* 蛴螬.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "蛴螬.png"; sourceTree = "<group>"; };
+		B6A62A3C15BD7CD400E13D5B /* 蜀椒.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "蜀椒.png"; sourceTree = "<group>"; };
+		B6A62A3D15BD7CD400E13D5B /* 蜀漆.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "蜀漆.png"; sourceTree = "<group>"; };
+		B6A62A3E15BD7CD400E13D5B /* 蜂窠.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "蜂窠.png"; sourceTree = "<group>"; };
+		B6A62A3F15BD7CD400E13D5B /* 蜣螂.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "蜣螂.png"; sourceTree = "<group>"; };
+		B6A62A4015BD7CD400E13D5B /* 蟅虫.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "蟅虫.png"; sourceTree = "<group>"; };
+		B6A62A4115BD7CD400E13D5B /* 诃黎勒.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "诃黎勒.png"; sourceTree = "<group>"; };
+		B6A62A4215BD7CD400E13D5B /* 豆黄卷.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "豆黄卷.png"; sourceTree = "<group>"; };
+		B6A62A4315BD7CD400E13D5B /* 贝母.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "贝母.png"; sourceTree = "<group>"; };
+		B6A62A4415BD7CD400E13D5B /* 败酱.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "败酱.png"; sourceTree = "<group>"; };
+		B6A62A4515BD7CD400E13D5B /* 赤小豆.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "赤小豆.png"; sourceTree = "<group>"; };
+		B6A62A4615BD7CD400E13D5B /* 赤石脂.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "赤石脂.png"; sourceTree = "<group>"; };
+		B6A62A4715BD7CD400E13D5B /* 赤硝.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "赤硝.png"; sourceTree = "<group>"; };
+		B6A62A4815BD7CD400E13D5B /* 连翘.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "连翘.png"; sourceTree = "<group>"; };
+		B6A62A4915BD7CD400E13D5B /* 通草.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "通草.png"; sourceTree = "<group>"; };
+		B6A62A4A15BD7CD400E13D5B /* 铅丹.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "铅丹.png"; sourceTree = "<group>"; };
+		B6A62A4B15BD7CD400E13D5B /* 铅粉.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "铅粉.png"; sourceTree = "<group>"; };
+		B6A62A4C15BD7CD400E13D5B /* 防己.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "防己.png"; sourceTree = "<group>"; };
+		B6A62A4D15BD7CD400E13D5B /* 防风.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "防风.png"; sourceTree = "<group>"; };
+		B6A62A4E15BD7CD400E13D5B /* 阿胶.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "阿胶.png"; sourceTree = "<group>"; };
+		B6A62A4F15BD7CD400E13D5B /* 附子.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "附子.png"; sourceTree = "<group>"; };
+		B6A62A5015BD7CD400E13D5B /* 雄黄.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "雄黄.png"; sourceTree = "<group>"; };
+		B6A62A5115BD7CD400E13D5B /* 雄黄矿石.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "雄黄矿石.png"; sourceTree = "<group>"; };
+		B6A62A5215BD7CD400E13D5B /* 香豉.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "香豉.png"; sourceTree = "<group>"; };
+		B6A62A5315BD7CD400E13D5B /* 马通.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "马通.png"; sourceTree = "<group>"; };
+		B6A62A5415BD7CD400E13D5B /* 鳖甲.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "鳖甲.png"; sourceTree = "<group>"; };
+		B6A62A5515BD7CD400E13D5B /* 鸡子白.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "鸡子白.png"; sourceTree = "<group>"; };
+		B6A62A5615BD7CD400E13D5B /* 鸡子黄.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "鸡子黄.png"; sourceTree = "<group>"; };
+		B6A62A5715BD7CD400E13D5B /* 鸡屎白.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "鸡屎白.png"; sourceTree = "<group>"; };
+		B6A62A5815BD7CD400E13D5B /* 麦冬.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "麦冬.png"; sourceTree = "<group>"; };
+		B6A62A5915BD7CD400E13D5B /* 麻仁.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "麻仁.png"; sourceTree = "<group>"; };
+		B6A62A5A15BD7CD400E13D5B /* 麻黄.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "麻黄.png"; sourceTree = "<group>"; };
+		B6A62A5B15BD7CD400E13D5B /* 黄柏.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "黄柏.png"; sourceTree = "<group>"; };
+		B6A62A5C15BD7CD400E13D5B /* 黄芩.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "黄芩.png"; sourceTree = "<group>"; };
+		B6A62A5D15BD7CD400E13D5B /* 黄芩片.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "黄芩片.png"; sourceTree = "<group>"; };
+		B6A62A5E15BD7CD400E13D5B /* 黄芪.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "黄芪.png"; sourceTree = "<group>"; };
+		B6A62A5F15BD7CD400E13D5B /* 黄连.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "黄连.png"; sourceTree = "<group>"; };
+		B6A62A6015BD7CD400E13D5B /* 黄酒.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "黄酒.png"; sourceTree = "<group>"; };
+		B6A62A6115BD7CD400E13D5B /* 鼠妇.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "鼠妇.png"; sourceTree = "<group>"; };
+		B6A62A6215BD7CD400E13D5B /* 龙骨.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "龙骨.png"; sourceTree = "<group>"; };
+		B6A62B1015BD7CE300E13D5B /* 乌头.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "乌头.jpg"; sourceTree = "<group>"; };
+		B6A62B1115BD7CE300E13D5B /* 乌梅.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "乌梅.jpg"; sourceTree = "<group>"; };
+		B6A62B1215BD7CE300E13D5B /* 乱发.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "乱发.jpg"; sourceTree = "<group>"; };
+		B6A62B1315BD7CE300E13D5B /* 云母.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "云母.jpg"; sourceTree = "<group>"; };
+		B6A62B1415BD7CE300E13D5B /* 五味子.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "五味子.jpg"; sourceTree = "<group>"; };
+		B6A62B1515BD7CE300E13D5B /* 人参.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "人参.jpg"; sourceTree = "<group>"; };
+		B6A62B1615BD7CE300E13D5B /* 人尿.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "人尿.jpg"; sourceTree = "<group>"; };
+		B6A62B1715BD7CE300E13D5B /* 代赭石.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "代赭石.jpg"; sourceTree = "<group>"; };
+		B6A62B1815BD7CE300E13D5B /* 制白附子.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "制白附子.jpg"; sourceTree = "<group>"; };
+		B6A62B1915BD7CE300E13D5B /* 升麻.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "升麻.jpg"; sourceTree = "<group>"; };
+		B6A62B1A15BD7CE300E13D5B /* 半夏.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "半夏.jpg"; sourceTree = "<group>"; };
+		B6A62B1B15BD7CE300E13D5B /* 厚朴.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "厚朴.jpg"; sourceTree = "<group>"; };
+		B6A62B1C15BD7CE300E13D5B /* 吴茱萸.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "吴茱萸.jpg"; sourceTree = "<group>"; };
+		B6A62B1D15BD7CE300E13D5B /* 商陆根.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "商陆根.jpg"; sourceTree = "<group>"; };
+		B6A62B1E15BD7CE300E13D5B /* 土瓜根.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "土瓜根.jpg"; sourceTree = "<group>"; };
+		B6A62B1F15BD7CE300E13D5B /* 地黄.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "地黄.jpg"; sourceTree = "<group>"; };
+		B6A62B2015BD7CE300E13D5B /* 大戟.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "大戟.jpg"; sourceTree = "<group>"; };
+		B6A62B2115BD7CE300E13D5B /* 大枣.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "大枣.jpg"; sourceTree = "<group>"; };
+		B6A62B2215BD7CE300E13D5B /* 大麦.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "大麦.jpg"; sourceTree = "<group>"; };
+		B6A62B2315BD7CE300E13D5B /* 大黄.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "大黄.jpg"; sourceTree = "<group>"; };
+		B6A62B2415BD7CE300E13D5B /* 天冬.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "天冬.jpg"; sourceTree = "<group>"; };
+		B6A62B2515BD7CE300E13D5B /* 射干.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "射干.jpg"; sourceTree = "<group>"; };
+		B6A62B2615BD7CE300E13D5B /* 小麦.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "小麦.jpg"; sourceTree = "<group>"; };
+		B6A62B2715BD7CE300E13D5B /* 山茱萸.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "山茱萸.jpg"; sourceTree = "<group>"; };
+		B6A62B2815BD7CE300E13D5B /* 巴豆.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "巴豆.jpg"; sourceTree = "<group>"; };
+		B6A62B2915BD7CE300E13D5B /* 干姜.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "干姜.jpg"; sourceTree = "<group>"; };
+		B6A62B2A15BD7CE300E13D5B /* 干漆.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "干漆.jpg"; sourceTree = "<group>"; };
+		B6A62B2B15BD7CE300E13D5B /* 当归.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "当归.jpg"; sourceTree = "<group>"; };
+		B6A62B2C15BD7CE300E13D5B /* 当归2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "当归2.jpg"; sourceTree = "<group>"; };
+		B6A62B2D15BD7CE300E13D5B /* 戎盐.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "戎盐.jpg"; sourceTree = "<group>"; };
+		B6A62B2E15BD7CE300E13D5B /* 文蛤.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "文蛤.jpg"; sourceTree = "<group>"; };
+		B6A62B2F15BD7CE300E13D5B /* 新绛.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "新绛.jpg"; sourceTree = "<group>"; };
+		B6A62B3015BD7CE300E13D5B /* 旋覆花.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "旋覆花.jpg"; sourceTree = "<group>"; };
+		B6A62B3115BD7CE300E13D5B /* 朱砂.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "朱砂.jpg"; sourceTree = "<group>"; };
+		B6A62B3215BD7CE300E13D5B /* 杏仁.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "杏仁.jpg"; sourceTree = "<group>"; };
+		B6A62B3315BD7CE300E13D5B /* 枣仁.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "枣仁.jpg"; sourceTree = "<group>"; };
+		B6A62B3415BD7CE300E13D5B /* 枳实.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "枳实.jpg"; sourceTree = "<group>"; };
+		B6A62B3515BD7CE300E13D5B /* 柏叶.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "柏叶.jpg"; sourceTree = "<group>"; };
+		B6A62B3615BD7CE300E13D5B /* 柏子仁.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "柏子仁.jpg"; sourceTree = "<group>"; };
+		B6A62B3715BD7CE300E13D5B /* 柏实.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "柏实.jpg"; sourceTree = "<group>"; };
+		B6A62B3815BD7CE300E13D5B /* 柴胡.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "柴胡.jpg"; sourceTree = "<group>"; };
+		B6A62B3915BD7CE300E13D5B /* 栀子.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "栀子.jpg"; sourceTree = "<group>"; };
+		B6A62B3A15BD7CE300E13D5B /* 栝蒌实.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "栝蒌实.jpg"; sourceTree = "<group>"; };
+		B6A62B3B15BD7CE300E13D5B /* 栝蒌根.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "栝蒌根.jpg"; sourceTree = "<group>"; };
+		B6A62B3C15BD7CE300E13D5B /* 桂枝.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "桂枝.jpg"; sourceTree = "<group>"; };
+		B6A62B3D15BD7CE300E13D5B /* 桃仁.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "桃仁.jpg"; sourceTree = "<group>"; };
+		B6A62B3E15BD7CE300E13D5B /* 桑根白皮.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "桑根白皮.jpg"; sourceTree = "<group>"; };
+		B6A62B3F15BD7CE300E13D5B /* 桔梗.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "桔梗.jpg"; sourceTree = "<group>"; };
+		B6A62B4015BD7CE300E13D5B /* 橘皮.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "橘皮.jpg"; sourceTree = "<group>"; };
+		B6A62B4115BD7CE300E13D5B /* 款冬花.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "款冬花.jpg"; sourceTree = "<group>"; };
+		B6A62B4215BD7CE300E13D5B /* 水蛭.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "水蛭.jpg"; sourceTree = "<group>"; };
+		B6A62B4315BD7CE300E13D5B /* 泽泻.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "泽泻.jpg"; sourceTree = "<group>"; };
+		B6A62B4415BD7CE300E13D5B /* 泽漆.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "泽漆.jpg"; sourceTree = "<group>"; };
+		B6A62B4515BD7CE300E13D5B /* 海藻.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "海藻.jpg"; sourceTree = "<group>"; };
+		B6A62B4615BD7CE300E13D5B /* 清半夏.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "清半夏.jpg"; sourceTree = "<group>"; };
+		B6A62B4715BD7CE300E13D5B /* 滑石.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "滑石.jpg"; sourceTree = "<group>"; };
+		B6A62B4815BD7CE300E13D5B /* 灶中黄土.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "灶中黄土.jpg"; sourceTree = "<group>"; };
+		B6A62B4915BD7CE300E13D5B /* 焦神曲.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "焦神曲.jpg"; sourceTree = "<group>"; };
+		B6A62B4A15BD7CE300E13D5B /* 熟地黄.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "熟地黄.jpg"; sourceTree = "<group>"; };
+		B6A62B4B15BD7CE300E13D5B /* 牡丹皮.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "牡丹皮.jpg"; sourceTree = "<group>"; };
+		B6A62B4C15BD7CE300E13D5B /* 牡丹皮2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "牡丹皮2.jpg"; sourceTree = "<group>"; };
+		B6A62B4D15BD7CE300E13D5B /* 牡蛎.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "牡蛎.jpg"; sourceTree = "<group>"; };
+		B6A62B4E15BD7CE300E13D5B /* 狼牙.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "狼牙.jpg"; sourceTree = "<group>"; };
+		B6A62B4F15BD7CE300E13D5B /* 猪肤.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "猪肤.jpg"; sourceTree = "<group>"; };
+		B6A62B5015BD7CE300E13D5B /* 猪胆汁.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "猪胆汁.jpg"; sourceTree = "<group>"; };
+		B6A62B5115BD7CE300E13D5B /* 猪膏.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "猪膏.jpg"; sourceTree = "<group>"; };
+		B6A62B5215BD7CE300E13D5B /* 猪苓.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "猪苓.jpg"; sourceTree = "<group>"; };
+		B6A62B5315BD7CE300E13D5B /* 王不留行.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "王不留行.jpg"; sourceTree = "<group>"; };
+		B6A62B5415BD7CE300E13D5B /* 瓜子.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "瓜子.jpg"; sourceTree = "<group>"; };
+		B6A62B5515BD7CE300E13D5B /* 瓜蒂.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "瓜蒂.jpg"; sourceTree = "<group>"; };
+		B6A62B5615BD7CE300E13D5B /* 甘李根白皮.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "甘李根白皮.jpg"; sourceTree = "<group>"; };
+		B6A62B5715BD7CE300E13D5B /* 甘草.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "甘草.jpg"; sourceTree = "<group>"; };
+		B6A62B5815BD7CE300E13D5B /* 甘草片.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "甘草片.jpg"; sourceTree = "<group>"; };
+		B6A62B5915BD7CE300E13D5B /* 甘遂.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "甘遂.jpg"; sourceTree = "<group>"; };
+		B6A62B5A15BD7CE300E13D5B /* 生姜.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "生姜.jpg"; sourceTree = "<group>"; };
+		B6A62B5B15BD7CE300E13D5B /* 生梓白皮.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "生梓白皮.jpg"; sourceTree = "<group>"; };
+		B6A62B5C15BD7CE300E13D5B /* 白前.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "白前.jpg"; sourceTree = "<group>"; };
+		B6A62B5D15BD7CE300E13D5B /* 白前2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "白前2.jpg"; sourceTree = "<group>"; };
+		B6A62B5E15BD7CE300E13D5B /* 白头翁.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "白头翁.jpg"; sourceTree = "<group>"; };
+		B6A62B5F15BD7CE300E13D5B /* 白术.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "白术.jpg"; sourceTree = "<group>"; };
+		B6A62B6015BD7CE300E13D5B /* 白蔹.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "白蔹.jpg"; sourceTree = "<group>"; };
+		B6A62B6115BD7CE300E13D5B /* 白薇.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "白薇.jpg"; sourceTree = "<group>"; };
+		B6A62B6215BD7CE300E13D5B /* 白蜜.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "白蜜.jpg"; sourceTree = "<group>"; };
+		B6A62B6315BD7CE300E13D5B /* 白附子.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "白附子.jpg"; sourceTree = "<group>"; };
+		B6A62B6415BD7CE300E13D5B /* 百合.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "百合.jpg"; sourceTree = "<group>"; };
+		B6A62B6515BD7CE300E13D5B /* 皂荚.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "皂荚.jpg"; sourceTree = "<group>"; };
+		B6A62B6615BD7CE300E13D5B /* 瞿麦.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "瞿麦.jpg"; sourceTree = "<group>"; };
+		B6A62B6715BD7CE300E13D5B /* 知母.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "知母.jpg"; sourceTree = "<group>"; };
+		B6A62B6815BD7CE300E13D5B /* 石膏.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "石膏.jpg"; sourceTree = "<group>"; };
+		B6A62B6915BD7CE300E13D5B /* 石膏粉.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "石膏粉.jpg"; sourceTree = "<group>"; };
+		B6A62B6A15BD7CE300E13D5B /* 石韦.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "石韦.jpg"; sourceTree = "<group>"; };
+		B6A62B6B15BD7CE300E13D5B /* 矾石.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "矾石.jpg"; sourceTree = "<group>"; };
+		B6A62B6C15BD7CE300E13D5B /* 硝石.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "硝石.jpg"; sourceTree = "<group>"; };
+		B6A62B6D15BD7CE300E13D5B /* 神曲.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "神曲.jpg"; sourceTree = "<group>"; };
+		B6A62B6E15BD7CE300E13D5B /* 禹余粮.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "禹余粮.jpg"; sourceTree = "<group>"; };
+		B6A62B6F15BD7CE300E13D5B /* 秦皮.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "秦皮.jpg"; sourceTree = "<group>"; };
+		B6A62B7015BD7CE300E13D5B /* 竹叶.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "竹叶.jpg"; sourceTree = "<group>"; };
+		B6A62B7115BD7CE300E13D5B /* 竹茹.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "竹茹.jpg"; sourceTree = "<group>"; };
+		B6A62B7215BD7CE300E13D5B /* 粳米.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "粳米.jpg"; sourceTree = "<group>"; };
+		B6A62B7315BD7CE300E13D5B /* 紫参.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "紫参.jpg"; sourceTree = "<group>"; };
+		B6A62B7415BD7CE300E13D5B /* 紫菀.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "紫菀.jpg"; sourceTree = "<group>"; };
+		B6A62B7515BD7CE300E13D5B /* 紫葳.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "紫葳.jpg"; sourceTree = "<group>"; };
+		B6A62B7615BD7CE300E13D5B /* 红蓝花.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "红蓝花.jpg"; sourceTree = "<group>"; };
+		B6A62B7715BD7CE300E13D5B /* 细辛.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "细辛.jpg"; sourceTree = "<group>"; };
+		B6A62B7815BD7CE300E13D5B /* 羊肉.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "羊肉.jpg"; sourceTree = "<group>"; };
+		B6A62B7915BD7CE300E13D5B /* 胶饴.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "胶饴.jpg"; sourceTree = "<group>"; };
+		B6A62B7A15BD7CE300E13D5B /* 艾叶.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "艾叶.jpg"; sourceTree = "<group>"; };
+		B6A62B7B15BD7CE300E13D5B /* 芍药.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "芍药.jpg"; sourceTree = "<group>"; };
+		B6A62B7C15BD7CE300E13D5B /* 芎藭.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "芎藭.jpg"; sourceTree = "<group>"; };
+		B6A62B7D15BD7CE300E13D5B /* 芒硝.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "芒硝.jpg"; sourceTree = "<group>"; };
+		B6A62B7E15BD7CE300E13D5B /* 芫花.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "芫花.jpg"; sourceTree = "<group>"; };
+		B6A62B7F15BD7CE300E13D5B /* 苏叶.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "苏叶.jpg"; sourceTree = "<group>"; };
+		B6A62B8015BD7CE300E13D5B /* 苦参.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "苦参.jpg"; sourceTree = "<group>"; };
+		B6A62B8115BD7CE300E13D5B /* 苦杏仁.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "苦杏仁.jpg"; sourceTree = "<group>"; };
+		B6A62B8215BD7CE300E13D5B /* 苦酒.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "苦酒.jpg"; sourceTree = "<group>"; };
+		B6A62B8315BD7CE300E13D5B /* 茯苓.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "茯苓.jpg"; sourceTree = "<group>"; };
+		B6A62B8415BD7CE300E13D5B /* 茯苓2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "茯苓2.jpg"; sourceTree = "<group>"; };
+		B6A62B8515BD7CE300E13D5B /* 茵陈蒿.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "茵陈蒿.jpg"; sourceTree = "<group>"; };
+		B6A62B8615BD7CE300E13D5B /* 萎蕤.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "萎蕤.jpg"; sourceTree = "<group>"; };
+		B6A62B8715BD7CE300E13D5B /* 葛根.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "葛根.jpg"; sourceTree = "<group>"; };
+		B6A62B8815BD7CE300E13D5B /* 葱白.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "葱白.jpg"; sourceTree = "<group>"; };
+		B6A62B8915BD7CE300E13D5B /* 葵子.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "葵子.jpg"; sourceTree = "<group>"; };
+		B6A62B8A15BD7CE300E13D5B /* 葶苈.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "葶苈.jpg"; sourceTree = "<group>"; };
+		B6A62B8B15BD7CE300E13D5B /* 蒴藋.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "蒴藋.jpg"; sourceTree = "<group>"; };
+		B6A62B8C15BD7CE300E13D5B /* 薏苡.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "薏苡.jpg"; sourceTree = "<group>"; };
+		B6A62B8D15BD7CE300E13D5B /* 薤白.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "薤白.jpg"; sourceTree = "<group>"; };
+		B6A62B8E15BD7CE300E13D5B /* 薯蓣.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "薯蓣.jpg"; sourceTree = "<group>"; };
+		B6A62B8F15BD7CE300E13D5B /* 藜芦.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "藜芦.jpg"; sourceTree = "<group>"; };
+		B6A62B9015BD7CE300E13D5B /* 虻虫.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "虻虫.jpg"; sourceTree = "<group>"; };
+		B6A62B9115BD7CE300E13D5B /* 蛇床子.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "蛇床子.jpg"; sourceTree = "<group>"; };
+		B6A62B9215BD7CE300E13D5B /* 蛴螬.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "蛴螬.jpg"; sourceTree = "<group>"; };
+		B6A62B9315BD7CE300E13D5B /* 蜀椒.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "蜀椒.jpg"; sourceTree = "<group>"; };
+		B6A62B9415BD7CE300E13D5B /* 蜀漆.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "蜀漆.jpg"; sourceTree = "<group>"; };
+		B6A62B9515BD7CE300E13D5B /* 蜂窠.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "蜂窠.jpg"; sourceTree = "<group>"; };
+		B6A62B9615BD7CE300E13D5B /* 蜣螂.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "蜣螂.jpg"; sourceTree = "<group>"; };
+		B6A62B9715BD7CE300E13D5B /* 蟅虫.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "蟅虫.jpg"; sourceTree = "<group>"; };
+		B6A62B9815BD7CE300E13D5B /* 诃黎勒.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "诃黎勒.jpg"; sourceTree = "<group>"; };
+		B6A62B9915BD7CE300E13D5B /* 豆黄卷.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "豆黄卷.jpg"; sourceTree = "<group>"; };
+		B6A62B9A15BD7CE300E13D5B /* 贝母.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "贝母.jpg"; sourceTree = "<group>"; };
+		B6A62B9B15BD7CE300E13D5B /* 败酱.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "败酱.jpg"; sourceTree = "<group>"; };
+		B6A62B9C15BD7CE300E13D5B /* 赤小豆.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "赤小豆.jpg"; sourceTree = "<group>"; };
+		B6A62B9D15BD7CE300E13D5B /* 赤石脂.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "赤石脂.jpg"; sourceTree = "<group>"; };
+		B6A62B9E15BD7CE300E13D5B /* 赤硝.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "赤硝.jpg"; sourceTree = "<group>"; };
+		B6A62B9F15BD7CE300E13D5B /* 连翘.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "连翘.jpg"; sourceTree = "<group>"; };
+		B6A62BA015BD7CE300E13D5B /* 通草.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "通草.jpg"; sourceTree = "<group>"; };
+		B6A62BA115BD7CE300E13D5B /* 铅丹.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "铅丹.jpg"; sourceTree = "<group>"; };
+		B6A62BA215BD7CE300E13D5B /* 铅粉.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "铅粉.jpg"; sourceTree = "<group>"; };
+		B6A62BA315BD7CE300E13D5B /* 防己.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "防己.jpg"; sourceTree = "<group>"; };
+		B6A62BA415BD7CE300E13D5B /* 防风.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "防风.jpg"; sourceTree = "<group>"; };
+		B6A62BA515BD7CE300E13D5B /* 阿胶.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "阿胶.jpg"; sourceTree = "<group>"; };
+		B6A62BA615BD7CE300E13D5B /* 附子.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "附子.jpg"; sourceTree = "<group>"; };
+		B6A62BA715BD7CE300E13D5B /* 雄黄.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "雄黄.jpg"; sourceTree = "<group>"; };
+		B6A62BA815BD7CE300E13D5B /* 雄黄矿石.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "雄黄矿石.jpg"; sourceTree = "<group>"; };
+		B6A62BA915BD7CE300E13D5B /* 香豉.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "香豉.jpg"; sourceTree = "<group>"; };
+		B6A62BAA15BD7CE300E13D5B /* 马通.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "马通.jpg"; sourceTree = "<group>"; };
+		B6A62BAB15BD7CE300E13D5B /* 鳖甲.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "鳖甲.jpg"; sourceTree = "<group>"; };
+		B6A62BAC15BD7CE300E13D5B /* 鸡子白.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "鸡子白.jpg"; sourceTree = "<group>"; };
+		B6A62BAD15BD7CE300E13D5B /* 鸡子黄.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "鸡子黄.jpg"; sourceTree = "<group>"; };
+		B6A62BAE15BD7CE300E13D5B /* 鸡屎白.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "鸡屎白.jpg"; sourceTree = "<group>"; };
+		B6A62BAF15BD7CE300E13D5B /* 麦冬.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "麦冬.jpg"; sourceTree = "<group>"; };
+		B6A62BB015BD7CE300E13D5B /* 麻仁.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "麻仁.jpg"; sourceTree = "<group>"; };
+		B6A62BB115BD7CE300E13D5B /* 麻黄.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "麻黄.jpg"; sourceTree = "<group>"; };
+		B6A62BB215BD7CE300E13D5B /* 黄柏.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "黄柏.jpg"; sourceTree = "<group>"; };
+		B6A62BB315BD7CE300E13D5B /* 黄芩.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "黄芩.jpg"; sourceTree = "<group>"; };
+		B6A62BB415BD7CE300E13D5B /* 黄芩片.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "黄芩片.jpg"; sourceTree = "<group>"; };
+		B6A62BB515BD7CE300E13D5B /* 黄芪.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "黄芪.jpg"; sourceTree = "<group>"; };
+		B6A62BB615BD7CE300E13D5B /* 黄连.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "黄连.jpg"; sourceTree = "<group>"; };
+		B6A62BB715BD7CE300E13D5B /* 黄酒.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "黄酒.jpg"; sourceTree = "<group>"; };
+		B6A62BB815BD7CE300E13D5B /* 鼠妇.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "鼠妇.jpg"; sourceTree = "<group>"; };
+		B6A62BB915BD7CE300E13D5B /* 龙骨.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "龙骨.jpg"; sourceTree = "<group>"; };
+		B6A62C6515BD987000E13D5B /* BookMark.dat.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = BookMark.dat.strings; sourceTree = "<group>"; };
 		B6C78C1C15A51384006D6FE7 /* HMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMViewController.h; sourceTree = "<group>"; };
 		B6C78C1D15A51384006D6FE7 /* HMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMViewController.m; sourceTree = "<group>"; };
 		B6C78C1E15A51384006D6FE7 /* HMViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HMViewController.xib; sourceTree = "<group>"; };
@@ -556,6 +898,7 @@
 				B62F0D181487A12200FA38F8 /* InfoPlist.strings */,
 				B62F0D1B1487A12200FA38F8 /* main.m */,
 				B62F0D1D1487A12200FA38F8 /* CSYJ-Prefix.pch */,
+				B6A62C6515BD987000E13D5B /* BookMark.dat.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -563,6 +906,8 @@
 		B6A3E3D015B30A7D00FC1A78 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B6A62B0F15BD7CE300E13D5B /* img */,
+				B6A629B715BD7CD300E13D5B /* thumImg */,
 				B6E7C8BC15BBA7B60047BBF5 /* csyj_hx.html */,
 				B6E7C8BD15BBA7B60047BBF5 /* csyj_zx.html */,
 				B6FA345C15BBF438002F6BB8 /* csyj_hyy.html */,
@@ -573,187 +918,363 @@
 				B6A3E3D115B30A7D00FC1A78 /* csyj.db */,
 				B6A3E3D315B30A7D00FC1A78 /* default.jpg */,
 				B6A3E3D415B30A7D00FC1A78 /* Dictionary.txt */,
-				B6A3E3D515B30A7D00FC1A78 /* hmImage */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		B6A3E3D515B30A7D00FC1A78 /* hmImage */ = {
+		B6A629B715BD7CD300E13D5B /* thumImg */ = {
 			isa = PBXGroup;
 			children = (
-				B6A3E3D615B30A7D00FC1A78 /* 乌头.png */,
-				B6A3E3D715B30A7D00FC1A78 /* 乌梅.png */,
-				B6A3E3D815B30A7D00FC1A78 /* 乱发.png */,
-				B6A3E3D915B30A7D00FC1A78 /* 云母.png */,
-				B6A3E3DA15B30A7D00FC1A78 /* 五味子.png */,
-				B6A3E3DB15B30A7D00FC1A78 /* 人参.png */,
-				B6A3E3DC15B30A7D00FC1A78 /* 人尿.png */,
-				B6A3E3DD15B30A7D00FC1A78 /* 代赭石.png */,
-				B6A3E3DE15B30A7D00FC1A78 /* 制白附子.png */,
-				B6A3E3DF15B30A7D00FC1A78 /* 升麻.png */,
-				B6A3E3E015B30A7D00FC1A78 /* 半夏.png */,
-				B6A3E3E115B30A7D00FC1A78 /* 厚朴.png */,
-				B6A3E3E215B30A7D00FC1A78 /* 吴茱萸.png */,
-				B6A3E3E315B30A7D00FC1A78 /* 商陆根.png */,
-				B6A3E3E415B30A7D00FC1A78 /* 土瓜根.png */,
-				B6A3E3E515B30A7D00FC1A78 /* 地黄.png */,
-				B6A3E3E615B30A7D00FC1A78 /* 大戟.png */,
-				B6A3E3E715B30A7D00FC1A78 /* 大枣.png */,
-				B6A3E3E815B30A7D00FC1A78 /* 大麦.png */,
-				B6A3E3E915B30A7D00FC1A78 /* 大黄.png */,
-				B6A3E3EA15B30A7D00FC1A78 /* 天冬.png */,
-				B6A3E3EB15B30A7D00FC1A78 /* 射干.png */,
-				B6A3E3EC15B30A7D00FC1A78 /* 小麦.png */,
-				B6A3E3ED15B30A7D00FC1A78 /* 山茱萸.png */,
-				B6A3E3EE15B30A7D00FC1A78 /* 巴豆.png */,
-				B6A3E3EF15B30A7D00FC1A78 /* 干姜.png */,
-				B6A3E3F015B30A7D00FC1A78 /* 干漆.png */,
-				B6A3E3F115B30A7D00FC1A78 /* 当归.png */,
-				B6A3E3F215B30A7D00FC1A78 /* 当归2.png */,
-				B6A3E3F315B30A7D00FC1A78 /* 戎盐.png */,
-				B6A3E3F415B30A7D00FC1A78 /* 文蛤.png */,
-				B6A3E3F515B30A7D00FC1A78 /* 新绛.png */,
-				B6A3E3F615B30A7D00FC1A78 /* 旋覆花.png */,
-				B6A3E3F715B30A7D00FC1A78 /* 未命名.png */,
-				B6A3E3F815B30A7D00FC1A78 /* 朱砂.png */,
-				B6A3E3F915B30A7D00FC1A78 /* 杏仁.png */,
-				B6A3E3FA15B30A7D00FC1A78 /* 枣仁.png */,
-				B6A3E3FB15B30A7D00FC1A78 /* 枳实.png */,
-				B6A3E3FC15B30A7D00FC1A78 /* 柏叶.png */,
-				B6A3E3FD15B30A7D00FC1A78 /* 柏子仁.png */,
-				B6A3E3FE15B30A7D00FC1A78 /* 柏实.png */,
-				B6A3E3FF15B30A7D00FC1A78 /* 柴胡.png */,
-				B6A3E40015B30A7D00FC1A78 /* 栀子.png */,
-				B6A3E40115B30A7D00FC1A78 /* 栝蒌实.png */,
-				B6A3E40215B30A7D00FC1A78 /* 栝蒌根.png */,
-				B6A3E40315B30A7D00FC1A78 /* 桂枝.png */,
-				B6A3E40415B30A7D00FC1A78 /* 桃仁.png */,
-				B6A3E40515B30A7D00FC1A78 /* 桑根白皮.png */,
-				B6A3E40615B30A7D00FC1A78 /* 桔梗.png */,
-				B6A3E40715B30A7D00FC1A78 /* 橘皮.png */,
-				B6A3E40815B30A7D00FC1A78 /* 款冬花.png */,
-				B6A3E40915B30A7D00FC1A78 /* 水蛭.png */,
-				B6A3E40A15B30A7D00FC1A78 /* 泽泻.png */,
-				B6A3E40B15B30A7D00FC1A78 /* 泽漆.png */,
-				B6A3E40C15B30A7D00FC1A78 /* 海藻.png */,
-				B6A3E40D15B30A7D00FC1A78 /* 清半夏.png */,
-				B6A3E40E15B30A7D00FC1A78 /* 滑石.png */,
-				B6A3E40F15B30A7D00FC1A78 /* 灶中黄土.png */,
-				B6A3E41015B30A7D00FC1A78 /* 焦神曲.png */,
-				B6A3E41115B30A7D00FC1A78 /* 熟地黄.png */,
-				B6A3E41215B30A7D00FC1A78 /* 牡丹皮.png */,
-				B6A3E41315B30A7D00FC1A78 /* 牡丹皮2.png */,
-				B6A3E41415B30A7D00FC1A78 /* 牡蛎.png */,
-				B6A3E41515B30A7D00FC1A78 /* 狼牙.png */,
-				B6A3E41615B30A7D00FC1A78 /* 猪肤.png */,
-				B6A3E41715B30A7D00FC1A78 /* 猪胆汁.png */,
-				B6A3E41815B30A7D00FC1A78 /* 猪膏.png */,
-				B6A3E41915B30A7D00FC1A78 /* 猪苓.png */,
-				B6A3E41A15B30A7D00FC1A78 /* 王不留行.png */,
-				B6A3E41B15B30A7D00FC1A78 /* 瓜子.png */,
-				B6A3E41C15B30A7D00FC1A78 /* 瓜蒂.png */,
-				B6A3E41D15B30A7D00FC1A78 /* 甘李根白皮.png */,
-				B6A3E41E15B30A7D00FC1A78 /* 甘草.png */,
-				B6A3E41F15B30A7D00FC1A78 /* 甘草片.png */,
-				B6A3E42015B30A7D00FC1A78 /* 甘遂.png */,
-				B6A3E42115B30A7D00FC1A78 /* 生姜.png */,
-				B6A3E42215B30A7D00FC1A78 /* 生梓白皮.png */,
-				B6A3E42315B30A7D00FC1A78 /* 白前.png */,
-				B6A3E42415B30A7D00FC1A78 /* 白前2.png */,
-				B6A3E42515B30A7D00FC1A78 /* 白头翁.png */,
-				B6A3E42615B30A7D00FC1A78 /* 白术.png */,
-				B6A3E42715B30A7D00FC1A78 /* 白蔹.png */,
-				B6A3E42815B30A7D00FC1A78 /* 白薇.png */,
-				B6A3E42915B30A7D00FC1A78 /* 白蜜.png */,
-				B6A3E42A15B30A7D00FC1A78 /* 白附子.png */,
-				B6A3E42B15B30A7D00FC1A78 /* 百合.png */,
-				B6A3E42C15B30A7D00FC1A78 /* 皂荚.png */,
-				B6A3E42D15B30A7D00FC1A78 /* 瞿麦.png */,
-				B6A3E42E15B30A7D00FC1A78 /* 知母.png */,
-				B6A3E42F15B30A7D00FC1A78 /* 石膏.png */,
-				B6A3E43015B30A7D00FC1A78 /* 石膏粉.png */,
-				B6A3E43115B30A7D00FC1A78 /* 石韦.png */,
-				B6A3E43215B30A7D00FC1A78 /* 矾石.png */,
-				B6A3E43315B30A7D00FC1A78 /* 硝石.png */,
-				B6A3E43415B30A7D00FC1A78 /* 神曲.png */,
-				B6A3E43515B30A7D00FC1A78 /* 禹余粮.png */,
-				B6A3E43615B30A7D00FC1A78 /* 秦皮.png */,
-				B6A3E43715B30A7D00FC1A78 /* 竹叶.png */,
-				B6A3E43815B30A7D00FC1A78 /* 竹茹.png */,
-				B6A3E43915B30A7D00FC1A78 /* 粳米.png */,
-				B6A3E43A15B30A7D00FC1A78 /* 紫参.png */,
-				B6A3E43B15B30A7D00FC1A78 /* 紫菀.png */,
-				B6A3E43C15B30A7D00FC1A78 /* 紫葳.png */,
-				B6A3E43D15B30A7D00FC1A78 /* 红蓝花.png */,
-				B6A3E43E15B30A7D00FC1A78 /* 细辛.png */,
-				B6A3E43F15B30A7D00FC1A78 /* 羊肉.png */,
-				B6A3E44015B30A7D00FC1A78 /* 胶饴.png */,
-				B6A3E44115B30A7D00FC1A78 /* 艾叶.png */,
-				B6A3E44215B30A7D00FC1A78 /* 芍药.png */,
-				B6A3E44315B30A7D00FC1A78 /* 芎藭.png */,
-				B6A3E44415B30A7D00FC1A78 /* 芒硝.png */,
-				B6A3E44515B30A7D00FC1A78 /* 芫花.png */,
-				B6A3E44615B30A7D00FC1A78 /* 苏叶.png */,
-				B6A3E44715B30A7D00FC1A78 /* 苦参.png */,
-				B6A3E44815B30A7D00FC1A78 /* 苦杏仁.png */,
-				B6A3E44915B30A7D00FC1A78 /* 苦酒.png */,
-				B6A3E44A15B30A7D00FC1A78 /* 茯苓.png */,
-				B6A3E44B15B30A7D00FC1A78 /* 茯苓2.png */,
-				B6A3E44C15B30A7D00FC1A78 /* 茵陈蒿.png */,
-				B6A3E44D15B30A7D00FC1A78 /* 萎蕤.png */,
-				B6A3E44E15B30A7D00FC1A78 /* 葛根.png */,
-				B6A3E44F15B30A7D00FC1A78 /* 葱白.png */,
-				B6A3E45015B30A7D00FC1A78 /* 葵子.png */,
-				B6A3E45115B30A7D00FC1A78 /* 葶苈.png */,
-				B6A3E45215B30A7D00FC1A78 /* 蒴藋.png */,
-				B6A3E45315B30A7D00FC1A78 /* 薏苡.png */,
-				B6A3E45415B30A7D00FC1A78 /* 薤白.png */,
-				B6A3E45515B30A7D00FC1A78 /* 薯蓣.png */,
-				B6A3E45615B30A7D00FC1A78 /* 藜芦.png */,
-				B6A3E45715B30A7D00FC1A78 /* 虻虫.png */,
-				B6A3E45815B30A7D00FC1A78 /* 蛇床子.png */,
-				B6A3E45915B30A7D00FC1A78 /* 蛴螬.png */,
-				B6A3E45A15B30A7D00FC1A78 /* 蜀椒.png */,
-				B6A3E45B15B30A7D00FC1A78 /* 蜀漆.png */,
-				B6A3E45C15B30A7D00FC1A78 /* 蜂窠.png */,
-				B6A3E45D15B30A7D00FC1A78 /* 蜣螂.png */,
-				B6A3E45E15B30A7D00FC1A78 /* 蟅虫.png */,
-				B6A3E45F15B30A7D00FC1A78 /* 诃黎勒.png */,
-				B6A3E46015B30A7D00FC1A78 /* 豆黄卷.png */,
-				B6A3E46115B30A7D00FC1A78 /* 贝母.png */,
-				B6A3E46215B30A7D00FC1A78 /* 败酱.png */,
-				B6A3E46315B30A7D00FC1A78 /* 赤小豆.png */,
-				B6A3E46415B30A7D00FC1A78 /* 赤石脂.png */,
-				B6A3E46515B30A7D00FC1A78 /* 赤硝.png */,
-				B6A3E46615B30A7D00FC1A78 /* 连翘.png */,
-				B6A3E46715B30A7D00FC1A78 /* 通草.png */,
-				B6A3E46815B30A7D00FC1A78 /* 铅丹.png */,
-				B6A3E46915B30A7D00FC1A78 /* 铅粉.png */,
-				B6A3E46A15B30A7D00FC1A78 /* 防己.png */,
-				B6A3E46B15B30A7D00FC1A78 /* 防风.png */,
-				B6A3E46C15B30A7D00FC1A78 /* 阿胶.png */,
-				B6A3E46D15B30A7D00FC1A78 /* 附子.png */,
-				B6A3E46E15B30A7D00FC1A78 /* 雄黄.png */,
-				B6A3E46F15B30A7D00FC1A78 /* 雄黄矿石.png */,
-				B6A3E47015B30A7D00FC1A78 /* 香豉.png */,
-				B6A3E47115B30A7D00FC1A78 /* 马通.png */,
-				B6A3E47215B30A7D00FC1A78 /* 鳖甲.png */,
-				B6A3E47315B30A7D00FC1A78 /* 鸡子白.png */,
-				B6A3E47415B30A7D00FC1A78 /* 鸡子黄.png */,
-				B6A3E47515B30A7D00FC1A78 /* 鸡屎白.png */,
-				B6A3E47615B30A7D00FC1A78 /* 麦冬.png */,
-				B6A3E47715B30A7D00FC1A78 /* 麻仁.png */,
-				B6A3E47815B30A7D00FC1A78 /* 麻黄.png */,
-				B6A3E47915B30A7D00FC1A78 /* 黄柏.png */,
-				B6A3E47A15B30A7D00FC1A78 /* 黄芩.png */,
-				B6A3E47B15B30A7D00FC1A78 /* 黄芩片.png */,
-				B6A3E47C15B30A7D00FC1A78 /* 黄芪.png */,
-				B6A3E47D15B30A7D00FC1A78 /* 黄连.png */,
-				B6A3E47E15B30A7D00FC1A78 /* 黄酒.png */,
-				B6A3E47F15B30A7D00FC1A78 /* 鼠妇.png */,
-				B6A3E48015B30A7D00FC1A78 /* 龙骨.png */,
+				B6A629B815BD7CD300E13D5B /* 乌头.png */,
+				B6A629B915BD7CD300E13D5B /* 乌梅.png */,
+				B6A629BA15BD7CD300E13D5B /* 乱发.png */,
+				B6A629BB15BD7CD300E13D5B /* 云母.png */,
+				B6A629BC15BD7CD300E13D5B /* 五味子.png */,
+				B6A629BD15BD7CD300E13D5B /* 人参.png */,
+				B6A629BE15BD7CD300E13D5B /* 人尿.png */,
+				B6A629BF15BD7CD300E13D5B /* 代赭石.png */,
+				B6A629C015BD7CD300E13D5B /* 制白附子.png */,
+				B6A629C115BD7CD300E13D5B /* 升麻.png */,
+				B6A629C215BD7CD300E13D5B /* 半夏.png */,
+				B6A629C315BD7CD300E13D5B /* 厚朴.png */,
+				B6A629C415BD7CD300E13D5B /* 吴茱萸.png */,
+				B6A629C515BD7CD300E13D5B /* 商陆根.png */,
+				B6A629C615BD7CD300E13D5B /* 土瓜根.png */,
+				B6A629C715BD7CD300E13D5B /* 地黄.png */,
+				B6A629C815BD7CD300E13D5B /* 大戟.png */,
+				B6A629C915BD7CD300E13D5B /* 大枣.png */,
+				B6A629CA15BD7CD300E13D5B /* 大麦.png */,
+				B6A629CB15BD7CD300E13D5B /* 大黄.png */,
+				B6A629CC15BD7CD300E13D5B /* 天冬.png */,
+				B6A629CD15BD7CD300E13D5B /* 射干.png */,
+				B6A629CE15BD7CD300E13D5B /* 小麦.png */,
+				B6A629CF15BD7CD300E13D5B /* 山茱萸.png */,
+				B6A629D015BD7CD300E13D5B /* 巴豆.png */,
+				B6A629D115BD7CD300E13D5B /* 干姜.png */,
+				B6A629D215BD7CD300E13D5B /* 干漆.png */,
+				B6A629D315BD7CD300E13D5B /* 当归.png */,
+				B6A629D415BD7CD300E13D5B /* 当归2.png */,
+				B6A629D515BD7CD300E13D5B /* 戎盐.png */,
+				B6A629D615BD7CD300E13D5B /* 文蛤.png */,
+				B6A629D715BD7CD300E13D5B /* 新绛.png */,
+				B6A629D815BD7CD300E13D5B /* 旋覆花.png */,
+				B6A629D915BD7CD300E13D5B /* 未命名.png */,
+				B6A629DA15BD7CD300E13D5B /* 朱砂.png */,
+				B6A629DB15BD7CD300E13D5B /* 杏仁.png */,
+				B6A629DC15BD7CD300E13D5B /* 枣仁.png */,
+				B6A629DD15BD7CD300E13D5B /* 枳实.png */,
+				B6A629DE15BD7CD300E13D5B /* 柏叶.png */,
+				B6A629DF15BD7CD300E13D5B /* 柏子仁.png */,
+				B6A629E015BD7CD300E13D5B /* 柏实.png */,
+				B6A629E115BD7CD300E13D5B /* 柴胡.png */,
+				B6A629E215BD7CD300E13D5B /* 栀子.png */,
+				B6A629E315BD7CD300E13D5B /* 栝蒌实.png */,
+				B6A629E415BD7CD300E13D5B /* 栝蒌根.png */,
+				B6A629E515BD7CD300E13D5B /* 桂枝.png */,
+				B6A629E615BD7CD300E13D5B /* 桃仁.png */,
+				B6A629E715BD7CD300E13D5B /* 桑根白皮.png */,
+				B6A629E815BD7CD300E13D5B /* 桔梗.png */,
+				B6A629E915BD7CD300E13D5B /* 橘皮.png */,
+				B6A629EA15BD7CD300E13D5B /* 款冬花.png */,
+				B6A629EB15BD7CD300E13D5B /* 水蛭.png */,
+				B6A629EC15BD7CD300E13D5B /* 泽泻.png */,
+				B6A629ED15BD7CD300E13D5B /* 泽漆.png */,
+				B6A629EE15BD7CD300E13D5B /* 海藻.png */,
+				B6A629EF15BD7CD300E13D5B /* 清半夏.png */,
+				B6A629F015BD7CD300E13D5B /* 滑石.png */,
+				B6A629F115BD7CD300E13D5B /* 灶中黄土.png */,
+				B6A629F215BD7CD300E13D5B /* 焦神曲.png */,
+				B6A629F315BD7CD300E13D5B /* 熟地黄.png */,
+				B6A629F415BD7CD300E13D5B /* 牡丹皮.png */,
+				B6A629F515BD7CD300E13D5B /* 牡丹皮2.png */,
+				B6A629F615BD7CD300E13D5B /* 牡蛎.png */,
+				B6A629F715BD7CD300E13D5B /* 狼牙.png */,
+				B6A629F815BD7CD300E13D5B /* 猪肤.png */,
+				B6A629F915BD7CD300E13D5B /* 猪胆汁.png */,
+				B6A629FA15BD7CD300E13D5B /* 猪膏.png */,
+				B6A629FB15BD7CD300E13D5B /* 猪苓.png */,
+				B6A629FC15BD7CD300E13D5B /* 王不留行.png */,
+				B6A629FD15BD7CD300E13D5B /* 瓜子.png */,
+				B6A629FE15BD7CD300E13D5B /* 瓜蒂.png */,
+				B6A629FF15BD7CD300E13D5B /* 甘李根白皮.png */,
+				B6A62A0015BD7CD300E13D5B /* 甘草.png */,
+				B6A62A0115BD7CD300E13D5B /* 甘草片.png */,
+				B6A62A0215BD7CD300E13D5B /* 甘遂.png */,
+				B6A62A0315BD7CD300E13D5B /* 生姜.png */,
+				B6A62A0415BD7CD300E13D5B /* 生梓白皮.png */,
+				B6A62A0515BD7CD300E13D5B /* 白前.png */,
+				B6A62A0615BD7CD300E13D5B /* 白前2.png */,
+				B6A62A0715BD7CD300E13D5B /* 白头翁.png */,
+				B6A62A0815BD7CD300E13D5B /* 白术.png */,
+				B6A62A0915BD7CD300E13D5B /* 白蔹.png */,
+				B6A62A0A15BD7CD300E13D5B /* 白薇.png */,
+				B6A62A0B15BD7CD300E13D5B /* 白蜜.png */,
+				B6A62A0C15BD7CD300E13D5B /* 白附子.png */,
+				B6A62A0D15BD7CD300E13D5B /* 百合.png */,
+				B6A62A0E15BD7CD300E13D5B /* 皂荚.png */,
+				B6A62A0F15BD7CD300E13D5B /* 瞿麦.png */,
+				B6A62A1015BD7CD300E13D5B /* 知母.png */,
+				B6A62A1115BD7CD300E13D5B /* 石膏.png */,
+				B6A62A1215BD7CD300E13D5B /* 石膏粉.png */,
+				B6A62A1315BD7CD300E13D5B /* 石韦.png */,
+				B6A62A1415BD7CD300E13D5B /* 矾石.png */,
+				B6A62A1515BD7CD300E13D5B /* 硝石.png */,
+				B6A62A1615BD7CD300E13D5B /* 神曲.png */,
+				B6A62A1715BD7CD300E13D5B /* 禹余粮.png */,
+				B6A62A1815BD7CD300E13D5B /* 秦皮.png */,
+				B6A62A1915BD7CD300E13D5B /* 竹叶.png */,
+				B6A62A1A15BD7CD300E13D5B /* 竹茹.png */,
+				B6A62A1B15BD7CD300E13D5B /* 粳米.png */,
+				B6A62A1C15BD7CD300E13D5B /* 紫参.png */,
+				B6A62A1D15BD7CD300E13D5B /* 紫菀.png */,
+				B6A62A1E15BD7CD300E13D5B /* 紫葳.png */,
+				B6A62A1F15BD7CD300E13D5B /* 红蓝花.png */,
+				B6A62A2015BD7CD300E13D5B /* 细辛.png */,
+				B6A62A2115BD7CD300E13D5B /* 羊肉.png */,
+				B6A62A2215BD7CD300E13D5B /* 胶饴.png */,
+				B6A62A2315BD7CD300E13D5B /* 艾叶.png */,
+				B6A62A2415BD7CD300E13D5B /* 芍药.png */,
+				B6A62A2515BD7CD300E13D5B /* 芎藭.png */,
+				B6A62A2615BD7CD300E13D5B /* 芒硝.png */,
+				B6A62A2715BD7CD300E13D5B /* 芫花.png */,
+				B6A62A2815BD7CD300E13D5B /* 苏叶.png */,
+				B6A62A2915BD7CD300E13D5B /* 苦参.png */,
+				B6A62A2A15BD7CD300E13D5B /* 苦杏仁.png */,
+				B6A62A2B15BD7CD300E13D5B /* 苦酒.png */,
+				B6A62A2C15BD7CD300E13D5B /* 茯苓.png */,
+				B6A62A2D15BD7CD300E13D5B /* 茯苓2.png */,
+				B6A62A2E15BD7CD300E13D5B /* 茵陈蒿.png */,
+				B6A62A2F15BD7CD300E13D5B /* 萎蕤.png */,
+				B6A62A3015BD7CD300E13D5B /* 葛根.png */,
+				B6A62A3115BD7CD300E13D5B /* 葱白.png */,
+				B6A62A3215BD7CD400E13D5B /* 葵子.png */,
+				B6A62A3315BD7CD400E13D5B /* 葶苈.png */,
+				B6A62A3415BD7CD400E13D5B /* 蒴藋.png */,
+				B6A62A3515BD7CD400E13D5B /* 薏苡.png */,
+				B6A62A3615BD7CD400E13D5B /* 薤白.png */,
+				B6A62A3715BD7CD400E13D5B /* 薯蓣.png */,
+				B6A62A3815BD7CD400E13D5B /* 藜芦.png */,
+				B6A62A3915BD7CD400E13D5B /* 虻虫.png */,
+				B6A62A3A15BD7CD400E13D5B /* 蛇床子.png */,
+				B6A62A3B15BD7CD400E13D5B /* 蛴螬.png */,
+				B6A62A3C15BD7CD400E13D5B /* 蜀椒.png */,
+				B6A62A3D15BD7CD400E13D5B /* 蜀漆.png */,
+				B6A62A3E15BD7CD400E13D5B /* 蜂窠.png */,
+				B6A62A3F15BD7CD400E13D5B /* 蜣螂.png */,
+				B6A62A4015BD7CD400E13D5B /* 蟅虫.png */,
+				B6A62A4115BD7CD400E13D5B /* 诃黎勒.png */,
+				B6A62A4215BD7CD400E13D5B /* 豆黄卷.png */,
+				B6A62A4315BD7CD400E13D5B /* 贝母.png */,
+				B6A62A4415BD7CD400E13D5B /* 败酱.png */,
+				B6A62A4515BD7CD400E13D5B /* 赤小豆.png */,
+				B6A62A4615BD7CD400E13D5B /* 赤石脂.png */,
+				B6A62A4715BD7CD400E13D5B /* 赤硝.png */,
+				B6A62A4815BD7CD400E13D5B /* 连翘.png */,
+				B6A62A4915BD7CD400E13D5B /* 通草.png */,
+				B6A62A4A15BD7CD400E13D5B /* 铅丹.png */,
+				B6A62A4B15BD7CD400E13D5B /* 铅粉.png */,
+				B6A62A4C15BD7CD400E13D5B /* 防己.png */,
+				B6A62A4D15BD7CD400E13D5B /* 防风.png */,
+				B6A62A4E15BD7CD400E13D5B /* 阿胶.png */,
+				B6A62A4F15BD7CD400E13D5B /* 附子.png */,
+				B6A62A5015BD7CD400E13D5B /* 雄黄.png */,
+				B6A62A5115BD7CD400E13D5B /* 雄黄矿石.png */,
+				B6A62A5215BD7CD400E13D5B /* 香豉.png */,
+				B6A62A5315BD7CD400E13D5B /* 马通.png */,
+				B6A62A5415BD7CD400E13D5B /* 鳖甲.png */,
+				B6A62A5515BD7CD400E13D5B /* 鸡子白.png */,
+				B6A62A5615BD7CD400E13D5B /* 鸡子黄.png */,
+				B6A62A5715BD7CD400E13D5B /* 鸡屎白.png */,
+				B6A62A5815BD7CD400E13D5B /* 麦冬.png */,
+				B6A62A5915BD7CD400E13D5B /* 麻仁.png */,
+				B6A62A5A15BD7CD400E13D5B /* 麻黄.png */,
+				B6A62A5B15BD7CD400E13D5B /* 黄柏.png */,
+				B6A62A5C15BD7CD400E13D5B /* 黄芩.png */,
+				B6A62A5D15BD7CD400E13D5B /* 黄芩片.png */,
+				B6A62A5E15BD7CD400E13D5B /* 黄芪.png */,
+				B6A62A5F15BD7CD400E13D5B /* 黄连.png */,
+				B6A62A6015BD7CD400E13D5B /* 黄酒.png */,
+				B6A62A6115BD7CD400E13D5B /* 鼠妇.png */,
+				B6A62A6215BD7CD400E13D5B /* 龙骨.png */,
 			);
-			path = hmImage;
+			path = thumImg;
+			sourceTree = "<group>";
+		};
+		B6A62B0F15BD7CE300E13D5B /* img */ = {
+			isa = PBXGroup;
+			children = (
+				B6A62B1015BD7CE300E13D5B /* 乌头.jpg */,
+				B6A62B1115BD7CE300E13D5B /* 乌梅.jpg */,
+				B6A62B1215BD7CE300E13D5B /* 乱发.jpg */,
+				B6A62B1315BD7CE300E13D5B /* 云母.jpg */,
+				B6A62B1415BD7CE300E13D5B /* 五味子.jpg */,
+				B6A62B1515BD7CE300E13D5B /* 人参.jpg */,
+				B6A62B1615BD7CE300E13D5B /* 人尿.jpg */,
+				B6A62B1715BD7CE300E13D5B /* 代赭石.jpg */,
+				B6A62B1815BD7CE300E13D5B /* 制白附子.jpg */,
+				B6A62B1915BD7CE300E13D5B /* 升麻.jpg */,
+				B6A62B1A15BD7CE300E13D5B /* 半夏.jpg */,
+				B6A62B1B15BD7CE300E13D5B /* 厚朴.jpg */,
+				B6A62B1C15BD7CE300E13D5B /* 吴茱萸.jpg */,
+				B6A62B1D15BD7CE300E13D5B /* 商陆根.jpg */,
+				B6A62B1E15BD7CE300E13D5B /* 土瓜根.jpg */,
+				B6A62B1F15BD7CE300E13D5B /* 地黄.jpg */,
+				B6A62B2015BD7CE300E13D5B /* 大戟.jpg */,
+				B6A62B2115BD7CE300E13D5B /* 大枣.jpg */,
+				B6A62B2215BD7CE300E13D5B /* 大麦.jpg */,
+				B6A62B2315BD7CE300E13D5B /* 大黄.jpg */,
+				B6A62B2415BD7CE300E13D5B /* 天冬.jpg */,
+				B6A62B2515BD7CE300E13D5B /* 射干.jpg */,
+				B6A62B2615BD7CE300E13D5B /* 小麦.jpg */,
+				B6A62B2715BD7CE300E13D5B /* 山茱萸.jpg */,
+				B6A62B2815BD7CE300E13D5B /* 巴豆.jpg */,
+				B6A62B2915BD7CE300E13D5B /* 干姜.jpg */,
+				B6A62B2A15BD7CE300E13D5B /* 干漆.jpg */,
+				B6A62B2B15BD7CE300E13D5B /* 当归.jpg */,
+				B6A62B2C15BD7CE300E13D5B /* 当归2.jpg */,
+				B6A62B2D15BD7CE300E13D5B /* 戎盐.jpg */,
+				B6A62B2E15BD7CE300E13D5B /* 文蛤.jpg */,
+				B6A62B2F15BD7CE300E13D5B /* 新绛.jpg */,
+				B6A62B3015BD7CE300E13D5B /* 旋覆花.jpg */,
+				B6A62B3115BD7CE300E13D5B /* 朱砂.jpg */,
+				B6A62B3215BD7CE300E13D5B /* 杏仁.jpg */,
+				B6A62B3315BD7CE300E13D5B /* 枣仁.jpg */,
+				B6A62B3415BD7CE300E13D5B /* 枳实.jpg */,
+				B6A62B3515BD7CE300E13D5B /* 柏叶.jpg */,
+				B6A62B3615BD7CE300E13D5B /* 柏子仁.jpg */,
+				B6A62B3715BD7CE300E13D5B /* 柏实.jpg */,
+				B6A62B3815BD7CE300E13D5B /* 柴胡.jpg */,
+				B6A62B3915BD7CE300E13D5B /* 栀子.jpg */,
+				B6A62B3A15BD7CE300E13D5B /* 栝蒌实.jpg */,
+				B6A62B3B15BD7CE300E13D5B /* 栝蒌根.jpg */,
+				B6A62B3C15BD7CE300E13D5B /* 桂枝.jpg */,
+				B6A62B3D15BD7CE300E13D5B /* 桃仁.jpg */,
+				B6A62B3E15BD7CE300E13D5B /* 桑根白皮.jpg */,
+				B6A62B3F15BD7CE300E13D5B /* 桔梗.jpg */,
+				B6A62B4015BD7CE300E13D5B /* 橘皮.jpg */,
+				B6A62B4115BD7CE300E13D5B /* 款冬花.jpg */,
+				B6A62B4215BD7CE300E13D5B /* 水蛭.jpg */,
+				B6A62B4315BD7CE300E13D5B /* 泽泻.jpg */,
+				B6A62B4415BD7CE300E13D5B /* 泽漆.jpg */,
+				B6A62B4515BD7CE300E13D5B /* 海藻.jpg */,
+				B6A62B4615BD7CE300E13D5B /* 清半夏.jpg */,
+				B6A62B4715BD7CE300E13D5B /* 滑石.jpg */,
+				B6A62B4815BD7CE300E13D5B /* 灶中黄土.jpg */,
+				B6A62B4915BD7CE300E13D5B /* 焦神曲.jpg */,
+				B6A62B4A15BD7CE300E13D5B /* 熟地黄.jpg */,
+				B6A62B4B15BD7CE300E13D5B /* 牡丹皮.jpg */,
+				B6A62B4C15BD7CE300E13D5B /* 牡丹皮2.jpg */,
+				B6A62B4D15BD7CE300E13D5B /* 牡蛎.jpg */,
+				B6A62B4E15BD7CE300E13D5B /* 狼牙.jpg */,
+				B6A62B4F15BD7CE300E13D5B /* 猪肤.jpg */,
+				B6A62B5015BD7CE300E13D5B /* 猪胆汁.jpg */,
+				B6A62B5115BD7CE300E13D5B /* 猪膏.jpg */,
+				B6A62B5215BD7CE300E13D5B /* 猪苓.jpg */,
+				B6A62B5315BD7CE300E13D5B /* 王不留行.jpg */,
+				B6A62B5415BD7CE300E13D5B /* 瓜子.jpg */,
+				B6A62B5515BD7CE300E13D5B /* 瓜蒂.jpg */,
+				B6A62B5615BD7CE300E13D5B /* 甘李根白皮.jpg */,
+				B6A62B5715BD7CE300E13D5B /* 甘草.jpg */,
+				B6A62B5815BD7CE300E13D5B /* 甘草片.jpg */,
+				B6A62B5915BD7CE300E13D5B /* 甘遂.jpg */,
+				B6A62B5A15BD7CE300E13D5B /* 生姜.jpg */,
+				B6A62B5B15BD7CE300E13D5B /* 生梓白皮.jpg */,
+				B6A62B5C15BD7CE300E13D5B /* 白前.jpg */,
+				B6A62B5D15BD7CE300E13D5B /* 白前2.jpg */,
+				B6A62B5E15BD7CE300E13D5B /* 白头翁.jpg */,
+				B6A62B5F15BD7CE300E13D5B /* 白术.jpg */,
+				B6A62B6015BD7CE300E13D5B /* 白蔹.jpg */,
+				B6A62B6115BD7CE300E13D5B /* 白薇.jpg */,
+				B6A62B6215BD7CE300E13D5B /* 白蜜.jpg */,
+				B6A62B6315BD7CE300E13D5B /* 白附子.jpg */,
+				B6A62B6415BD7CE300E13D5B /* 百合.jpg */,
+				B6A62B6515BD7CE300E13D5B /* 皂荚.jpg */,
+				B6A62B6615BD7CE300E13D5B /* 瞿麦.jpg */,
+				B6A62B6715BD7CE300E13D5B /* 知母.jpg */,
+				B6A62B6815BD7CE300E13D5B /* 石膏.jpg */,
+				B6A62B6915BD7CE300E13D5B /* 石膏粉.jpg */,
+				B6A62B6A15BD7CE300E13D5B /* 石韦.jpg */,
+				B6A62B6B15BD7CE300E13D5B /* 矾石.jpg */,
+				B6A62B6C15BD7CE300E13D5B /* 硝石.jpg */,
+				B6A62B6D15BD7CE300E13D5B /* 神曲.jpg */,
+				B6A62B6E15BD7CE300E13D5B /* 禹余粮.jpg */,
+				B6A62B6F15BD7CE300E13D5B /* 秦皮.jpg */,
+				B6A62B7015BD7CE300E13D5B /* 竹叶.jpg */,
+				B6A62B7115BD7CE300E13D5B /* 竹茹.jpg */,
+				B6A62B7215BD7CE300E13D5B /* 粳米.jpg */,
+				B6A62B7315BD7CE300E13D5B /* 紫参.jpg */,
+				B6A62B7415BD7CE300E13D5B /* 紫菀.jpg */,
+				B6A62B7515BD7CE300E13D5B /* 紫葳.jpg */,
+				B6A62B7615BD7CE300E13D5B /* 红蓝花.jpg */,
+				B6A62B7715BD7CE300E13D5B /* 细辛.jpg */,
+				B6A62B7815BD7CE300E13D5B /* 羊肉.jpg */,
+				B6A62B7915BD7CE300E13D5B /* 胶饴.jpg */,
+				B6A62B7A15BD7CE300E13D5B /* 艾叶.jpg */,
+				B6A62B7B15BD7CE300E13D5B /* 芍药.jpg */,
+				B6A62B7C15BD7CE300E13D5B /* 芎藭.jpg */,
+				B6A62B7D15BD7CE300E13D5B /* 芒硝.jpg */,
+				B6A62B7E15BD7CE300E13D5B /* 芫花.jpg */,
+				B6A62B7F15BD7CE300E13D5B /* 苏叶.jpg */,
+				B6A62B8015BD7CE300E13D5B /* 苦参.jpg */,
+				B6A62B8115BD7CE300E13D5B /* 苦杏仁.jpg */,
+				B6A62B8215BD7CE300E13D5B /* 苦酒.jpg */,
+				B6A62B8315BD7CE300E13D5B /* 茯苓.jpg */,
+				B6A62B8415BD7CE300E13D5B /* 茯苓2.jpg */,
+				B6A62B8515BD7CE300E13D5B /* 茵陈蒿.jpg */,
+				B6A62B8615BD7CE300E13D5B /* 萎蕤.jpg */,
+				B6A62B8715BD7CE300E13D5B /* 葛根.jpg */,
+				B6A62B8815BD7CE300E13D5B /* 葱白.jpg */,
+				B6A62B8915BD7CE300E13D5B /* 葵子.jpg */,
+				B6A62B8A15BD7CE300E13D5B /* 葶苈.jpg */,
+				B6A62B8B15BD7CE300E13D5B /* 蒴藋.jpg */,
+				B6A62B8C15BD7CE300E13D5B /* 薏苡.jpg */,
+				B6A62B8D15BD7CE300E13D5B /* 薤白.jpg */,
+				B6A62B8E15BD7CE300E13D5B /* 薯蓣.jpg */,
+				B6A62B8F15BD7CE300E13D5B /* 藜芦.jpg */,
+				B6A62B9015BD7CE300E13D5B /* 虻虫.jpg */,
+				B6A62B9115BD7CE300E13D5B /* 蛇床子.jpg */,
+				B6A62B9215BD7CE300E13D5B /* 蛴螬.jpg */,
+				B6A62B9315BD7CE300E13D5B /* 蜀椒.jpg */,
+				B6A62B9415BD7CE300E13D5B /* 蜀漆.jpg */,
+				B6A62B9515BD7CE300E13D5B /* 蜂窠.jpg */,
+				B6A62B9615BD7CE300E13D5B /* 蜣螂.jpg */,
+				B6A62B9715BD7CE300E13D5B /* 蟅虫.jpg */,
+				B6A62B9815BD7CE300E13D5B /* 诃黎勒.jpg */,
+				B6A62B9915BD7CE300E13D5B /* 豆黄卷.jpg */,
+				B6A62B9A15BD7CE300E13D5B /* 贝母.jpg */,
+				B6A62B9B15BD7CE300E13D5B /* 败酱.jpg */,
+				B6A62B9C15BD7CE300E13D5B /* 赤小豆.jpg */,
+				B6A62B9D15BD7CE300E13D5B /* 赤石脂.jpg */,
+				B6A62B9E15BD7CE300E13D5B /* 赤硝.jpg */,
+				B6A62B9F15BD7CE300E13D5B /* 连翘.jpg */,
+				B6A62BA015BD7CE300E13D5B /* 通草.jpg */,
+				B6A62BA115BD7CE300E13D5B /* 铅丹.jpg */,
+				B6A62BA215BD7CE300E13D5B /* 铅粉.jpg */,
+				B6A62BA315BD7CE300E13D5B /* 防己.jpg */,
+				B6A62BA415BD7CE300E13D5B /* 防风.jpg */,
+				B6A62BA515BD7CE300E13D5B /* 阿胶.jpg */,
+				B6A62BA615BD7CE300E13D5B /* 附子.jpg */,
+				B6A62BA715BD7CE300E13D5B /* 雄黄.jpg */,
+				B6A62BA815BD7CE300E13D5B /* 雄黄矿石.jpg */,
+				B6A62BA915BD7CE300E13D5B /* 香豉.jpg */,
+				B6A62BAA15BD7CE300E13D5B /* 马通.jpg */,
+				B6A62BAB15BD7CE300E13D5B /* 鳖甲.jpg */,
+				B6A62BAC15BD7CE300E13D5B /* 鸡子白.jpg */,
+				B6A62BAD15BD7CE300E13D5B /* 鸡子黄.jpg */,
+				B6A62BAE15BD7CE300E13D5B /* 鸡屎白.jpg */,
+				B6A62BAF15BD7CE300E13D5B /* 麦冬.jpg */,
+				B6A62BB015BD7CE300E13D5B /* 麻仁.jpg */,
+				B6A62BB115BD7CE300E13D5B /* 麻黄.jpg */,
+				B6A62BB215BD7CE300E13D5B /* 黄柏.jpg */,
+				B6A62BB315BD7CE300E13D5B /* 黄芩.jpg */,
+				B6A62BB415BD7CE300E13D5B /* 黄芩片.jpg */,
+				B6A62BB515BD7CE300E13D5B /* 黄芪.jpg */,
+				B6A62BB615BD7CE300E13D5B /* 黄连.jpg */,
+				B6A62BB715BD7CE300E13D5B /* 黄酒.jpg */,
+				B6A62BB815BD7CE300E13D5B /* 鼠妇.jpg */,
+				B6A62BB915BD7CE300E13D5B /* 龙骨.jpg */,
+			);
+			path = img;
 			sourceTree = "<group>";
 		};
 		B6D34EF515B9940C004C7FD8 /* adMobSDK */ = {
@@ -858,177 +1379,6 @@
 				B6A3E48215B30A7D00FC1A78 /* csyj.db in Resources */,
 				B6A3E48415B30A7D00FC1A78 /* default.jpg in Resources */,
 				B6A3E48515B30A7D00FC1A78 /* Dictionary.txt in Resources */,
-				B6A3E48615B30A7D00FC1A78 /* 乌头.png in Resources */,
-				B6A3E48715B30A7D00FC1A78 /* 乌梅.png in Resources */,
-				B6A3E48815B30A7D00FC1A78 /* 乱发.png in Resources */,
-				B6A3E48915B30A7D00FC1A78 /* 云母.png in Resources */,
-				B6A3E48A15B30A7D00FC1A78 /* 五味子.png in Resources */,
-				B6A3E48B15B30A7D00FC1A78 /* 人参.png in Resources */,
-				B6A3E48C15B30A7D00FC1A78 /* 人尿.png in Resources */,
-				B6A3E48D15B30A7D00FC1A78 /* 代赭石.png in Resources */,
-				B6A3E48E15B30A7D00FC1A78 /* 制白附子.png in Resources */,
-				B6A3E48F15B30A7D00FC1A78 /* 升麻.png in Resources */,
-				B6A3E49015B30A7D00FC1A78 /* 半夏.png in Resources */,
-				B6A3E49115B30A7D00FC1A78 /* 厚朴.png in Resources */,
-				B6A3E49215B30A7D00FC1A78 /* 吴茱萸.png in Resources */,
-				B6A3E49315B30A7D00FC1A78 /* 商陆根.png in Resources */,
-				B6A3E49415B30A7D00FC1A78 /* 土瓜根.png in Resources */,
-				B6A3E49515B30A7D00FC1A78 /* 地黄.png in Resources */,
-				B6A3E49615B30A7D00FC1A78 /* 大戟.png in Resources */,
-				B6A3E49715B30A7D00FC1A78 /* 大枣.png in Resources */,
-				B6A3E49815B30A7D00FC1A78 /* 大麦.png in Resources */,
-				B6A3E49915B30A7D00FC1A78 /* 大黄.png in Resources */,
-				B6A3E49A15B30A7D00FC1A78 /* 天冬.png in Resources */,
-				B6A3E49B15B30A7D00FC1A78 /* 射干.png in Resources */,
-				B6A3E49C15B30A7D00FC1A78 /* 小麦.png in Resources */,
-				B6A3E49D15B30A7D00FC1A78 /* 山茱萸.png in Resources */,
-				B6A3E49E15B30A7D00FC1A78 /* 巴豆.png in Resources */,
-				B6A3E49F15B30A7D00FC1A78 /* 干姜.png in Resources */,
-				B6A3E4A015B30A7D00FC1A78 /* 干漆.png in Resources */,
-				B6A3E4A115B30A7D00FC1A78 /* 当归.png in Resources */,
-				B6A3E4A215B30A7D00FC1A78 /* 当归2.png in Resources */,
-				B6A3E4A315B30A7D00FC1A78 /* 戎盐.png in Resources */,
-				B6A3E4A415B30A7D00FC1A78 /* 文蛤.png in Resources */,
-				B6A3E4A515B30A7D00FC1A78 /* 新绛.png in Resources */,
-				B6A3E4A615B30A7D00FC1A78 /* 旋覆花.png in Resources */,
-				B6A3E4A715B30A7D00FC1A78 /* 未命名.png in Resources */,
-				B6A3E4A815B30A7D00FC1A78 /* 朱砂.png in Resources */,
-				B6A3E4A915B30A7D00FC1A78 /* 杏仁.png in Resources */,
-				B6A3E4AA15B30A7D00FC1A78 /* 枣仁.png in Resources */,
-				B6A3E4AB15B30A7D00FC1A78 /* 枳实.png in Resources */,
-				B6A3E4AC15B30A7D00FC1A78 /* 柏叶.png in Resources */,
-				B6A3E4AD15B30A7D00FC1A78 /* 柏子仁.png in Resources */,
-				B6A3E4AE15B30A7D00FC1A78 /* 柏实.png in Resources */,
-				B6A3E4AF15B30A7D00FC1A78 /* 柴胡.png in Resources */,
-				B6A3E4B015B30A7D00FC1A78 /* 栀子.png in Resources */,
-				B6A3E4B115B30A7D00FC1A78 /* 栝蒌实.png in Resources */,
-				B6A3E4B215B30A7D00FC1A78 /* 栝蒌根.png in Resources */,
-				B6A3E4B315B30A7D00FC1A78 /* 桂枝.png in Resources */,
-				B6A3E4B415B30A7D00FC1A78 /* 桃仁.png in Resources */,
-				B6A3E4B515B30A7D00FC1A78 /* 桑根白皮.png in Resources */,
-				B6A3E4B615B30A7D00FC1A78 /* 桔梗.png in Resources */,
-				B6A3E4B715B30A7D00FC1A78 /* 橘皮.png in Resources */,
-				B6A3E4B815B30A7D00FC1A78 /* 款冬花.png in Resources */,
-				B6A3E4B915B30A7D00FC1A78 /* 水蛭.png in Resources */,
-				B6A3E4BA15B30A7D00FC1A78 /* 泽泻.png in Resources */,
-				B6A3E4BB15B30A7D00FC1A78 /* 泽漆.png in Resources */,
-				B6A3E4BC15B30A7D00FC1A78 /* 海藻.png in Resources */,
-				B6A3E4BD15B30A7D00FC1A78 /* 清半夏.png in Resources */,
-				B6A3E4BE15B30A7D00FC1A78 /* 滑石.png in Resources */,
-				B6A3E4BF15B30A7D00FC1A78 /* 灶中黄土.png in Resources */,
-				B6A3E4C015B30A7D00FC1A78 /* 焦神曲.png in Resources */,
-				B6A3E4C115B30A7D00FC1A78 /* 熟地黄.png in Resources */,
-				B6A3E4C215B30A7D00FC1A78 /* 牡丹皮.png in Resources */,
-				B6A3E4C315B30A7D00FC1A78 /* 牡丹皮2.png in Resources */,
-				B6A3E4C415B30A7D00FC1A78 /* 牡蛎.png in Resources */,
-				B6A3E4C515B30A7D00FC1A78 /* 狼牙.png in Resources */,
-				B6A3E4C615B30A7D00FC1A78 /* 猪肤.png in Resources */,
-				B6A3E4C715B30A7D00FC1A78 /* 猪胆汁.png in Resources */,
-				B6A3E4C815B30A7D00FC1A78 /* 猪膏.png in Resources */,
-				B6A3E4C915B30A7D00FC1A78 /* 猪苓.png in Resources */,
-				B6A3E4CA15B30A7D00FC1A78 /* 王不留行.png in Resources */,
-				B6A3E4CB15B30A7D00FC1A78 /* 瓜子.png in Resources */,
-				B6A3E4CC15B30A7D00FC1A78 /* 瓜蒂.png in Resources */,
-				B6A3E4CD15B30A7D00FC1A78 /* 甘李根白皮.png in Resources */,
-				B6A3E4CE15B30A7D00FC1A78 /* 甘草.png in Resources */,
-				B6A3E4CF15B30A7D00FC1A78 /* 甘草片.png in Resources */,
-				B6A3E4D015B30A7D00FC1A78 /* 甘遂.png in Resources */,
-				B6A3E4D115B30A7D00FC1A78 /* 生姜.png in Resources */,
-				B6A3E4D215B30A7D00FC1A78 /* 生梓白皮.png in Resources */,
-				B6A3E4D315B30A7D00FC1A78 /* 白前.png in Resources */,
-				B6A3E4D415B30A7D00FC1A78 /* 白前2.png in Resources */,
-				B6A3E4D515B30A7D00FC1A78 /* 白头翁.png in Resources */,
-				B6A3E4D615B30A7D00FC1A78 /* 白术.png in Resources */,
-				B6A3E4D715B30A7D00FC1A78 /* 白蔹.png in Resources */,
-				B6A3E4D815B30A7D00FC1A78 /* 白薇.png in Resources */,
-				B6A3E4D915B30A7D00FC1A78 /* 白蜜.png in Resources */,
-				B6A3E4DA15B30A7D00FC1A78 /* 白附子.png in Resources */,
-				B6A3E4DB15B30A7D00FC1A78 /* 百合.png in Resources */,
-				B6A3E4DC15B30A7D00FC1A78 /* 皂荚.png in Resources */,
-				B6A3E4DD15B30A7D00FC1A78 /* 瞿麦.png in Resources */,
-				B6A3E4DE15B30A7D00FC1A78 /* 知母.png in Resources */,
-				B6A3E4DF15B30A7D00FC1A78 /* 石膏.png in Resources */,
-				B6A3E4E015B30A7D00FC1A78 /* 石膏粉.png in Resources */,
-				B6A3E4E115B30A7D00FC1A78 /* 石韦.png in Resources */,
-				B6A3E4E215B30A7D00FC1A78 /* 矾石.png in Resources */,
-				B6A3E4E315B30A7D00FC1A78 /* 硝石.png in Resources */,
-				B6A3E4E415B30A7D00FC1A78 /* 神曲.png in Resources */,
-				B6A3E4E515B30A7D00FC1A78 /* 禹余粮.png in Resources */,
-				B6A3E4E615B30A7D00FC1A78 /* 秦皮.png in Resources */,
-				B6A3E4E715B30A7D00FC1A78 /* 竹叶.png in Resources */,
-				B6A3E4E815B30A7D00FC1A78 /* 竹茹.png in Resources */,
-				B6A3E4E915B30A7D00FC1A78 /* 粳米.png in Resources */,
-				B6A3E4EA15B30A7D00FC1A78 /* 紫参.png in Resources */,
-				B6A3E4EB15B30A7D00FC1A78 /* 紫菀.png in Resources */,
-				B6A3E4EC15B30A7D00FC1A78 /* 紫葳.png in Resources */,
-				B6A3E4ED15B30A7D00FC1A78 /* 红蓝花.png in Resources */,
-				B6A3E4EE15B30A7D00FC1A78 /* 细辛.png in Resources */,
-				B6A3E4EF15B30A7D00FC1A78 /* 羊肉.png in Resources */,
-				B6A3E4F015B30A7D00FC1A78 /* 胶饴.png in Resources */,
-				B6A3E4F115B30A7D00FC1A78 /* 艾叶.png in Resources */,
-				B6A3E4F215B30A7D00FC1A78 /* 芍药.png in Resources */,
-				B6A3E4F315B30A7D00FC1A78 /* 芎藭.png in Resources */,
-				B6A3E4F415B30A7D00FC1A78 /* 芒硝.png in Resources */,
-				B6A3E4F515B30A7D00FC1A78 /* 芫花.png in Resources */,
-				B6A3E4F615B30A7D00FC1A78 /* 苏叶.png in Resources */,
-				B6A3E4F715B30A7D00FC1A78 /* 苦参.png in Resources */,
-				B6A3E4F815B30A7D00FC1A78 /* 苦杏仁.png in Resources */,
-				B6A3E4F915B30A7D00FC1A78 /* 苦酒.png in Resources */,
-				B6A3E4FA15B30A7D00FC1A78 /* 茯苓.png in Resources */,
-				B6A3E4FB15B30A7D00FC1A78 /* 茯苓2.png in Resources */,
-				B6A3E4FC15B30A7D00FC1A78 /* 茵陈蒿.png in Resources */,
-				B6A3E4FD15B30A7D00FC1A78 /* 萎蕤.png in Resources */,
-				B6A3E4FE15B30A7D00FC1A78 /* 葛根.png in Resources */,
-				B6A3E4FF15B30A7D00FC1A78 /* 葱白.png in Resources */,
-				B6A3E50015B30A7D00FC1A78 /* 葵子.png in Resources */,
-				B6A3E50115B30A7D00FC1A78 /* 葶苈.png in Resources */,
-				B6A3E50215B30A7D00FC1A78 /* 蒴藋.png in Resources */,
-				B6A3E50315B30A7D00FC1A78 /* 薏苡.png in Resources */,
-				B6A3E50415B30A7D00FC1A78 /* 薤白.png in Resources */,
-				B6A3E50515B30A7D00FC1A78 /* 薯蓣.png in Resources */,
-				B6A3E50615B30A7D00FC1A78 /* 藜芦.png in Resources */,
-				B6A3E50715B30A7D00FC1A78 /* 虻虫.png in Resources */,
-				B6A3E50815B30A7D00FC1A78 /* 蛇床子.png in Resources */,
-				B6A3E50915B30A7D00FC1A78 /* 蛴螬.png in Resources */,
-				B6A3E50A15B30A7D00FC1A78 /* 蜀椒.png in Resources */,
-				B6A3E50B15B30A7D00FC1A78 /* 蜀漆.png in Resources */,
-				B6A3E50C15B30A7D00FC1A78 /* 蜂窠.png in Resources */,
-				B6A3E50D15B30A7D00FC1A78 /* 蜣螂.png in Resources */,
-				B6A3E50E15B30A7D00FC1A78 /* 蟅虫.png in Resources */,
-				B6A3E50F15B30A7D00FC1A78 /* 诃黎勒.png in Resources */,
-				B6A3E51015B30A7D00FC1A78 /* 豆黄卷.png in Resources */,
-				B6A3E51115B30A7D00FC1A78 /* 贝母.png in Resources */,
-				B6A3E51215B30A7D00FC1A78 /* 败酱.png in Resources */,
-				B6A3E51315B30A7D00FC1A78 /* 赤小豆.png in Resources */,
-				B6A3E51415B30A7D00FC1A78 /* 赤石脂.png in Resources */,
-				B6A3E51515B30A7D00FC1A78 /* 赤硝.png in Resources */,
-				B6A3E51615B30A7D00FC1A78 /* 连翘.png in Resources */,
-				B6A3E51715B30A7D00FC1A78 /* 通草.png in Resources */,
-				B6A3E51815B30A7D00FC1A78 /* 铅丹.png in Resources */,
-				B6A3E51915B30A7D00FC1A78 /* 铅粉.png in Resources */,
-				B6A3E51A15B30A7D00FC1A78 /* 防己.png in Resources */,
-				B6A3E51B15B30A7D00FC1A78 /* 防风.png in Resources */,
-				B6A3E51C15B30A7D00FC1A78 /* 阿胶.png in Resources */,
-				B6A3E51D15B30A7D00FC1A78 /* 附子.png in Resources */,
-				B6A3E51E15B30A7D00FC1A78 /* 雄黄.png in Resources */,
-				B6A3E51F15B30A7D00FC1A78 /* 雄黄矿石.png in Resources */,
-				B6A3E52015B30A7D00FC1A78 /* 香豉.png in Resources */,
-				B6A3E52115B30A7D00FC1A78 /* 马通.png in Resources */,
-				B6A3E52215B30A7D00FC1A78 /* 鳖甲.png in Resources */,
-				B6A3E52315B30A7D00FC1A78 /* 鸡子白.png in Resources */,
-				B6A3E52415B30A7D00FC1A78 /* 鸡子黄.png in Resources */,
-				B6A3E52515B30A7D00FC1A78 /* 鸡屎白.png in Resources */,
-				B6A3E52615B30A7D00FC1A78 /* 麦冬.png in Resources */,
-				B6A3E52715B30A7D00FC1A78 /* 麻仁.png in Resources */,
-				B6A3E52815B30A7D00FC1A78 /* 麻黄.png in Resources */,
-				B6A3E52915B30A7D00FC1A78 /* 黄柏.png in Resources */,
-				B6A3E52A15B30A7D00FC1A78 /* 黄芩.png in Resources */,
-				B6A3E52B15B30A7D00FC1A78 /* 黄芩片.png in Resources */,
-				B6A3E52C15B30A7D00FC1A78 /* 黄芪.png in Resources */,
-				B6A3E52D15B30A7D00FC1A78 /* 黄连.png in Resources */,
-				B6A3E52E15B30A7D00FC1A78 /* 黄酒.png in Resources */,
-				B6A3E52F15B30A7D00FC1A78 /* 鼠妇.png in Resources */,
-				B6A3E53015B30A7D00FC1A78 /* 龙骨.png in Resources */,
 				B6A3E53115B30A7D00FC1A78 /* template.html in Resources */,
 				B692183F15B4560E00CA6CC9 /* down.png in Resources */,
 				B692184015B4560E00CA6CC9 /* up.png in Resources */,
@@ -1039,6 +1389,348 @@
 				B6E7C8BE15BBA7B60047BBF5 /* csyj_hx.html in Resources */,
 				B6E7C8BF15BBA7B60047BBF5 /* csyj_zx.html in Resources */,
 				B6FA345D15BBF438002F6BB8 /* csyj_hyy.html in Resources */,
+				B6A62A6315BD7CD400E13D5B /* 乌头.png in Resources */,
+				B6A62A6415BD7CD400E13D5B /* 乌梅.png in Resources */,
+				B6A62A6515BD7CD400E13D5B /* 乱发.png in Resources */,
+				B6A62A6615BD7CD400E13D5B /* 云母.png in Resources */,
+				B6A62A6715BD7CD400E13D5B /* 五味子.png in Resources */,
+				B6A62A6815BD7CD400E13D5B /* 人参.png in Resources */,
+				B6A62A6915BD7CD400E13D5B /* 人尿.png in Resources */,
+				B6A62A6A15BD7CD400E13D5B /* 代赭石.png in Resources */,
+				B6A62A6B15BD7CD400E13D5B /* 制白附子.png in Resources */,
+				B6A62A6C15BD7CD400E13D5B /* 升麻.png in Resources */,
+				B6A62A6D15BD7CD400E13D5B /* 半夏.png in Resources */,
+				B6A62A6E15BD7CD400E13D5B /* 厚朴.png in Resources */,
+				B6A62A6F15BD7CD400E13D5B /* 吴茱萸.png in Resources */,
+				B6A62A7015BD7CD400E13D5B /* 商陆根.png in Resources */,
+				B6A62A7115BD7CD400E13D5B /* 土瓜根.png in Resources */,
+				B6A62A7215BD7CD400E13D5B /* 地黄.png in Resources */,
+				B6A62A7315BD7CD400E13D5B /* 大戟.png in Resources */,
+				B6A62A7415BD7CD400E13D5B /* 大枣.png in Resources */,
+				B6A62A7515BD7CD400E13D5B /* 大麦.png in Resources */,
+				B6A62A7615BD7CD400E13D5B /* 大黄.png in Resources */,
+				B6A62A7715BD7CD400E13D5B /* 天冬.png in Resources */,
+				B6A62A7815BD7CD400E13D5B /* 射干.png in Resources */,
+				B6A62A7915BD7CD400E13D5B /* 小麦.png in Resources */,
+				B6A62A7A15BD7CD400E13D5B /* 山茱萸.png in Resources */,
+				B6A62A7B15BD7CD400E13D5B /* 巴豆.png in Resources */,
+				B6A62A7C15BD7CD400E13D5B /* 干姜.png in Resources */,
+				B6A62A7D15BD7CD400E13D5B /* 干漆.png in Resources */,
+				B6A62A7E15BD7CD400E13D5B /* 当归.png in Resources */,
+				B6A62A7F15BD7CD400E13D5B /* 当归2.png in Resources */,
+				B6A62A8015BD7CD400E13D5B /* 戎盐.png in Resources */,
+				B6A62A8115BD7CD400E13D5B /* 文蛤.png in Resources */,
+				B6A62A8215BD7CD400E13D5B /* 新绛.png in Resources */,
+				B6A62A8315BD7CD400E13D5B /* 旋覆花.png in Resources */,
+				B6A62A8415BD7CD400E13D5B /* 未命名.png in Resources */,
+				B6A62A8515BD7CD400E13D5B /* 朱砂.png in Resources */,
+				B6A62A8615BD7CD400E13D5B /* 杏仁.png in Resources */,
+				B6A62A8715BD7CD400E13D5B /* 枣仁.png in Resources */,
+				B6A62A8815BD7CD400E13D5B /* 枳实.png in Resources */,
+				B6A62A8915BD7CD400E13D5B /* 柏叶.png in Resources */,
+				B6A62A8A15BD7CD400E13D5B /* 柏子仁.png in Resources */,
+				B6A62A8B15BD7CD400E13D5B /* 柏实.png in Resources */,
+				B6A62A8C15BD7CD400E13D5B /* 柴胡.png in Resources */,
+				B6A62A8D15BD7CD400E13D5B /* 栀子.png in Resources */,
+				B6A62A8E15BD7CD400E13D5B /* 栝蒌实.png in Resources */,
+				B6A62A8F15BD7CD400E13D5B /* 栝蒌根.png in Resources */,
+				B6A62A9015BD7CD400E13D5B /* 桂枝.png in Resources */,
+				B6A62A9115BD7CD400E13D5B /* 桃仁.png in Resources */,
+				B6A62A9215BD7CD400E13D5B /* 桑根白皮.png in Resources */,
+				B6A62A9315BD7CD400E13D5B /* 桔梗.png in Resources */,
+				B6A62A9415BD7CD400E13D5B /* 橘皮.png in Resources */,
+				B6A62A9515BD7CD400E13D5B /* 款冬花.png in Resources */,
+				B6A62A9615BD7CD400E13D5B /* 水蛭.png in Resources */,
+				B6A62A9715BD7CD400E13D5B /* 泽泻.png in Resources */,
+				B6A62A9815BD7CD400E13D5B /* 泽漆.png in Resources */,
+				B6A62A9915BD7CD400E13D5B /* 海藻.png in Resources */,
+				B6A62A9A15BD7CD400E13D5B /* 清半夏.png in Resources */,
+				B6A62A9B15BD7CD400E13D5B /* 滑石.png in Resources */,
+				B6A62A9C15BD7CD400E13D5B /* 灶中黄土.png in Resources */,
+				B6A62A9D15BD7CD400E13D5B /* 焦神曲.png in Resources */,
+				B6A62A9E15BD7CD400E13D5B /* 熟地黄.png in Resources */,
+				B6A62A9F15BD7CD400E13D5B /* 牡丹皮.png in Resources */,
+				B6A62AA015BD7CD400E13D5B /* 牡丹皮2.png in Resources */,
+				B6A62AA115BD7CD400E13D5B /* 牡蛎.png in Resources */,
+				B6A62AA215BD7CD400E13D5B /* 狼牙.png in Resources */,
+				B6A62AA315BD7CD400E13D5B /* 猪肤.png in Resources */,
+				B6A62AA415BD7CD400E13D5B /* 猪胆汁.png in Resources */,
+				B6A62AA515BD7CD400E13D5B /* 猪膏.png in Resources */,
+				B6A62AA615BD7CD400E13D5B /* 猪苓.png in Resources */,
+				B6A62AA715BD7CD400E13D5B /* 王不留行.png in Resources */,
+				B6A62AA815BD7CD400E13D5B /* 瓜子.png in Resources */,
+				B6A62AA915BD7CD400E13D5B /* 瓜蒂.png in Resources */,
+				B6A62AAA15BD7CD400E13D5B /* 甘李根白皮.png in Resources */,
+				B6A62AAB15BD7CD400E13D5B /* 甘草.png in Resources */,
+				B6A62AAC15BD7CD400E13D5B /* 甘草片.png in Resources */,
+				B6A62AAD15BD7CD400E13D5B /* 甘遂.png in Resources */,
+				B6A62AAE15BD7CD400E13D5B /* 生姜.png in Resources */,
+				B6A62AAF15BD7CD400E13D5B /* 生梓白皮.png in Resources */,
+				B6A62AB015BD7CD400E13D5B /* 白前.png in Resources */,
+				B6A62AB115BD7CD400E13D5B /* 白前2.png in Resources */,
+				B6A62AB215BD7CD400E13D5B /* 白头翁.png in Resources */,
+				B6A62AB315BD7CD400E13D5B /* 白术.png in Resources */,
+				B6A62AB415BD7CD400E13D5B /* 白蔹.png in Resources */,
+				B6A62AB515BD7CD400E13D5B /* 白薇.png in Resources */,
+				B6A62AB615BD7CD400E13D5B /* 白蜜.png in Resources */,
+				B6A62AB715BD7CD400E13D5B /* 白附子.png in Resources */,
+				B6A62AB815BD7CD400E13D5B /* 百合.png in Resources */,
+				B6A62AB915BD7CD400E13D5B /* 皂荚.png in Resources */,
+				B6A62ABA15BD7CD400E13D5B /* 瞿麦.png in Resources */,
+				B6A62ABB15BD7CD400E13D5B /* 知母.png in Resources */,
+				B6A62ABC15BD7CD400E13D5B /* 石膏.png in Resources */,
+				B6A62ABD15BD7CD400E13D5B /* 石膏粉.png in Resources */,
+				B6A62ABE15BD7CD400E13D5B /* 石韦.png in Resources */,
+				B6A62ABF15BD7CD400E13D5B /* 矾石.png in Resources */,
+				B6A62AC015BD7CD400E13D5B /* 硝石.png in Resources */,
+				B6A62AC115BD7CD400E13D5B /* 神曲.png in Resources */,
+				B6A62AC215BD7CD400E13D5B /* 禹余粮.png in Resources */,
+				B6A62AC315BD7CD400E13D5B /* 秦皮.png in Resources */,
+				B6A62AC415BD7CD400E13D5B /* 竹叶.png in Resources */,
+				B6A62AC515BD7CD400E13D5B /* 竹茹.png in Resources */,
+				B6A62AC615BD7CD400E13D5B /* 粳米.png in Resources */,
+				B6A62AC715BD7CD400E13D5B /* 紫参.png in Resources */,
+				B6A62AC815BD7CD400E13D5B /* 紫菀.png in Resources */,
+				B6A62AC915BD7CD400E13D5B /* 紫葳.png in Resources */,
+				B6A62ACA15BD7CD400E13D5B /* 红蓝花.png in Resources */,
+				B6A62ACB15BD7CD400E13D5B /* 细辛.png in Resources */,
+				B6A62ACC15BD7CD400E13D5B /* 羊肉.png in Resources */,
+				B6A62ACD15BD7CD400E13D5B /* 胶饴.png in Resources */,
+				B6A62ACE15BD7CD400E13D5B /* 艾叶.png in Resources */,
+				B6A62ACF15BD7CD400E13D5B /* 芍药.png in Resources */,
+				B6A62AD015BD7CD400E13D5B /* 芎藭.png in Resources */,
+				B6A62AD115BD7CD400E13D5B /* 芒硝.png in Resources */,
+				B6A62AD215BD7CD400E13D5B /* 芫花.png in Resources */,
+				B6A62AD315BD7CD400E13D5B /* 苏叶.png in Resources */,
+				B6A62AD415BD7CD400E13D5B /* 苦参.png in Resources */,
+				B6A62AD515BD7CD400E13D5B /* 苦杏仁.png in Resources */,
+				B6A62AD615BD7CD400E13D5B /* 苦酒.png in Resources */,
+				B6A62AD715BD7CD400E13D5B /* 茯苓.png in Resources */,
+				B6A62AD815BD7CD400E13D5B /* 茯苓2.png in Resources */,
+				B6A62AD915BD7CD400E13D5B /* 茵陈蒿.png in Resources */,
+				B6A62ADA15BD7CD400E13D5B /* 萎蕤.png in Resources */,
+				B6A62ADB15BD7CD400E13D5B /* 葛根.png in Resources */,
+				B6A62ADC15BD7CD400E13D5B /* 葱白.png in Resources */,
+				B6A62ADD15BD7CD400E13D5B /* 葵子.png in Resources */,
+				B6A62ADE15BD7CD400E13D5B /* 葶苈.png in Resources */,
+				B6A62ADF15BD7CD400E13D5B /* 蒴藋.png in Resources */,
+				B6A62AE015BD7CD400E13D5B /* 薏苡.png in Resources */,
+				B6A62AE115BD7CD400E13D5B /* 薤白.png in Resources */,
+				B6A62AE215BD7CD400E13D5B /* 薯蓣.png in Resources */,
+				B6A62AE315BD7CD400E13D5B /* 藜芦.png in Resources */,
+				B6A62AE415BD7CD400E13D5B /* 虻虫.png in Resources */,
+				B6A62AE515BD7CD400E13D5B /* 蛇床子.png in Resources */,
+				B6A62AE615BD7CD400E13D5B /* 蛴螬.png in Resources */,
+				B6A62AE715BD7CD400E13D5B /* 蜀椒.png in Resources */,
+				B6A62AE815BD7CD400E13D5B /* 蜀漆.png in Resources */,
+				B6A62AE915BD7CD400E13D5B /* 蜂窠.png in Resources */,
+				B6A62AEA15BD7CD400E13D5B /* 蜣螂.png in Resources */,
+				B6A62AEB15BD7CD400E13D5B /* 蟅虫.png in Resources */,
+				B6A62AEC15BD7CD400E13D5B /* 诃黎勒.png in Resources */,
+				B6A62AED15BD7CD400E13D5B /* 豆黄卷.png in Resources */,
+				B6A62AEE15BD7CD400E13D5B /* 贝母.png in Resources */,
+				B6A62AEF15BD7CD400E13D5B /* 败酱.png in Resources */,
+				B6A62AF015BD7CD400E13D5B /* 赤小豆.png in Resources */,
+				B6A62AF115BD7CD400E13D5B /* 赤石脂.png in Resources */,
+				B6A62AF215BD7CD400E13D5B /* 赤硝.png in Resources */,
+				B6A62AF315BD7CD400E13D5B /* 连翘.png in Resources */,
+				B6A62AF415BD7CD400E13D5B /* 通草.png in Resources */,
+				B6A62AF515BD7CD400E13D5B /* 铅丹.png in Resources */,
+				B6A62AF615BD7CD400E13D5B /* 铅粉.png in Resources */,
+				B6A62AF715BD7CD400E13D5B /* 防己.png in Resources */,
+				B6A62AF815BD7CD400E13D5B /* 防风.png in Resources */,
+				B6A62AF915BD7CD400E13D5B /* 阿胶.png in Resources */,
+				B6A62AFA15BD7CD400E13D5B /* 附子.png in Resources */,
+				B6A62AFB15BD7CD400E13D5B /* 雄黄.png in Resources */,
+				B6A62AFC15BD7CD400E13D5B /* 雄黄矿石.png in Resources */,
+				B6A62AFD15BD7CD400E13D5B /* 香豉.png in Resources */,
+				B6A62AFE15BD7CD400E13D5B /* 马通.png in Resources */,
+				B6A62AFF15BD7CD400E13D5B /* 鳖甲.png in Resources */,
+				B6A62B0015BD7CD400E13D5B /* 鸡子白.png in Resources */,
+				B6A62B0115BD7CD400E13D5B /* 鸡子黄.png in Resources */,
+				B6A62B0215BD7CD400E13D5B /* 鸡屎白.png in Resources */,
+				B6A62B0315BD7CD400E13D5B /* 麦冬.png in Resources */,
+				B6A62B0415BD7CD400E13D5B /* 麻仁.png in Resources */,
+				B6A62B0515BD7CD400E13D5B /* 麻黄.png in Resources */,
+				B6A62B0615BD7CD400E13D5B /* 黄柏.png in Resources */,
+				B6A62B0715BD7CD400E13D5B /* 黄芩.png in Resources */,
+				B6A62B0815BD7CD400E13D5B /* 黄芩片.png in Resources */,
+				B6A62B0915BD7CD400E13D5B /* 黄芪.png in Resources */,
+				B6A62B0A15BD7CD400E13D5B /* 黄连.png in Resources */,
+				B6A62B0B15BD7CD400E13D5B /* 黄酒.png in Resources */,
+				B6A62B0C15BD7CD400E13D5B /* 鼠妇.png in Resources */,
+				B6A62B0D15BD7CD400E13D5B /* 龙骨.png in Resources */,
+				B6A62BBA15BD7CE300E13D5B /* 乌头.jpg in Resources */,
+				B6A62BBB15BD7CE300E13D5B /* 乌梅.jpg in Resources */,
+				B6A62BBC15BD7CE300E13D5B /* 乱发.jpg in Resources */,
+				B6A62BBD15BD7CE300E13D5B /* 云母.jpg in Resources */,
+				B6A62BBE15BD7CE300E13D5B /* 五味子.jpg in Resources */,
+				B6A62BBF15BD7CE300E13D5B /* 人参.jpg in Resources */,
+				B6A62BC015BD7CE300E13D5B /* 人尿.jpg in Resources */,
+				B6A62BC115BD7CE300E13D5B /* 代赭石.jpg in Resources */,
+				B6A62BC215BD7CE300E13D5B /* 制白附子.jpg in Resources */,
+				B6A62BC315BD7CE300E13D5B /* 升麻.jpg in Resources */,
+				B6A62BC415BD7CE300E13D5B /* 半夏.jpg in Resources */,
+				B6A62BC515BD7CE300E13D5B /* 厚朴.jpg in Resources */,
+				B6A62BC615BD7CE300E13D5B /* 吴茱萸.jpg in Resources */,
+				B6A62BC715BD7CE300E13D5B /* 商陆根.jpg in Resources */,
+				B6A62BC815BD7CE300E13D5B /* 土瓜根.jpg in Resources */,
+				B6A62BC915BD7CE300E13D5B /* 地黄.jpg in Resources */,
+				B6A62BCA15BD7CE300E13D5B /* 大戟.jpg in Resources */,
+				B6A62BCB15BD7CE300E13D5B /* 大枣.jpg in Resources */,
+				B6A62BCC15BD7CE300E13D5B /* 大麦.jpg in Resources */,
+				B6A62BCD15BD7CE300E13D5B /* 大黄.jpg in Resources */,
+				B6A62BCE15BD7CE300E13D5B /* 天冬.jpg in Resources */,
+				B6A62BCF15BD7CE300E13D5B /* 射干.jpg in Resources */,
+				B6A62BD015BD7CE300E13D5B /* 小麦.jpg in Resources */,
+				B6A62BD115BD7CE300E13D5B /* 山茱萸.jpg in Resources */,
+				B6A62BD215BD7CE300E13D5B /* 巴豆.jpg in Resources */,
+				B6A62BD315BD7CE300E13D5B /* 干姜.jpg in Resources */,
+				B6A62BD415BD7CE300E13D5B /* 干漆.jpg in Resources */,
+				B6A62BD515BD7CE300E13D5B /* 当归.jpg in Resources */,
+				B6A62BD615BD7CE300E13D5B /* 当归2.jpg in Resources */,
+				B6A62BD715BD7CE300E13D5B /* 戎盐.jpg in Resources */,
+				B6A62BD815BD7CE300E13D5B /* 文蛤.jpg in Resources */,
+				B6A62BD915BD7CE300E13D5B /* 新绛.jpg in Resources */,
+				B6A62BDA15BD7CE300E13D5B /* 旋覆花.jpg in Resources */,
+				B6A62BDB15BD7CE300E13D5B /* 朱砂.jpg in Resources */,
+				B6A62BDC15BD7CE300E13D5B /* 杏仁.jpg in Resources */,
+				B6A62BDD15BD7CE300E13D5B /* 枣仁.jpg in Resources */,
+				B6A62BDE15BD7CE300E13D5B /* 枳实.jpg in Resources */,
+				B6A62BDF15BD7CE300E13D5B /* 柏叶.jpg in Resources */,
+				B6A62BE015BD7CE300E13D5B /* 柏子仁.jpg in Resources */,
+				B6A62BE115BD7CE300E13D5B /* 柏实.jpg in Resources */,
+				B6A62BE215BD7CE300E13D5B /* 柴胡.jpg in Resources */,
+				B6A62BE315BD7CE300E13D5B /* 栀子.jpg in Resources */,
+				B6A62BE415BD7CE300E13D5B /* 栝蒌实.jpg in Resources */,
+				B6A62BE515BD7CE300E13D5B /* 栝蒌根.jpg in Resources */,
+				B6A62BE615BD7CE300E13D5B /* 桂枝.jpg in Resources */,
+				B6A62BE715BD7CE300E13D5B /* 桃仁.jpg in Resources */,
+				B6A62BE815BD7CE300E13D5B /* 桑根白皮.jpg in Resources */,
+				B6A62BE915BD7CE300E13D5B /* 桔梗.jpg in Resources */,
+				B6A62BEA15BD7CE300E13D5B /* 橘皮.jpg in Resources */,
+				B6A62BEB15BD7CE300E13D5B /* 款冬花.jpg in Resources */,
+				B6A62BEC15BD7CE300E13D5B /* 水蛭.jpg in Resources */,
+				B6A62BED15BD7CE300E13D5B /* 泽泻.jpg in Resources */,
+				B6A62BEE15BD7CE300E13D5B /* 泽漆.jpg in Resources */,
+				B6A62BEF15BD7CE300E13D5B /* 海藻.jpg in Resources */,
+				B6A62BF015BD7CE300E13D5B /* 清半夏.jpg in Resources */,
+				B6A62BF115BD7CE300E13D5B /* 滑石.jpg in Resources */,
+				B6A62BF215BD7CE300E13D5B /* 灶中黄土.jpg in Resources */,
+				B6A62BF315BD7CE300E13D5B /* 焦神曲.jpg in Resources */,
+				B6A62BF415BD7CE300E13D5B /* 熟地黄.jpg in Resources */,
+				B6A62BF515BD7CE300E13D5B /* 牡丹皮.jpg in Resources */,
+				B6A62BF615BD7CE300E13D5B /* 牡丹皮2.jpg in Resources */,
+				B6A62BF715BD7CE300E13D5B /* 牡蛎.jpg in Resources */,
+				B6A62BF815BD7CE300E13D5B /* 狼牙.jpg in Resources */,
+				B6A62BF915BD7CE300E13D5B /* 猪肤.jpg in Resources */,
+				B6A62BFA15BD7CE300E13D5B /* 猪胆汁.jpg in Resources */,
+				B6A62BFB15BD7CE300E13D5B /* 猪膏.jpg in Resources */,
+				B6A62BFC15BD7CE300E13D5B /* 猪苓.jpg in Resources */,
+				B6A62BFD15BD7CE300E13D5B /* 王不留行.jpg in Resources */,
+				B6A62BFE15BD7CE300E13D5B /* 瓜子.jpg in Resources */,
+				B6A62BFF15BD7CE300E13D5B /* 瓜蒂.jpg in Resources */,
+				B6A62C0015BD7CE300E13D5B /* 甘李根白皮.jpg in Resources */,
+				B6A62C0115BD7CE300E13D5B /* 甘草.jpg in Resources */,
+				B6A62C0215BD7CE300E13D5B /* 甘草片.jpg in Resources */,
+				B6A62C0315BD7CE300E13D5B /* 甘遂.jpg in Resources */,
+				B6A62C0415BD7CE300E13D5B /* 生姜.jpg in Resources */,
+				B6A62C0515BD7CE300E13D5B /* 生梓白皮.jpg in Resources */,
+				B6A62C0615BD7CE300E13D5B /* 白前.jpg in Resources */,
+				B6A62C0715BD7CE300E13D5B /* 白前2.jpg in Resources */,
+				B6A62C0815BD7CE300E13D5B /* 白头翁.jpg in Resources */,
+				B6A62C0915BD7CE300E13D5B /* 白术.jpg in Resources */,
+				B6A62C0A15BD7CE300E13D5B /* 白蔹.jpg in Resources */,
+				B6A62C0B15BD7CE300E13D5B /* 白薇.jpg in Resources */,
+				B6A62C0C15BD7CE300E13D5B /* 白蜜.jpg in Resources */,
+				B6A62C0D15BD7CE300E13D5B /* 白附子.jpg in Resources */,
+				B6A62C0E15BD7CE300E13D5B /* 百合.jpg in Resources */,
+				B6A62C0F15BD7CE300E13D5B /* 皂荚.jpg in Resources */,
+				B6A62C1015BD7CE300E13D5B /* 瞿麦.jpg in Resources */,
+				B6A62C1115BD7CE300E13D5B /* 知母.jpg in Resources */,
+				B6A62C1215BD7CE300E13D5B /* 石膏.jpg in Resources */,
+				B6A62C1315BD7CE300E13D5B /* 石膏粉.jpg in Resources */,
+				B6A62C1415BD7CE300E13D5B /* 石韦.jpg in Resources */,
+				B6A62C1515BD7CE300E13D5B /* 矾石.jpg in Resources */,
+				B6A62C1615BD7CE300E13D5B /* 硝石.jpg in Resources */,
+				B6A62C1715BD7CE300E13D5B /* 神曲.jpg in Resources */,
+				B6A62C1815BD7CE300E13D5B /* 禹余粮.jpg in Resources */,
+				B6A62C1915BD7CE300E13D5B /* 秦皮.jpg in Resources */,
+				B6A62C1A15BD7CE300E13D5B /* 竹叶.jpg in Resources */,
+				B6A62C1B15BD7CE300E13D5B /* 竹茹.jpg in Resources */,
+				B6A62C1C15BD7CE300E13D5B /* 粳米.jpg in Resources */,
+				B6A62C1D15BD7CE300E13D5B /* 紫参.jpg in Resources */,
+				B6A62C1E15BD7CE300E13D5B /* 紫菀.jpg in Resources */,
+				B6A62C1F15BD7CE300E13D5B /* 紫葳.jpg in Resources */,
+				B6A62C2015BD7CE300E13D5B /* 红蓝花.jpg in Resources */,
+				B6A62C2115BD7CE300E13D5B /* 细辛.jpg in Resources */,
+				B6A62C2215BD7CE300E13D5B /* 羊肉.jpg in Resources */,
+				B6A62C2315BD7CE300E13D5B /* 胶饴.jpg in Resources */,
+				B6A62C2415BD7CE300E13D5B /* 艾叶.jpg in Resources */,
+				B6A62C2515BD7CE300E13D5B /* 芍药.jpg in Resources */,
+				B6A62C2615BD7CE300E13D5B /* 芎藭.jpg in Resources */,
+				B6A62C2715BD7CE300E13D5B /* 芒硝.jpg in Resources */,
+				B6A62C2815BD7CE300E13D5B /* 芫花.jpg in Resources */,
+				B6A62C2915BD7CE300E13D5B /* 苏叶.jpg in Resources */,
+				B6A62C2A15BD7CE300E13D5B /* 苦参.jpg in Resources */,
+				B6A62C2B15BD7CE300E13D5B /* 苦杏仁.jpg in Resources */,
+				B6A62C2C15BD7CE300E13D5B /* 苦酒.jpg in Resources */,
+				B6A62C2D15BD7CE300E13D5B /* 茯苓.jpg in Resources */,
+				B6A62C2E15BD7CE300E13D5B /* 茯苓2.jpg in Resources */,
+				B6A62C2F15BD7CE300E13D5B /* 茵陈蒿.jpg in Resources */,
+				B6A62C3015BD7CE300E13D5B /* 萎蕤.jpg in Resources */,
+				B6A62C3115BD7CE300E13D5B /* 葛根.jpg in Resources */,
+				B6A62C3215BD7CE300E13D5B /* 葱白.jpg in Resources */,
+				B6A62C3315BD7CE300E13D5B /* 葵子.jpg in Resources */,
+				B6A62C3415BD7CE300E13D5B /* 葶苈.jpg in Resources */,
+				B6A62C3515BD7CE300E13D5B /* 蒴藋.jpg in Resources */,
+				B6A62C3615BD7CE300E13D5B /* 薏苡.jpg in Resources */,
+				B6A62C3715BD7CE300E13D5B /* 薤白.jpg in Resources */,
+				B6A62C3815BD7CE300E13D5B /* 薯蓣.jpg in Resources */,
+				B6A62C3915BD7CE300E13D5B /* 藜芦.jpg in Resources */,
+				B6A62C3A15BD7CE300E13D5B /* 虻虫.jpg in Resources */,
+				B6A62C3B15BD7CE300E13D5B /* 蛇床子.jpg in Resources */,
+				B6A62C3C15BD7CE300E13D5B /* 蛴螬.jpg in Resources */,
+				B6A62C3D15BD7CE300E13D5B /* 蜀椒.jpg in Resources */,
+				B6A62C3E15BD7CE300E13D5B /* 蜀漆.jpg in Resources */,
+				B6A62C3F15BD7CE300E13D5B /* 蜂窠.jpg in Resources */,
+				B6A62C4015BD7CE300E13D5B /* 蜣螂.jpg in Resources */,
+				B6A62C4115BD7CE300E13D5B /* 蟅虫.jpg in Resources */,
+				B6A62C4215BD7CE300E13D5B /* 诃黎勒.jpg in Resources */,
+				B6A62C4315BD7CE300E13D5B /* 豆黄卷.jpg in Resources */,
+				B6A62C4415BD7CE300E13D5B /* 贝母.jpg in Resources */,
+				B6A62C4515BD7CE300E13D5B /* 败酱.jpg in Resources */,
+				B6A62C4615BD7CE300E13D5B /* 赤小豆.jpg in Resources */,
+				B6A62C4715BD7CE300E13D5B /* 赤石脂.jpg in Resources */,
+				B6A62C4815BD7CE300E13D5B /* 赤硝.jpg in Resources */,
+				B6A62C4915BD7CE300E13D5B /* 连翘.jpg in Resources */,
+				B6A62C4A15BD7CE300E13D5B /* 通草.jpg in Resources */,
+				B6A62C4B15BD7CE300E13D5B /* 铅丹.jpg in Resources */,
+				B6A62C4C15BD7CE300E13D5B /* 铅粉.jpg in Resources */,
+				B6A62C4D15BD7CE300E13D5B /* 防己.jpg in Resources */,
+				B6A62C4E15BD7CE300E13D5B /* 防风.jpg in Resources */,
+				B6A62C4F15BD7CE300E13D5B /* 阿胶.jpg in Resources */,
+				B6A62C5015BD7CE300E13D5B /* 附子.jpg in Resources */,
+				B6A62C5115BD7CE300E13D5B /* 雄黄.jpg in Resources */,
+				B6A62C5215BD7CE300E13D5B /* 雄黄矿石.jpg in Resources */,
+				B6A62C5315BD7CE300E13D5B /* 香豉.jpg in Resources */,
+				B6A62C5415BD7CE300E13D5B /* 马通.jpg in Resources */,
+				B6A62C5515BD7CE300E13D5B /* 鳖甲.jpg in Resources */,
+				B6A62C5615BD7CE300E13D5B /* 鸡子白.jpg in Resources */,
+				B6A62C5715BD7CE300E13D5B /* 鸡子黄.jpg in Resources */,
+				B6A62C5815BD7CE300E13D5B /* 鸡屎白.jpg in Resources */,
+				B6A62C5915BD7CE300E13D5B /* 麦冬.jpg in Resources */,
+				B6A62C5A15BD7CE300E13D5B /* 麻仁.jpg in Resources */,
+				B6A62C5B15BD7CE300E13D5B /* 麻黄.jpg in Resources */,
+				B6A62C5C15BD7CE300E13D5B /* 黄柏.jpg in Resources */,
+				B6A62C5D15BD7CE300E13D5B /* 黄芩.jpg in Resources */,
+				B6A62C5E15BD7CE300E13D5B /* 黄芩片.jpg in Resources */,
+				B6A62C5F15BD7CE300E13D5B /* 黄芪.jpg in Resources */,
+				B6A62C6015BD7CE300E13D5B /* 黄连.jpg in Resources */,
+				B6A62C6115BD7CE300E13D5B /* 黄酒.jpg in Resources */,
+				B6A62C6215BD7CE300E13D5B /* 鼠妇.jpg in Resources */,
+				B6A62C6315BD7CE300E13D5B /* 龙骨.jpg in Resources */,
+				B6A62C6615BD987000E13D5B /* BookMark.dat.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1151,7 +1843,7 @@
 					"\"$(SRCROOT)/CSYJ\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1171,7 +1863,7 @@
 					"\"$(SRCROOT)/CSYJ\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

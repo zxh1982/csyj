@@ -9,6 +9,9 @@
 #import <Foundation/Foundation.h>
 #import "HMDataBase.h"
 
+#define FILE_BOOK_MARK  @"BookMark.dat.strings"
+
+
 typedef enum 
 {
     ttSimplified,
@@ -31,10 +34,12 @@ typedef enum
     NSMutableArray  *hmArray;
     NSArray         *hmUnits; //药物分组
     NSString        *searchText;
+    NSMutableDictionary    *bookMark; //书签
 }
 
 @property (assign, nonatomic) TEXT_TYPE textType;
 @property (assign, nonatomic) TEXT_SIZE textSize;
+@property (retain, nonatomic) NSMutableDictionary *bookMark;
 
 
 + (HMManager*)defaultManager;
@@ -49,4 +54,5 @@ typedef enum
 - (HerbalMedicine*)lastObjectAtUnit:(NSInteger)unit forIndex:(NSInteger)index;
 - (NSIndexPath*)indexOfObject:(HerbalMedicine*)hmObject;
 - (NSInteger)getTextFontSize;
+- (void)addBookMark:(NSInteger)hmID name:(NSString*)name;
 @end
