@@ -19,6 +19,7 @@
 @synthesize summary;
 @synthesize classicUse;
 @synthesize shennong;
+@synthesize bookMakr;
 
 
 - (NSString *)getCaption

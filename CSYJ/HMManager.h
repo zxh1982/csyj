@@ -34,12 +34,13 @@ typedef enum
     NSMutableArray  *hmArray;
     NSArray         *hmUnits; //药物分组
     NSString        *searchText;
-    NSMutableDictionary    *bookMark; //书签
+    //NSMutableDictionary    *bookMark; //书签配置
+    //NSMutableArray  *hmBookMark;      //书签中的药物对象
 }
 
 @property (assign, nonatomic) TEXT_TYPE textType;
 @property (assign, nonatomic) TEXT_SIZE textSize;
-@property (retain, nonatomic) NSMutableDictionary *bookMark;
+//@property (retain, nonatomic) NSMutableDictionary *bookMark;
 
 
 + (HMManager*)defaultManager;
@@ -54,5 +55,8 @@ typedef enum
 - (HerbalMedicine*)lastObjectAtUnit:(NSInteger)unit forIndex:(NSInteger)index;
 - (NSIndexPath*)indexOfObject:(HerbalMedicine*)hmObject;
 - (NSInteger)getTextFontSize;
-- (void)addBookMark:(NSInteger)hmID name:(NSString*)name;
+- (void)setBookMark:(NSInteger)unit forIndex:(NSInteger)index;
+
+- (NSArray*) GetBookMarkArray;
+
 @end

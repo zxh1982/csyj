@@ -12,7 +12,7 @@
 
 @synthesize textType;
 @synthesize textSize;
-@synthesize bookMark;
+//@synthesize bookMark;
 
 - (void)SaveBookMark
 {
@@ -20,7 +20,19 @@
     NSString *documentsDirectory = [paths objectAtIndex:0];
     NSString *path = [documentsDirectory stringByAppendingPathComponent:FILE_BOOK_MARK];
     
-    [self.bookMark writeToFile:path atomically:TRUE];
+    NSMutableArray *array = [[NSMutableArray alloc]init];
+    
+    for (int i = 0; i < hmArray.count; i++)
+    {
+        HerbalMedicine *hmObject = [hmArray objectAtIndex:i];
+        if (hmObject.bookMakr)
+        {
+            [array addObject:[NSString stringWithFormat:@"%d", i]];
+        }
+    }
+    
+    [array writeToFile:path atomically:TRUE];
+    [array release];
 }
 
 - (void)LoadBookMark
@@ -29,25 +41,57 @@
     NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,NSUserDomainMask, YES);
     NSString *documentsDirectory = [paths objectAtIndex:0];
     NSString *path = [documentsDirectory stringByAppendingPathComponent:FILE_BOOK_MARK];
-
     
-    NSMutableDictionary* dict;
+    
+    NSArray* array;
     if (![[NSFileManager defaultManager] fileExistsAtPath:path]) 
     {
-       dict = [[NSMutableDictionary alloc] init];
+       array = [[NSMutableArray alloc] init];
     }
     else
     {
-        dict = [[NSMutableDictionary alloc] initWithContentsOfFile:path];
+        array = [[NSMutableArray alloc] initWithContentsOfFile:path];
+    }
+        
+    //设置书签标记
+    for (NSString *key in array)
+    {
+        NSInteger hmID = [key intValue];
+        HerbalMedicine *hmObject = [self objectAtIndex:hmID];
+        hmObject.bookMakr = TRUE;
     }
     
-    self.bookMark = dict;
-    [dict release];
+    [array release];
 }
 
-- (void)addBookMark:(NSInteger)hmID name:(NSString*)name
+- (NSArray*) GetBookMarkArray
 {
-    [bookMark setObject:name forKey:name];
+    NSMutableArray *array = [[NSMutableArray alloc] init] ;
+    
+    for (HerbalMedicine *hmObject in hmArray)
+    {
+        if (hmObject.bookMakr)
+        {
+            [array addObject:hmObject];
+        }
+    }
+    
+    NSArray *bookMarkArray = [NSArray arrayWithArray:array];
+    [array release];
+    return bookMarkArray;
+}
+
+- (void)setBookMark:(NSInteger)unit forIndex:(NSInteger)index;
+{
+    HerbalMedicine *hmObject = [self objectAtUnit:unit forIndex:index];
+    assert(hmObject);
+    
+    if (hmObject.bookMakr == TRUE)
+    {
+        return;
+    }
+    
+    hmObject.bookMakr = TRUE;
     [self SaveBookMark];
 }
 

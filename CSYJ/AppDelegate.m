@@ -14,7 +14,7 @@
 #import "ConfigViewController.h"
 #import "HMManager.h"
 #import "ConvertJF.h"
-
+#import "HMBookMarkViewController.h"
 @implementation AppDelegate
 
 @synthesize window;
@@ -49,6 +49,9 @@
     viewController2.title = _S(@"黄元御传");
     viewController2.index = 2;
     
+    HMBookMarkViewController *bookMarkViewController = [[[HMBookMarkViewController alloc]initWithNibName:@"HMBookMarkViewController" bundle:nil]autorelease];
+    bookMarkViewController.title = _S(@"我的书签");
+    
     ConfigViewController *configViewController = [[[ConfigViewController alloc]initWithNibName:@"ConfigViewController" bundle:nil]autorelease];
     configViewController.title = _S(@"设置");
     //[viewArray addObject:viewController1];
@@ -58,6 +61,7 @@
                                     self.navController,
                                     viewController1,
                                     viewController2,
+                                    bookMarkViewController,
                                     configViewController,
                                     nil];
     

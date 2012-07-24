@@ -59,8 +59,7 @@
 
 - (IBAction)addBookMark:(UISegmentedControl *)sender
 {
-    HerbalMedicine *hmObject = [[HMManager defaultManager] objectAtUnit:unit forIndex:index];
-    [[HMManager defaultManager] addBookMark:hmObject.ID name: hmObject.name];
+    [[HMManager defaultManager] setBookMark:unit forIndex:index];
 }
 
 - (IBAction)segmentAction:(UISegmentedControl *)sender
