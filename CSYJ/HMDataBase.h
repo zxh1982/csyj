@@ -39,7 +39,7 @@
 @property(getter = getClassicUse, nonatomic, retain) NSString*  classicUse;
 @property(getter = getShennong, nonatomic, retain) NSString*  shennong;
 @property(getter = getCaption, readonly) NSString* caption;
-@property(nonatomic, assign)BOOL bookMakr;
+@property(nonatomic)BOOL bookMakr;
 @end
 
 @interface HMDataBase : NSObject

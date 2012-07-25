@@ -10,7 +10,7 @@
 
 @interface HMBookMarkViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 {
-    NSArray *bookMarkArray;
+    NSMutableArray *bookMarkArray;
     IBOutlet UITableView *bookMarkTable;
 }
 @end

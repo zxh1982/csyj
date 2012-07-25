@@ -64,21 +64,19 @@
     [array release];
 }
 
-- (NSArray*) GetBookMarkArray
+- (NSMutableArray*) GetBookMarkArray
 {
     NSMutableArray *array = [[NSMutableArray alloc] init] ;
     
     for (HerbalMedicine *hmObject in hmArray)
     {
-        if (hmObject.bookMakr)
+        if (hmObject.bookMakr == YES)
         {
             [array addObject:hmObject];
         }
     }
     
-    NSArray *bookMarkArray = [NSArray arrayWithArray:array];
-    [array release];
-    return bookMarkArray;
+    return array;
 }
 
 - (void)setBookMark:(NSInteger)unit forIndex:(NSInteger)index;
@@ -86,12 +84,12 @@
     HerbalMedicine *hmObject = [self objectAtUnit:unit forIndex:index];
     assert(hmObject);
     
-    if (hmObject.bookMakr == TRUE)
+    if (hmObject.bookMakr == YES)
     {
         return;
     }
     
-    hmObject.bookMakr = TRUE;
+    hmObject.bookMakr = YES;
     [self SaveBookMark];
 }
 
@@ -165,20 +163,20 @@
     return self;
 }
 
-- (NSInteger)getTextFontSize
+- (float)getTextFontSize
 {
     switch (textSize) {
         case tsSmall:
-            return 60;
+            return 0.6;
             break;
         case tsMiddle:
-            return 100;
+            return 1;
             break;
         case tsBig:
-            return 120;
+            return 1.2;
             break;
         default:
-            return 100;
+            return 1.0;
             break;
     }
 }

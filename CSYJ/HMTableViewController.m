@@ -122,7 +122,7 @@
         hmViewController.unit = -1;
         hmViewController.index = [indexPath row];
     }
-    
+    hmViewController.showToolButtons = YES;
     hmViewController.hidesBottomBarWhenPushed = YES;
     [self.navigationController pushViewController:hmViewController animated:YES];
 }

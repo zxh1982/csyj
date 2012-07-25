@@ -29,8 +29,6 @@
 		B692184015B4560E00CA6CC9 /* up.png in Resources */ = {isa = PBXBuildFile; fileRef = B692183E15B4560E00CA6CC9 /* up.png */; };
 		B69B73AA15BEDD13002CD191 /* HMBookMarkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B69B73A815BEDD13002CD191 /* HMBookMarkViewController.m */; };
 		B69B73AB15BEDD13002CD191 /* HMBookMarkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B69B73A915BEDD13002CD191 /* HMBookMarkViewController.xib */; };
-		B69B73B215BEDE5A002CD191 /* bookMarkCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B69B73B115BEDE59002CD191 /* bookMarkCell.m */; };
-		B69B73B415BEDE7A002CD191 /* bookMarkCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B69B73B315BEDE7A002CD191 /* bookMarkCell.xib */; };
 		B6A22C2315BBD7960033963B /* AdmobViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A22C2215BBD7960033963B /* AdmobViewController.m */; };
 		B6A3E3CF15B30A5200FC1A78 /* HMManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A3E3CD15B30A5200FC1A78 /* HMManager.m */; };
 		B6A3E48215B30A7D00FC1A78 /* csyj.db in Resources */ = {isa = PBXBuildFile; fileRef = B6A3E3D115B30A7D00FC1A78 /* csyj.db */; };
@@ -430,9 +428,6 @@
 		B69B73A715BEDD13002CD191 /* HMBookMarkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMBookMarkViewController.h; sourceTree = "<group>"; };
 		B69B73A815BEDD13002CD191 /* HMBookMarkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMBookMarkViewController.m; sourceTree = "<group>"; };
 		B69B73A915BEDD13002CD191 /* HMBookMarkViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HMBookMarkViewController.xib; sourceTree = "<group>"; };
-		B69B73B015BEDE59002CD191 /* bookMarkCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bookMarkCell.h; sourceTree = "<group>"; };
-		B69B73B115BEDE59002CD191 /* bookMarkCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bookMarkCell.m; sourceTree = "<group>"; };
-		B69B73B315BEDE7A002CD191 /* bookMarkCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = bookMarkCell.xib; sourceTree = "<group>"; };
 		B6A22C2115BBD7960033963B /* AdmobViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdmobViewController.h; sourceTree = "<group>"; };
 		B6A22C2215BBD7960033963B /* AdmobViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdmobViewController.m; sourceTree = "<group>"; };
 		B6A3E3CC15B30A5200FC1A78 /* HMManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMManager.h; sourceTree = "<group>"; };
@@ -898,9 +893,6 @@
 				B69B73A715BEDD13002CD191 /* HMBookMarkViewController.h */,
 				B69B73A815BEDD13002CD191 /* HMBookMarkViewController.m */,
 				B69B73A915BEDD13002CD191 /* HMBookMarkViewController.xib */,
-				B69B73B015BEDE59002CD191 /* bookMarkCell.h */,
-				B69B73B115BEDE59002CD191 /* bookMarkCell.m */,
-				B69B73B315BEDE7A002CD191 /* bookMarkCell.xib */,
 			);
 			path = CSYJ;
 			sourceTree = "<group>";
@@ -1744,7 +1736,6 @@
 				B6A62C6215BD7CE300E13D5B /* 鼠妇.jpg in Resources */,
 				B6A62C6315BD7CE300E13D5B /* 龙骨.jpg in Resources */,
 				B69B73AB15BEDD13002CD191 /* HMBookMarkViewController.xib in Resources */,
-				B69B73B415BEDE7A002CD191 /* bookMarkCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1770,7 +1761,6 @@
 				B6E7C8B915BBA05F0047BBF5 /* WebViewController.m in Sources */,
 				B6A22C2315BBD7960033963B /* AdmobViewController.m in Sources */,
 				B69B73AA15BEDD13002CD191 /* HMBookMarkViewController.m in Sources */,
-				B69B73B215BEDE5A002CD191 /* bookMarkCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

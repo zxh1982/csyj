@@ -41,9 +41,9 @@
     NSString *htmlFile =[[[NSBundle mainBundle] bundlePath] stringByAppendingPathComponent:fileName];
     NSString *html = [NSString stringWithContentsOfFile:htmlFile encoding:NSUTF8StringEncoding error:nil];
     
-    NSInteger size = [[HMManager defaultManager] getTextFontSize];
-    NSString *fontSize = [NSString stringWithFormat:@"font-size: %d%%", size];
-    html = [html stringByReplacingOccurrencesOfString:@"font-size: 100%;" withString:fontSize];    
+    float size = [[HMManager defaultManager] getTextFontSize];
+    NSString *fontSize = [NSString stringWithFormat:@"font-size:%0.1fem;", size];
+    html = [html stringByReplacingOccurrencesOfString:@"font-size:1em;" withString:fontSize];    
     NSAssert(html, @"read htmlFile error");
     
     NSURL *baseURL = [NSURL fileURLWithPath:htmlFile];

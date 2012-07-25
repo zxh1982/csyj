@@ -8,7 +8,7 @@
 
 #import "HMBookMarkViewController.h"
 #import "HMManager.h"
-#import "bookMarkCell.h"
+#import "HMViewController.h"
 #import "ConvertJF.h"
 
 @implementation HMBookMarkViewController
@@ -36,44 +36,54 @@
 {
     
     static NSString *CellIdentifier = @"CellBookMark";
-        
-    BookMarkCell *cell = (BookMarkCell*)[tableView 
-                                 dequeueReusableCellWithIdentifier:CellIdentifier];
-    if (cell == nil)
+    
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    if (cell == nil) 
     {
-        NSArray *nib = [[NSBundle mainBundle]loadNibNamed:@"BookMarkCell" owner:self options:nil];
-        cell = [nib objectAtIndex:0];
+        cell = [[[UITableViewCell alloc] 
+                 initWithStyle:UITableViewCellStyleDefault 
+                 reuseIdentifier:CellIdentifier] autorelease];
+        cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     }
-        
+    
     HerbalMedicine* hm = [bookMarkArray objectAtIndex: [indexPath row]];
-    cell.name.text = hm.caption;
-    NSString *csyjDesc = [NSString stringWithFormat:@"长沙药解: %@", hm.description];
-    cell.LabelText.text = _S(csyjDesc);
-    
-    if (hm.shennong.length != 0)
-    {
-        NSString *shennong = [NSString stringWithFormat:@"本经: %@", hm.shennong];
-        cell.LabelShengLong.text = _S(shennong);
-    }
-    else
-    {
-        cell.LabelShengLong.hidden = YES;
-    }
-   
-    
-    NSString* picName = [NSString stringWithFormat:@"%@.png", hm.name];
-    //通过名字获取图片文件路径
-    NSString* fileName = [[[NSBundle mainBundle] bundlePath] stringByAppendingPathComponent:picName];
-    //检查文件是否存在
-    BOOL fileExist = [[NSFileManager defaultManager] fileExistsAtPath:fileName];
-    //存在才加载图片
-    if (fileExist)
-    {
-        [cell.img setImage:[UIImage imageNamed:picName]]; 
-    }
-
-    
+    cell.textLabel.text = hm.caption;
     return cell;
+}
+
+- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return YES;
+}
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    HMViewController *hmViewController = [[[HMViewController alloc]initWithNibName:@"HMViewController" bundle:nil] autorelease];
+    hmViewController.unit = [indexPath section];
+    hmViewController.index = [indexPath row];
+    
+    //检查webView是否创建
+    if ([tableView isEqual:self.searchDisplayController.searchResultsTableView])
+    {
+        hmViewController.unit = -1;
+        hmViewController.index = [indexPath row];
+    }
+    
+    hmViewController.hidesBottomBarWhenPushed = YES;
+    [self.navigationController pushViewController:hmViewController animated:YES];
+
+}
+
+- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    if (editingStyle == UITableViewCellEditingStyleDelete)
+    {
+        HerbalMedicine* hmObject = [bookMarkArray objectAtIndex:[indexPath row]];
+        hmObject.bookMakr = NO;
+        [bookMarkArray removeObject:hmObject];
+        [bookMarkTable deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationFade]; 
+        
+    }
 }
 
 -(void)viewWillAppear:(BOOL)animated
@@ -83,23 +93,10 @@
         [bookMarkArray release];
         bookMarkArray = nil;
     }
-    
-    bookMarkArray = [[HMManager defaultManager] GetBookMarkArray];
-    [bookMarkArray retain];
+    bookMarkArray = [[NSMutableArray alloc] initWithArray:[[HMManager defaultManager] GetBookMarkArray]];
+    [bookMarkTable reloadData];
 }
 
--(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    HerbalMedicine *hmObject = [bookMarkArray objectAtIndex:[indexPath row]];
-    if (hmObject.shennong.length == 0)
-    {
-        return 120;
-    }
-    else
-    {
-        return 160;
-    }
-}
 
 -(NSInteger) tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
@@ -114,8 +111,10 @@
 
 - (void)viewDidUnload
 {
+    [bookMarkArray release];
     [bookMarkTable release];
     bookMarkTable = nil;
+    
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;

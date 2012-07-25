@@ -54,9 +54,9 @@ typedef enum
 - (HerbalMedicine*)nextObjectAtUnit:(NSInteger)unit forIndex:(NSInteger)index;
 - (HerbalMedicine*)lastObjectAtUnit:(NSInteger)unit forIndex:(NSInteger)index;
 - (NSIndexPath*)indexOfObject:(HerbalMedicine*)hmObject;
-- (NSInteger)getTextFontSize;
+- (float)getTextFontSize;
 - (void)setBookMark:(NSInteger)unit forIndex:(NSInteger)index;
 
-- (NSArray*) GetBookMarkArray;
-
+- (NSMutableArray*) GetBookMarkArray;
+- (void)SaveBookMark;
 @end

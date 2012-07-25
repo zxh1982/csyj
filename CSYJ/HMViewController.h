@@ -19,7 +19,6 @@
     NSInteger unit;
     NSInteger index;
     
-    
 }
 
 
@@ -27,6 +26,7 @@
 @property (retain, nonatomic) NSString *htmlTemplate;
 @property NSInteger unit;
 @property NSInteger index;
+@property BOOL showToolButtons;
 
 - (void)loadHtmlPage;
 

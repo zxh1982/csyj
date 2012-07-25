@@ -15,43 +15,14 @@
 
 @synthesize unit;
 @synthesize index;
+@synthesize showToolButtons = _showToolButtons;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
-        // "Segmented" control to the right
-        //上下翻页
-        UISegmentedControl *segmentedControl = [[UISegmentedControl alloc] initWithItems:
-                                                [NSArray arrayWithObjects:
-                                                 [UIImage imageNamed:@"up.png"],
-                                                 [UIImage imageNamed:@"down.png"],
-                                                 nil]];
-        
-        [segmentedControl addTarget:self action:@selector(segmentAction:) forControlEvents:UIControlEventValueChanged];
-        segmentedControl.frame = CGRectMake(0, 0, 70, 30);
-        segmentedControl.segmentedControlStyle = UISegmentedControlStyleBar;
-        segmentedControl.momentary = YES;
-        
-        //defaultTintColor = [segmentedControl.tintColor retain];	// keep track of this for later
-        
-        UIBarButtonItem *segmentBarItem = [[UIBarButtonItem alloc] initWithCustomView:segmentedControl];
-        
-        UISegmentedControl *segmentedControl2 = [[UISegmentedControl alloc] initWithItems:
-                                                [NSArray arrayWithObjects:
-                                                [NSString stringWithString:@"+"],
-                                                nil]];
-        
-        [segmentedControl2 addTarget:self action:@selector(addBookMark:) forControlEvents:UIControlEventValueChanged];
-        segmentedControl2.frame = CGRectMake(0, 0, 35, 30);
-        segmentedControl2.segmentedControlStyle = UISegmentedControlStyleBar;
-        segmentedControl2.momentary = YES;
-        UIBarButtonItem *segmentBarItem2 = [[UIBarButtonItem alloc] initWithCustomView:segmentedControl2];
-        
-        self.navigationItem.rightBarButtonItems = [NSArray arrayWithObjects:segmentBarItem2, segmentBarItem, nil];
-        [segmentedControl release];
-        [segmentBarItem release];
+       
     }
     
     return self;
@@ -129,9 +100,15 @@
     //加载HTML模版字符串
     NSString *htmlFile =[[[NSBundle mainBundle] bundlePath] stringByAppendingPathComponent:@"template.html"];
     NSString *html = [NSString stringWithContentsOfFile:htmlFile encoding:NSUTF8StringEncoding error:nil];
+    NSAssert(htmlFile, @"read htmlFile error");
+    
+    //设置字体大小
+    float size = [[HMManager defaultManager] getTextFontSize];
+    NSString *fontSize = [NSString stringWithFormat:@"font-size:%0.1fem;", size];
+    html = [html stringByReplacingOccurrencesOfString:@"font-size:1em;" withString:fontSize];   
     self.htmlTemplate = html;
     
-    NSAssert(htmlFile, @"read htmlFile error");
+   
     
     NSString *path = [[NSBundle mainBundle] bundlePath];
     NSURL *baseURL = [NSURL fileURLWithPath:path];
@@ -160,6 +137,46 @@
 
 - (void)viewDidLoad
 {
+    // "Segmented" control to the right
+    //上下翻页
+    if (_showToolButtons) 
+    {
+    
+        UISegmentedControl *segmentedControl = [[UISegmentedControl alloc] initWithItems:
+                                                [NSArray arrayWithObjects:
+                                                [UIImage imageNamed:@"up.png"],
+                                                [UIImage imageNamed:@"down.png"],
+                                                nil]];
+    
+        [segmentedControl addTarget:self action:@selector(segmentAction:) forControlEvents:UIControlEventValueChanged];
+        segmentedControl.frame = CGRectMake(0, 0, 60, 30);
+        segmentedControl.segmentedControlStyle = UISegmentedControlStyleBar;
+        segmentedControl.momentary = YES;
+    
+    //defaultTintColor = [segmentedControl.tintColor retain];	// keep track of this for later
+    
+        UIBarButtonItem *segmentBarItem = [[UIBarButtonItem alloc] initWithCustomView:segmentedControl];
+    
+        /*
+        UISegmentedControl *segmentedControl2 = [[UISegmentedControl alloc] initWithItems:
+                                                [NSArray arrayWithObjects:
+                                                [UIImage imageNamed:@"up.png"],
+                                                nil]];
+    
+        [segmentedControl2 addTarget:self action:@selector(addBookMark:) forControlEvents:UIControlEventValueChanged];
+        segmentedControl2.frame = CGRectMake(0, 0, 30, 30);
+        segmentedControl2.segmentedControlStyle = UISegmentedControlStyleBar;
+        segmentedControl2.momentary = YES;
+        UIBarButtonItem *segmentBarItem2 = [[UIBarButtonItem alloc] initWithCustomView:segmentedControl2];
+         */
+        
+        UIBarButtonItem *bookMarkButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemBookmarks target:self action:@selector(addBookMark:)];
+    
+        self.navigationItem.rightBarButtonItems = [NSArray arrayWithObjects:bookMarkButtonItem, segmentBarItem, nil];
+        [segmentedControl release];
+        [segmentBarItem release];
+        [bookMarkButtonItem release];
+    }
     
     self.bannerOrigin = CGPointMake(0, self.view.frame.size.height - GAD_SIZE_320x50.height - 44);
     CGRect rect = webView.frame;

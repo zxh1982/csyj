@@ -52,6 +52,9 @@
     HMBookMarkViewController *bookMarkViewController = [[[HMBookMarkViewController alloc]initWithNibName:@"HMBookMarkViewController" bundle:nil]autorelease];
     bookMarkViewController.title = _S(@"我的书签");
     
+    UINavigationController *bookMarkNav = [[UINavigationController alloc] init];
+    [bookMarkNav pushViewController:bookMarkViewController animated:TRUE];
+    
     ConfigViewController *configViewController = [[[ConfigViewController alloc]initWithNibName:@"ConfigViewController" bundle:nil]autorelease];
     configViewController.title = _S(@"设置");
     //[viewArray addObject:viewController1];
@@ -61,7 +64,7 @@
                                     self.navController,
                                     viewController1,
                                     viewController2,
-                                    bookMarkViewController,
+                                    bookMarkNav,
                                     configViewController,
                                     nil];
     
