@@ -12,6 +12,8 @@
 {
     UISegmentedControl *segText;
     UISegmentedControl *segFontSize;
+    UISegmentedControl *segShowName; //是否显示药物名称
+    
 }
 
 

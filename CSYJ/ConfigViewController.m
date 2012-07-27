@@ -37,13 +37,14 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    //HMManager* hm = [HMManager defaultManager];
+    //segText.selectedSegmentIndex = hm.textType;
+    //segFontSize.selectedSegmentIndex = hm.textSize;
 }
 
 - (void)viewWillAppear:(BOOL)animated
 {
-    HMManager* hm = [HMManager defaultManager];
-    segText.selectedSegmentIndex = hm.textType;
-    segFontSize.selectedSegmentIndex = hm.textSize;
+    [configTableView reloadData];
 }
 
 -(UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -67,12 +68,12 @@
             // "Segmented" control to the right
             segText = [[UISegmentedControl alloc] initWithItems:
                                                     [NSArray arrayWithObjects:
-                                                     [NSString stringWithString:_S(@"简体")],
+                                                     [NSString stringWithString:@"简体"],
                                                      [NSString stringWithString:_S(@"繁体")],
                                                      nil]];
             
             segText.frame = CGRectMake(150 , 8, 150, 30);
-            segText.selectedSegmentIndex = 1;
+            segText.selectedSegmentIndex = [HMManager defaultManager].textType;
             segText.segmentedControlStyle = UISegmentedControlStyleBar;
             //segmentedControl.momentary = YES;
             cell.textLabel.text = _S(@"文字设置");
@@ -91,7 +92,7 @@
                         nil]];
             
             segFontSize.frame = CGRectMake(150 , 8, 150, 30);
-            segFontSize.selectedSegmentIndex = 1;
+            segFontSize.selectedSegmentIndex = [HMManager defaultManager].textSize;
             segFontSize.segmentedControlStyle = UISegmentedControlStyleBar;
             //segmentedControl.momentary = YES;
             cell.textLabel.text = _S(@"字体设置");
@@ -133,7 +134,10 @@
     c3.title = _S(@"黄元御传");
     
     UIViewController *c4 = [[self.tabBarController viewControllers] objectAtIndex:3];
-    c4.title = _S(@"设置");
+    c4.title = _S(@"我的书签");
+    
+    UIViewController *c5 = [[self.tabBarController viewControllers] objectAtIndex:4];
+    c5.title = _S(@"设置");
 }
 
 

@@ -52,6 +52,8 @@
 	<string>1.0</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSMainNibFile~iphone</key>
+	<string>MainWindow</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
@@ -62,7 +64,5 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>NSMainNibFile~iphone</key>
-	<string>MainWindow</string>
 </dict>
 </plist>

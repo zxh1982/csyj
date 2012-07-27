@@ -30,7 +30,6 @@
 - (void)viewDidLoad
 {
     //取得数据库文件名
-    self.title = _S(@"长沙药解");
     [super viewDidLoad];
 }
 
@@ -256,12 +255,15 @@
 
 - (void)viewWillAppear:(BOOL)animated
 {
-    [table reloadData];
+        [table reloadData];
+    
     [super viewWillAppear:animated];
 }
 
 - (void)viewDidAppear:(BOOL)animated
 {
+    self.title = _S(@"长沙药解");
+    [self parentViewController].title = self.title;
     [super viewDidAppear:animated];
 }
 

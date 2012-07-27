@@ -38,6 +38,7 @@
 
     HMTableViewController *hmTableViewController = [[[HMTableViewController alloc]initWithNibName:@"HMTableViewController" bundle:nil] autorelease];
     
+    hmTableViewController.title = _S(@"长沙药解");
     [self.navController pushViewController:hmTableViewController animated:TRUE];
     //[viewArray addObject:self.navController];
     
@@ -52,7 +53,7 @@
     HMBookMarkViewController *bookMarkViewController = [[[HMBookMarkViewController alloc]initWithNibName:@"HMBookMarkViewController" bundle:nil]autorelease];
     bookMarkViewController.title = _S(@"我的书签");
     
-    UINavigationController *bookMarkNav = [[UINavigationController alloc] init];
+    UINavigationController *bookMarkNav = [[[UINavigationController alloc] init] autorelease];
     [bookMarkNav pushViewController:bookMarkViewController animated:TRUE];
     
     ConfigViewController *configViewController = [[[ConfigViewController alloc]initWithNibName:@"ConfigViewController" bundle:nil]autorelease];

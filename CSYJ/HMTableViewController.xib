@@ -53,18 +53,7 @@
 								<object class="IBUITextInputTraits" key="IBTextInputTraits">
 									<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 								</object>
-								<array key="IBScopeButtonTitles">
-									<string/>
-									<string>Title</string>
-									<string>Title</string>
-									<string>Title</string>
-									<string>Title</string>
-									<string>Title</string>
-									<string>Title</string>
-									<string>Title</string>
-									<string>Title</string>
-									<string>Title</string>
-								</array>
+								<array key="IBScopeButtonTitles" id="0"/>
 							</object>
 						</array>
 						<string key="NSFrameSize">{320, 460}</string>
@@ -265,7 +254,7 @@ AAgACAAIAAEAAQABAAE</bytes>
 				<array key="orderedObjects">
 					<object class="IBObjectRecord">
 						<int key="objectID">0</int>
-						<array key="object" id="0"/>
+						<reference key="object" ref="0"/>
 						<reference key="children" ref="1000"/>
 						<nil key="parent"/>
 					</object>

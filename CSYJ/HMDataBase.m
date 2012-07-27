@@ -120,7 +120,15 @@
         hm.description = [fmset stringForColumn:@"desc"];
         hm.summary = [fmset stringForColumn:@"summary"];
         hm.classicUse = [fmset stringForColumn:@"classicUse"];
-        hm.shennong = [fmset stringForColumn:@"shenglong"];
+        NSString *shengLong = [fmset stringForColumn:@"shenglong"];
+        if (shengLong != Nil)
+        {
+            hm.shennong = [fmset stringForColumn:@"shenglong"];
+        }
+        else
+        {
+            hm.shennong = [NSString stringWithString:@"无"];
+        }
         [hmArray addObject:hm];
     }
     

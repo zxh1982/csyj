@@ -93,7 +93,9 @@
         [bookMarkArray release];
         bookMarkArray = nil;
     }
-    bookMarkArray = [[NSMutableArray alloc] initWithArray:[[HMManager defaultManager] GetBookMarkArray]];
+    //bookMarkArray = [[NSMutableArray alloc] initWithArray:[[HMManager defaultManager] GetBookMarkArray]];
+    bookMarkArray = [[HMManager defaultManager] GetBookMarkArray];
+    [bookMarkArray retain];
     [bookMarkTable reloadData];
 }
 
@@ -107,6 +109,12 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+}
+
+-(void)viewDidAppear:(BOOL)animated
+{
+    self.title = _S(@"我的书签");
+    self.navigationItem.title = self.title;
 }
 
 - (void)viewDidUnload

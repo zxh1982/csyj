@@ -66,7 +66,7 @@
 
 - (NSMutableArray*) GetBookMarkArray
 {
-    NSMutableArray *array = [[NSMutableArray alloc] init] ;
+    NSMutableArray *array = [[[NSMutableArray alloc] init] autorelease];
     
     for (HerbalMedicine *hmObject in hmArray)
     {
@@ -309,7 +309,7 @@
         return;
     }
     
-    [hmUnits removeAllObjects];
+    [hmArray removeAllObjects];
     for (HerbalMedicine* hmObject in hmdb.hmArray)
     {
         if ([hmObject.name rangeOfString:text].location == NSNotFound &&
