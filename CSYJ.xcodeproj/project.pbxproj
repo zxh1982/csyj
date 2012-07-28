@@ -425,8 +425,6 @@
 		B68355F115B6EE1300D19324 /* HMTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HMTableViewController.xib; sourceTree = "<group>"; };
 		B692183D15B4560E00CA6CC9 /* down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = down.png; sourceTree = "<group>"; };
 		B692183E15B4560E00CA6CC9 /* up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = up.png; sourceTree = "<group>"; };
-		B69A15B315C2BB5400642582 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "/Users/zxh1982/Desktop/csyj/CSYJ/zh-Hans.lproj/MainWindow.xib"; sourceTree = "<absolute>"; };
-		B69A15B415C2BB5400642582 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "/Users/zxh1982/Desktop/csyj/CSYJ/zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<absolute>"; };
 		B69B73A715BEDD13002CD191 /* HMBookMarkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMBookMarkViewController.h; sourceTree = "<group>"; };
 		B69B73A815BEDD13002CD191 /* HMBookMarkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMBookMarkViewController.m; sourceTree = "<group>"; };
 		B69B73A915BEDD13002CD191 /* HMBookMarkViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HMBookMarkViewController.xib; sourceTree = "<group>"; };
@@ -1773,7 +1771,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				B62F0D191487A12200FA38F8 /* en */,
-				B69A15B415C2BB5400642582 /* zh-Hans */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -1782,7 +1779,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				B62F0D251487A12200FA38F8 /* en */,
-				B69A15B315C2BB5400642582 /* zh-Hans */,
 			);
 			name = MainWindow.xib;
 			sourceTree = "<group>";

@@ -8,15 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
+#define SETTINGS_FILE @"settings.plist"
+
 @interface ConfigViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 {
     UISegmentedControl *segText;
     UISegmentedControl *segFontSize;
     UISegmentedControl *segShowName; //是否显示药物名称
     
+    NSString *settingsFile;
 }
 
-
+- (NSString*)settingsFile;
 
 
 @property (retain, nonatomic) IBOutlet UITableView *configTableView;

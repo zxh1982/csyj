@@ -7,6 +7,7 @@
 //
 
 #import "HMManager.h"
+#import "ConfigViewController.h"
 
 @implementation HMManager
 
@@ -157,6 +158,21 @@
         [hmUnits retain];
         searchText = [NSString stringWithString:@""];
         
+        // 从设置文件读取设置
+        NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,NSUserDomainMask, YES);
+        NSString *documentsDirectory = [paths objectAtIndex:0];
+        NSString *path = [documentsDirectory stringByAppendingPathComponent:SETTINGS_FILE];
+        
+        NSFileManager *fm = [NSFileManager defaultManager];
+        if ([fm fileExistsAtPath:path]) {
+            NSMutableDictionary *dic = [NSMutableDictionary dictionaryWithContentsOfFile:path];
+            NSInteger tsize = [[dic valueForKey:@"textSize"] intValue];
+            NSInteger ttype = [[dic valueForKey:@"textType"] intValue];
+            
+            self.textSize = tsize;
+            self.textType = ttype;
+        }
+
         [self LoadBookMark];
     }
     
