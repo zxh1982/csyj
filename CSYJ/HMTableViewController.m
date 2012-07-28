@@ -29,7 +29,10 @@
 
 - (void)viewDidLoad
 {
+    //self.tabBarItem = 
+    self.tabBarItem =[[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemFeatured tag:0];
     //取得数据库文件名
+    // Custom initialization
     [super viewDidLoad];
 }
 

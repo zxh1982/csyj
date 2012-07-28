@@ -59,15 +59,12 @@
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     HMViewController *hmViewController = [[[HMViewController alloc]initWithNibName:@"HMViewController" bundle:nil] autorelease];
-    hmViewController.unit = [indexPath section];
-    hmViewController.index = [indexPath row];
     
-    //检查webView是否创建
-    if ([tableView isEqual:self.searchDisplayController.searchResultsTableView])
-    {
-        hmViewController.unit = -1;
-        hmViewController.index = [indexPath row];
-    }
+    HerbalMedicine *hmObject = [bookMarkArray objectAtIndex:[indexPath row]];
+    NSIndexPath* path = [[HMManager defaultManager] indexOfObject:hmObject];
+    
+    hmViewController.unit = path.section;
+    hmViewController.index = path.row;
     
     hmViewController.hidesBottomBarWhenPushed = YES;
     [self.navigationController pushViewController:hmViewController animated:YES];

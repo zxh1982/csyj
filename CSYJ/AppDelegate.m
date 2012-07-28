@@ -70,6 +70,7 @@
                                     nil];
     
     tabBarController.viewControllers = arrayViewController;
+    
 
     [self.window addSubview:tabBarController.view];
     [self.window makeKeyAndVisible];
