@@ -34,7 +34,7 @@
 {
     //self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
-    [HMManager defaultManager].textType = ttTraditional;
+    //[HMManager defaultManager].textType = ttTraditional;
 
     HMTableViewController *hmTableViewController = [[[HMTableViewController alloc]initWithNibName:@"HMTableViewController" bundle:nil] autorelease];
     

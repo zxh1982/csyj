@@ -31,6 +31,16 @@
     // Release any cached data, images, etc that aren't in use.
 }
 
+#pragma mark - 自定义函数
+- (NSString*)settingsFile
+{
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,NSUserDomainMask, YES);
+    NSString *documentsDirectory = [paths objectAtIndex:0];
+    NSString *path = [documentsDirectory stringByAppendingPathComponent:SETTINGS_FILE];
+    
+    return path;
+} // end settingsFile
+
 #pragma mark - View lifecycle
 
 - (void)viewDidLoad
@@ -40,6 +50,20 @@
     //HMManager* hm = [HMManager defaultManager];
     //segText.selectedSegmentIndex = hm.textType;
     //segFontSize.selectedSegmentIndex = hm.textSize;
+    
+    NSString *path = [self settingsFile];
+    
+    NSFileManager *fm = [NSFileManager defaultManager];
+    
+    if ([fm fileExistsAtPath:path]) {
+        NSMutableDictionary *dic = [NSMutableDictionary dictionaryWithContentsOfFile:path];
+        NSInteger tsize = [[dic valueForKey:@"textSize"] intValue];
+        NSInteger ttype = [[dic valueForKey:@"textType"] intValue];
+        
+        [HMManager defaultManager].textType = ttype;
+        [HMManager defaultManager].textSize = tsize;
+    }
+
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -172,6 +196,29 @@
     }
     
     [HMManager defaultManager].textSize = segFontSize.selectedSegmentIndex; 
+    
+    // 保存设置到文件
+    NSString *path = [self settingsFile];
+    
+    NSFileManager *fm = [NSFileManager defaultManager];
+    
+    NSMutableDictionary *dic;   // 将设置读取到字典
+    
+    NSNumber *tsize = [NSNumber numberWithInt:segFontSize.selectedSegmentIndex];
+    NSNumber *ttype = [NSNumber numberWithInt:textType];
+    
+    // 写入文件
+    if([fm fileExistsAtPath:path]) {
+        dic = [NSMutableDictionary dictionaryWithContentsOfFile:path];
+    }
+    else {
+        dic = [NSMutableDictionary dictionaryWithCapacity:2];
+    }
+    
+    [dic setObject:tsize forKey:@"textSize"];
+    [dic setObject:ttype forKey:@"textType"];
+    
+    [dic writeToFile:path atomically:YES];
 }
 
 - (void)dealloc {
