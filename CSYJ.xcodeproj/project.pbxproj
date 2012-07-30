@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		320AF8492C47A4D819F7C451 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320AF8492C47A4D819F7C450 /* QuartzCore.framework */; };
 		B608272615B854840032F602 /* csyj-xu.png in Resources */ = {isa = PBXBuildFile; fileRef = B608272515B854840032F602 /* csyj-xu.png */; };
+		B627C57815C4DBCE00251B6C /* hyy.png in Resources */ = {isa = PBXBuildFile; fileRef = B627C57515C4DBCE00251B6C /* hyy.png */; };
+		B627C57915C4DBCE00251B6C /* setting.png in Resources */ = {isa = PBXBuildFile; fileRef = B627C57615C4DBCE00251B6C /* setting.png */; };
+		B627C57A15C4DBCE00251B6C /* xu.png in Resources */ = {isa = PBXBuildFile; fileRef = B627C57715C4DBCE00251B6C /* xu.png */; };
+		B627C57D15C5099C00251B6C /* yaojie.png in Resources */ = {isa = PBXBuildFile; fileRef = B627C57C15C5099C00251B6C /* yaojie.png */; };
 		B62F0D101487A12200FA38F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B62F0D0F1487A12200FA38F8 /* UIKit.framework */; };
 		B62F0D121487A12200FA38F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B62F0D111487A12200FA38F8 /* Foundation.framework */; };
 		B62F0D141487A12200FA38F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B62F0D131487A12200FA38F8 /* CoreGraphics.framework */; };
@@ -397,6 +401,10 @@
 /* Begin PBXFileReference section */
 		320AF8492C47A4D819F7C450 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.frameworks; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		B608272515B854840032F602 /* csyj-xu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "csyj-xu.png"; sourceTree = "<group>"; };
+		B627C57515C4DBCE00251B6C /* hyy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hyy.png; sourceTree = "<group>"; };
+		B627C57615C4DBCE00251B6C /* setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setting.png; sourceTree = "<group>"; };
+		B627C57715C4DBCE00251B6C /* xu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xu.png; sourceTree = "<group>"; };
+		B627C57C15C5099C00251B6C /* yaojie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yaojie.png; sourceTree = "<group>"; };
 		B62F0D0B1487A12200FA38F8 /* CSYJ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSYJ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B62F0D0F1487A12200FA38F8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B62F0D111487A12200FA38F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -911,6 +919,10 @@
 		B6A3E3D015B30A7D00FC1A78 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B627C57C15C5099C00251B6C /* yaojie.png */,
+				B627C57515C4DBCE00251B6C /* hyy.png */,
+				B627C57615C4DBCE00251B6C /* setting.png */,
+				B627C57715C4DBCE00251B6C /* xu.png */,
 				B6A62B0F15BD7CE300E13D5B /* img */,
 				B6A629B715BD7CD300E13D5B /* thumImg */,
 				B6E7C8BC15BBA7B60047BBF5 /* csyj_hx.html */,
@@ -1736,6 +1748,10 @@
 				B6A62C6215BD7CE300E13D5B /* 鼠妇.jpg in Resources */,
 				B6A62C6315BD7CE300E13D5B /* 龙骨.jpg in Resources */,
 				B69B73AB15BEDD13002CD191 /* HMBookMarkViewController.xib in Resources */,
+				B627C57815C4DBCE00251B6C /* hyy.png in Resources */,
+				B627C57915C4DBCE00251B6C /* setting.png in Resources */,
+				B627C57A15C4DBCE00251B6C /* xu.png in Resources */,
+				B627C57D15C5099C00251B6C /* yaojie.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

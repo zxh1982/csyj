@@ -17,9 +17,10 @@
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-       
-    }
+    
+    UIImage *img = [[UIImage imageNamed:@"setting.png"] autorelease];
+    //self.tabBarItem = [[[UITabBarItem alloc] initWithTitle:_S(@"设置") image:[UIImage imageNamed:@"setting.png"] tag:0] autorelease];
+    [self.tabBarItem setImage:img];
     return self;
 }
 

@@ -179,14 +179,19 @@
     }
     
     self.bannerOrigin = CGPointMake(0, self.view.frame.size.height - GAD_SIZE_320x50.height - 44);
+  
+    
+    [super viewDidLoad];
+    bannerView_.delegate = self;
+    
+    // Do any additional setup after loading the view from its nib.
+}
+
+- (void)adViewDidReceiveAd:(GADBannerView *)view
+{
     CGRect rect = webView.frame;
     rect.size.height -= GAD_SIZE_320x50.height;
     webView.frame = rect;
-    [super viewDidLoad];
-    
-    // Do any additional setup after loading the view from its nib.
-    
-    
 }
 
 -(void) viewWillAppear:(BOOL)animated

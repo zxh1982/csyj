@@ -19,6 +19,17 @@
 @synthesize search;
 @synthesize table;
 
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        self.tabBarItem = [[[UITabBarItem alloc] initWithTitle:_S(@"长沙药解") 
+                                                         image:[UIImage imageNamed:@"yaojie.png"]  
+                                                           tag:0] autorelease];
+    }
+    return self;
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -30,7 +41,9 @@
 - (void)viewDidLoad
 {
     //self.tabBarItem = 
-    self.tabBarItem =[[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemFeatured tag:0];
+//     self.tabBarItem = [[[UITabBarItem alloc] initWithTitle:@"我的书签" 
+//                                                     image:[UIImage imageNamed:@"xxx.png"]  
+//                                                       tag:0] autorelease];
     //取得数据库文件名
     // Custom initialization
     [super viewDidLoad];

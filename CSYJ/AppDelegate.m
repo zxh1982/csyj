@@ -44,17 +44,25 @@
     
     
     WebViewController *viewController1 = [[[WebViewController alloc]initWithNibName:@"WebViewController" bundle:nil] autorelease];
-    viewController1.title = _S(@"长沙药解•序");
+    //viewController1.title = _S(@"长沙药解•序");
     viewController1.index = 1;
+    viewController1.tabBarItem = [[[UITabBarItem alloc] initWithTitle:_S(@"长沙药解•序") image:[UIImage imageNamed:@"xu.png"] tag:0] autorelease];
+
+    
     WebViewController *viewController2 = [[[WebViewController alloc]initWithNibName:@"WebViewController" bundle:nil]autorelease];
-    viewController2.title = _S(@"黄元御传");
+    //viewController2.title = _S(@"黄元御传");
     viewController2.index = 2;
+      viewController2.tabBarItem = [[[UITabBarItem alloc] initWithTitle:_S(@"黄元御传") image:[UIImage imageNamed:@"hyy.png"] tag:0] autorelease];
+    
     
     HMBookMarkViewController *bookMarkViewController = [[[HMBookMarkViewController alloc]initWithNibName:@"HMBookMarkViewController" bundle:nil]autorelease];
-    bookMarkViewController.title = _S(@"我的书签");
+    
+    //bookMarkViewController.tabBarItem = [[[UITabBarItem alloc] initWithTitle:_S(@"我的书签") image:[UIImage imageNamed:@"setting.png"] tag:0] autorelease];
     
     UINavigationController *bookMarkNav = [[[UINavigationController alloc] init] autorelease];
     [bookMarkNav pushViewController:bookMarkViewController animated:TRUE];
+   
+
     
     ConfigViewController *configViewController = [[[ConfigViewController alloc]initWithNibName:@"ConfigViewController" bundle:nil]autorelease];
     configViewController.title = _S(@"设置");

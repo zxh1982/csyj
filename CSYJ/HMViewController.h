@@ -12,7 +12,7 @@
 
 
 
-@interface HMViewController : AdmobViewController
+@interface HMViewController : AdmobViewController <GADBannerViewDelegate>
 {
     UIWebView *webView;
     NSString  *htmlTemplate;
