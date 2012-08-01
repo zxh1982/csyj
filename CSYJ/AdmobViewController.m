@@ -42,6 +42,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    return;
     
     // 在屏幕底部创建标准尺寸的视图。
     bannerView_ = [[GADBannerView alloc]

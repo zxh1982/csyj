@@ -56,13 +56,35 @@
 - (void)viewDidLoad
 {
     // Do any additional setup after loading the view from its nib.
+    self.bannerOrigin = CGPointMake(0, 44);
+
     if (index == 1)
     {
-        self.bannerOrigin = CGPointMake(0, 44);
-    }
+            }
     else
     {
         [navigationBar setHidden:TRUE];
+        
+        CGFloat width =  self.view.frame.size.width;
+        UIToolbar* toolBar = [[UIToolbar alloc] initWithFrame:CGRectMake(0, 0, width, 40)];
+        [toolBar sizeToFit];
+        toolBar.autoresizingMask = UIViewAutoresizingFlexibleWidth;//这句作用是切换时宽度自适应.
+        
+        UIBarButtonItem* barItem = [[UIBarButtonItem alloc] initWithTitle:_S(@"                   黄元御传") style:UIBarButtonItemStylePlain target:Nil action:Nil];
+        [toolBar setItems:[NSArray arrayWithObject:barItem]];
+        
+        [self.view addSubview:toolBar];
+        
+        
+        [toolBar release];
+        
+    //    [segMentControll setHidden:TRUE];
+    //    navigationBar.backItem.title = self.title;
+    //    [segMentControll setHidden:TRUE];
+    //    UINavigationItem *navigationItem = [[UINavigationItem alloc] initWithTitle:Nil];
+    //    navigationItem.title = self.title;
+    //    [navigationBar pushNavigationItem:navigationItem animated:NO];
+        //navigationItem.leftBarButtonItem = Nil;
     }
     [super viewDidLoad];
 
@@ -73,18 +95,19 @@
     //加载HTML模版字符串
     switch (index)
     {
-            case 1:
+       case 1:
             [segMentControll setTitle:_S(@"自叙") forSegmentAtIndex:0];
             [segMentControll setTitle:_S(@"后序") forSegmentAtIndex:1];
             [self segmentValueChanged:segMentControll];
             break;
         case 2:
         {
-            NSString *htmlFileName = @"csyj_hyy.html";
+            NSString *htmlFileName =  [HMManager defaultManager].textType == ttSimplified ? @"csyj_hyy.html" : @"csyj_hyy(t).html";
             CGRect rect = [webView frame];
             rect.size.height += navigationBar.frame.size.height;
             rect.origin.y = 0;
             webView.frame = rect;
+           
             [self LoadHtmlFile: htmlFileName];
         }
             break;

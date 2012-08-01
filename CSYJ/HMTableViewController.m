@@ -234,19 +234,20 @@
     return YES;
 }
 
+
 //-(void) searchBarSearchButtonClicked:(UISearchBar *)searchBar
 //{
 //    [[HMManager defaultManager] Search:searchBar.text];
 //    [searchBar resignFirstResponder];
 //}
 
-//-(void) searchBarCancelButtonClicked:(UISearchBar *)searchBar
-//{
-//    searchBar.text = @"";
-//    [[HMManager defaultManager] Reset];
-//    [table reloadData];
-//    [searchBar resignFirstResponder];
-//}
+-(void) searchBarCancelButtonClicked:(UISearchBar *)searchBar
+{
+    searchBar.text = @"";
+    [[HMManager defaultManager] Reset];
+    [table reloadData];
+    [searchBar resignFirstResponder];
+}
 
 - (void)viewDidUnload
 {

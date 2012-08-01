@@ -18,9 +18,13 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     
-    UIImage *img = [[UIImage imageNamed:@"setting.png"] autorelease];
+    if (self)
+    {
+        UIImage *img = [[UIImage imageNamed:@"setting.png"] autorelease];
     //self.tabBarItem = [[[UITabBarItem alloc] initWithTitle:_S(@"设置") image:[UIImage imageNamed:@"setting.png"] tag:0] autorelease];
-    [self.tabBarItem setImage:img];
+        [self.tabBarItem setImage:img];
+    }
+        
     return self;
 }
 
@@ -28,7 +32,6 @@
 {
     // Releases the view if it doesn't have a superview.
     [super didReceiveMemoryWarning];
-    
     // Release any cached data, images, etc that aren't in use.
 }
 
@@ -47,6 +50,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    NSString *productFile =[[[NSBundle mainBundle] bundlePath] stringByAppendingPathComponent:@"product.txt"];
+    NSString *productString = [NSString stringWithContentsOfFile:productFile encoding:NSUTF8StringEncoding error:nil];
+    productInfo.text = _S(productString);
+    
     // Do any additional setup after loading the view from its nib.
     //HMManager* hm = [HMManager defaultManager];
     //segText.selectedSegmentIndex = hm.textType;
@@ -174,6 +182,8 @@
 - (void)viewDidUnload
 {
     [self setConfigTableView:nil];
+    [productInfo release];
+    productInfo = nil;
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -225,6 +235,7 @@
 - (void)dealloc {
     [segText release];
     [configTableView release];
+    [productInfo release];
     [super dealloc];
 }
 

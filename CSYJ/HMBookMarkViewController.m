@@ -18,7 +18,7 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
-        self.tabBarItem = [[[UITabBarItem alloc] initWithTitle:_S(@"我的书签") image:[UIImage imageNamed:@"setting.png"] tag:0] autorelease];
+        self.tabBarItem = [[[UITabBarItem alloc] initWithTitle:_S(@"我的书签") image:[UIImage imageNamed:@"shuqian.png"] tag:0] autorelease];
     }
     return self;
 }

@@ -16,6 +16,7 @@
     UISegmentedControl *segFontSize;
     UISegmentedControl *segShowName; //是否显示药物名称
     
+    IBOutlet UILabel *productInfo;
     NSString *settingsFile;
 }
 

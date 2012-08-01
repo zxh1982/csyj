@@ -294,6 +294,9 @@
 {
     //[hmArray removeAllObjects];
     //hmArray = [[NSMutableArray alloc] initWithArray:hmdb.hmArray];
+    [hmArray removeAllObjects];
+    [hmArray setArray:hmdb.hmArray];
+    /*
 	for (NSMutableArray *array in hmUnits)
 	{
 		[array removeAllObjects];
@@ -313,7 +316,7 @@
 				[[hmUnits objectAtIndex: 3] addObject:hmObject];break;
 		}
 	}
-
+*/
 }
 
 //搜索

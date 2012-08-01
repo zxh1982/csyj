@@ -1,0 +1,12 @@
+
+
+
+
+
+  Product Infomation
+
+  *Product name    : 长沙药解free
+  *Current version : 1.0
+  *Developd by : happys-gx studio
+  *E-mail      : happysgx@gmail.com
+  *Website     : mycsyj.sinaapp.com    
