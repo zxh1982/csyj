@@ -389,6 +389,7 @@
 		B6D34F9215B99495004C7FD8 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D34F9115B99495004C7FD8 /* MessageUI.framework */; };
 		B6D34F9415B994A1004C7FD8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D34F9315B994A1004C7FD8 /* SystemConfiguration.framework */; };
 		B6D55FE515B586F4004C49A7 /* ConvertJF.m in Sources */ = {isa = PBXBuildFile; fileRef = B6D55FE415B586F4004C49A7 /* ConvertJF.m */; };
+		B6D86DC515CE1A7D006BB012 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6D86DC415CE1A7D006BB012 /* Default@2x.png */; };
 		B6DE474A15AB1410009D4C95 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B6DE474915AB1410009D4C95 /* Icon.png */; };
 		B6DE474C15AB1414009D4C95 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6DE474B15AB1414009D4C95 /* Icon@2x.png */; };
 		B6E7C8B915BBA05F0047BBF5 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E7C8B715BBA05F0047BBF5 /* WebViewController.m */; };
@@ -810,6 +811,7 @@
 		B6D34F9315B994A1004C7FD8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		B6D55FE315B586F4004C49A7 /* ConvertJF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConvertJF.h; sourceTree = "<group>"; };
 		B6D55FE415B586F4004C49A7 /* ConvertJF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConvertJF.m; sourceTree = "<group>"; };
+		B6D86DC415CE1A7D006BB012 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		B6DE474915AB1410009D4C95 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		B6DE474B15AB1414009D4C95 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		B6E7C8B715BBA05F0047BBF5 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
@@ -847,6 +849,7 @@
 		B62F0D001487A12200FA38F8 = {
 			isa = PBXGroup;
 			children = (
+				B6D86DC415CE1A7D006BB012 /* Default@2x.png */,
 				B6F5B04915C983860068DF8E /* Default.png */,
 				B6D34F9315B994A1004C7FD8 /* SystemConfiguration.framework */,
 				B6D34F9115B99495004C7FD8 /* MessageUI.framework */,
@@ -1768,6 +1771,7 @@
 				B6F5B04215C976130068DF8E /* csyj_hyy(t).html in Resources */,
 				B6F5B04815C97DE20068DF8E /* shuqian.png in Resources */,
 				B6F5B04A15C983860068DF8E /* Default.png in Resources */,
+				B6D86DC515CE1A7D006BB012 /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1849,7 +1853,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: XIAOHENG ZHNAG";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
@@ -1861,6 +1865,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				OTHER_LDFLAGS = "-ObjC";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A445B47D-9260-40F6-97AD-5865F1314DE7";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};

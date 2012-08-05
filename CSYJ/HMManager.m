@@ -23,9 +23,9 @@
     
     NSMutableArray *array = [[NSMutableArray alloc]init];
     
-    for (int i = 0; i < hmArray.count; i++)
+    for (int i = 0; i < hmdb.hmArray.count; i++)
     {
-        HerbalMedicine *hmObject = [hmArray objectAtIndex:i];
+        HerbalMedicine *hmObject = [hmdb.hmArray objectAtIndex:i];
         if (hmObject.bookMakr)
         {
             [array addObject:[NSString stringWithFormat:@"%d", i]];
@@ -69,7 +69,7 @@
 {
     NSMutableArray *array = [[[NSMutableArray alloc] init] autorelease];
     
-    for (HerbalMedicine *hmObject in hmArray)
+    for (HerbalMedicine *hmObject in hmdb.hmArray)
     {
         if (hmObject.bookMakr == YES)
         {
