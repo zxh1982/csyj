@@ -23,6 +23,6 @@
 
 @property (retain, nonatomic) IBOutlet UISearchBar *search;
 
--(void) handleSearchForTerm:(NSString*)searchTerm;
+//-(void) handleSearchForTerm:(NSString*)searchTerm;
 
 @end
